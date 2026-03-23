@@ -1,14 +1,43 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서울 맛거리 & 볼거리 전통시장</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <header>
+        <div class="container">
+            <h1>서울 맛거리 & 볼거리 전통시장</h1>
+            <p class="subtitle">서울의 정과 맛이 살아있는 구별 대표 전통시장 가이드</p>
+        </div>
+    </header>
+
+    <nav class="filter-bar">
+        <div class="container">
+            <button class="filter-btn active" data-district="전체">전체</button>
+            <button class="filter-btn" data-district="종로구">종로구</button>
+            <button class="filter-btn" data-district="중구">중구</button>
+            <button class="filter-btn" data-district="마포구">마포구</button>
+            <button class="filter-btn" data-district="동대문구">동대문구</button>
+            <button class="filter-btn" data-district="송파구">송파구</button>
+            <button class="filter-btn" data-district="강남구">강남구</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div id="markets-container" class="market-grid">
+            <!-- Market cards will be injected here by main.js -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 서울 전통시장 가이드. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
