@@ -79,18 +79,28 @@ class MarketCard extends HTMLElement {
     this.attachShadow({ mode: "open" });
   }
 
+  static get observedAttributes() {
+    return ["name", "district", "description", "food", "sights", "image", "map-url"];
+  }
+
+  attributeChangedCallback() {
+    this.render();
+  }
+
   connectedCallback() {
     this.render();
   }
 
   render() {
-    const name = this.getAttribute("name");
-    const district = this.getAttribute("district");
-    const description = this.getAttribute("description");
-    const food = this.getAttribute("food");
-    const sights = this.getAttribute("sights");
-    const image = this.getAttribute("image");
-    const mapUrl = this.getAttribute("map-url");
+    const name = this.getAttribute("name") || "";
+    const district = this.getAttribute("district") || "";
+    const description = this.getAttribute("description") || "";
+    const food = this.getAttribute("food") || "";
+    const sights = this.getAttribute("sights") || "";
+    const image = this.getAttribute("image") || "";
+    const mapUrl = this.getAttribute("map-url") || "";
+
+    if (!name) return; // 속성이 아직 설정되지 않았으면 렌더링 건너뜀
 
     this.shadowRoot.innerHTML = `
       <style>
@@ -98,6 +108,7 @@ class MarketCard extends HTMLElement {
           display: block;
           background: rgba(255, 255, 255, 0.05);
           backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
           border: 1px solid rgba(255, 255, 255, 0.1);
           border-radius: 20px;
           overflow: hidden;
@@ -112,11 +123,20 @@ class MarketCard extends HTMLElement {
           border-color: rgba(255, 255, 255, 0.2);
         }
 
-        .thumbnail {
+        .thumbnail-container {
           width: 100%;
           height: 250px;
+          background: #222;
+          overflow: hidden;
+          position: relative;
+        }
+
+        .thumbnail {
+          width: 100%;
+          height: 100%;
           object-fit: cover;
           border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+          display: block;
         }
 
         .content {
@@ -145,6 +165,7 @@ class MarketCard extends HTMLElement {
           padding: 4px 12px;
           border-radius: 20px;
           color: #ddd;
+          white-space: nowrap;
         }
 
         .description {
@@ -153,6 +174,7 @@ class MarketCard extends HTMLElement {
           color: #bbb;
           margin-bottom: 24px;
           text-align: justify;
+          word-break: keep-all;
         }
 
         .info-grid {
@@ -181,7 +203,7 @@ class MarketCard extends HTMLElement {
           height: 200px;
           border-radius: 12px;
           overflow: hidden;
-          background: #222;
+          background: #111;
         }
 
         iframe {
@@ -199,7 +221,9 @@ class MarketCard extends HTMLElement {
           }
         }
       </style>
-      <img src="${image}" alt="${name}" class="thumbnail">
+      <div class="thumbnail-container">
+        <img src="${image}" alt="${name}" class="thumbnail" loading="lazy">
+      </div>
       <div class="content">
         <div class="header">
           <h2 class="name">${name}</h2>
@@ -243,6 +267,7 @@ function init() {
 
     filteredMarkets.forEach(market => {
       const card = document.createElement("market-card");
+      // 속성을 먼저 설정한 후 추가
       card.setAttribute("name", market.name);
       card.setAttribute("district", market.district);
       card.setAttribute("description", market.description);
