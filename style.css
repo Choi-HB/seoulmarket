@@ -59,6 +59,16 @@
         position: relative;
     }
 
+    .header-controls {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        z-index: 1000;
+    }
+
     header h1 {
         font-size: clamp(2.5rem, 5vw, 4rem);
         font-weight: 800;
@@ -77,23 +87,50 @@
         font-weight: 300;
     }
 
+    .lang-selector {
+        display: flex;
+        background: var(--card-bg);
+        padding: 4px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .lang-btn {
+        background: transparent;
+        border: none;
+        color: var(--text-color);
+        padding: 6px 12px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 0.8rem;
+        font-weight: 600;
+        transition: all 0.2s ease;
+        opacity: 0.6;
+    }
+
+    .lang-btn:hover {
+        opacity: 1;
+    }
+
+    .lang-btn.active {
+        background: var(--accent-color);
+        color: white;
+        opacity: 1;
+    }
+
     .theme-toggle {
-        position: absolute;
-        top: 30px;
-        right: 30px;
         background: var(--card-bg);
         border: 1px solid rgba(255, 255, 255, 0.1);
         padding: 10px;
         border-radius: 50%;
         cursor: pointer;
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         transition: all 0.3s ease;
-        z-index: 1000;
     }
 
     .theme-toggle:hover {
@@ -166,14 +203,17 @@
 @layer theme {
     @media (max-width: 768px) {
         header {
-            padding: 60px 0 30px;
+            padding: 100px 0 30px;
+        }
+        .header-controls {
+            top: 15px;
+            right: 15px;
+            flex-direction: row;
+            width: calc(100% - 30px);
+            justify-content: space-between;
         }
         .market-grid {
             grid-template-columns: 1fr;
-        }
-        .theme-toggle {
-            top: 20px;
-            right: 20px;
         }
     }
 }

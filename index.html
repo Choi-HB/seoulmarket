@@ -9,28 +9,23 @@
 <body>
     <header>
         <div class="container">
-            <button id="theme-toggle" class="theme-toggle" title="테마 변경">🌓</button>
-            <h1>서울 맛거리 & 볼거리 전통시장</h1>
-            <p class="subtitle">서울의 정과 맛이 살아있는 구별 대표 전통시장 가이드</p>
+            <div class="header-controls">
+                <div class="lang-selector">
+                    <button class="lang-btn active" data-lang="ko">KO</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ja">JP</button>
+                    <button class="lang-btn" data-lang="zh">CN</button>
+                </div>
+                <button id="theme-toggle" class="theme-toggle" title="테마 변경">🌓</button>
+            </div>
+            <h1 id="main-title">서울 맛거리 & 볼거리 전통시장</h1>
+            <p id="main-subtitle" class="subtitle">서울의 정과 맛이 살아있는 구별 대표 전통시장 가이드</p>
         </div>
     </header>
 
     <nav class="filter-bar">
-        <div class="container">
-            <button class="filter-btn active" data-district="전체">전체</button>
-            <button class="filter-btn" data-district="종로구">종로구</button>
-            <button class="filter-btn" data-district="중구">중구</button>
-            <button class="filter-btn" data-district="성동구">성동구</button>
-            <button class="filter-btn" data-district="동작구">동작구</button>
-            <button class="filter-btn" data-district="마포구">마포구</button>
-            <button class="filter-btn" data-district="동대문구">동대문구</button>
-            <button class="filter-btn" data-district="강북구">강북구</button>
-            <button class="filter-btn" data-district="영등포구">영등포구</button>
-            <button class="filter-btn" data-district="송파구">송파구</button>
-            <button class="filter-btn" data-district="강남구">강남구</button>
-            <button class="filter-btn" data-district="광진구">광진구</button>
-            <button class="filter-btn" data-district="강동구">강동구</button>
-            <button class="filter-btn" data-district="기타">기타</button>
+        <div id="filter-container" class="container">
+            <!-- Filter buttons will be injected here by main.js -->
         </div>
     </nav>
 
@@ -42,7 +37,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 서울 전통시장 가이드. All rights reserved.</p>
+            <p id="footer-text">&copy; 2026 서울 전통시장 가이드. All rights reserved.</p>
         </div>
     </footer>
 
