@@ -691,21 +691,51 @@ function init() {
     localStorage.setItem("lang", lang);
     
     const t = translations[lang];
-    document.getElementById("main-title").textContent = t.title;
-    document.getElementById("main-subtitle").textContent = t.subtitle;
-    document.getElementById("contact-title").textContent = t.contactTitle || (lang === 'ko' ? "제휴 및 문의" : (lang === 'en' ? "Contact & Inquiry" : (lang === 'ja' ? "提携およびお問い合わせ" : "合作与咨询")));
-    document.getElementById("footer-text").innerHTML = t.footer;
+    const mainTitle = document.getElementById("main-title");
+    if (mainTitle) mainTitle.textContent = t.title;
+    
+    const mainSubtitle = document.getElementById("main-subtitle");
+    if (mainSubtitle) mainSubtitle.textContent = t.subtitle;
+    
+    const contactTitleMain = document.getElementById("contact-title");
+    if (contactTitleMain) contactTitleMain.textContent = t.contactTitle || (lang === 'ko' ? "제휴 및 문의" : (lang === 'en' ? "Contact & Inquiry" : (lang === 'ja' ? "提携およびお問い合わせ" : "合作与咨询")));
+    
+    const footerText = document.getElementById("footer-text");
+    if (footerText) footerText.innerHTML = t.footer;
 
     // New Navigation
-    document.getElementById("nav-home").textContent = t.navHome;
-    document.getElementById("nav-about").textContent = t.navAbout;
-    document.getElementById("nav-contact").textContent = t.navContact;
-    document.getElementById("nav-privacy").textContent = t.navPrivacy;
+    const navHome = document.getElementById("nav-home");
+    if (navHome) navHome.textContent = t.navHome;
+    const navAbout = document.getElementById("nav-about");
+    if (navAbout) navAbout.textContent = t.navAbout;
+    const navContact = document.getElementById("nav-contact");
+    if (navContact) navContact.textContent = t.navContact;
+    const navPrivacy = document.getElementById("nav-privacy");
+    if (navPrivacy) navPrivacy.textContent = t.navPrivacy;
+
+    // Guide Section (Home only)
+    const guideTitle = document.getElementById("guide-title");
+    if (guideTitle) guideTitle.textContent = t.guideTitle;
+    const tip1Title = document.getElementById("guide-tip1-title");
+    if (tip1Title) tip1Title.textContent = t.guideTip1Title;
+    const tip1Desc = document.getElementById("guide-tip1-desc");
+    if (tip1Desc) tip1Desc.textContent = t.guideTip1Desc;
+    const tip2Title = document.getElementById("guide-tip2-title");
+    if (tip2Title) tip2Title.textContent = t.guideTip2Title;
+    const tip2Desc = document.getElementById("guide-tip2-desc");
+    if (tip2Desc) tip2Desc.textContent = t.guideTip2Desc;
+    const tip3Title = document.getElementById("guide-tip3-title");
+    if (tip3Title) tip3Title.textContent = t.guideTip3Title;
+    const tip3Desc = document.getElementById("guide-tip3-desc");
+    if (tip3Desc) tip3Desc.textContent = t.guideTip3Desc;
 
     // Footer Links
-    document.getElementById("footer-about").textContent = t.navAbout;
-    document.getElementById("footer-contact").textContent = t.navContact;
-    document.getElementById("footer-privacy").textContent = t.navPrivacy;
+    const footerAbout = document.getElementById("footer-about");
+    if (footerAbout) footerAbout.textContent = t.navAbout;
+    const footerContact = document.getElementById("footer-contact");
+    if (footerContact) footerContact.textContent = t.navContact;
+    const footerPrivacy = document.getElementById("footer-privacy");
+    if (footerPrivacy) footerPrivacy.textContent = t.navPrivacy;
 
     // Contact Page Elements (if exist)
     const contactTitle = document.getElementById("contact-title");
@@ -720,12 +750,15 @@ function init() {
     if (labelMessage) labelMessage.textContent = t.labelMessage;
     const btnSubmit = document.getElementById("btn-submit");
     if (btnSubmit) btnSubmit.textContent = t.btnSubmit;
+    
     langButtons.forEach(btn => {
       btn.classList.toggle("active", btn.dataset.lang === lang);
     });
 
-    renderFilters();
-    renderMarkets();
+    if (filterContainer && container) {
+      renderFilters();
+      renderMarkets();
+    }
   }
 
   langButtons.forEach(btn => {
