@@ -6,7 +6,8 @@ const marketsData = [
     food: "빈대떡, 마약김밥, 육회",
     sights: "한복 거리, 구제 시장, 야시장",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Korea-Seoul-Gwangjang_Market-01.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=광장시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=광장시장&output=embed",
+    officialUrl: "http://www.kwangjangmarket.co.kr/"
   },
   {
     name: "남대문시장",
@@ -15,7 +16,8 @@ const marketsData = [
     food: "갈치조림, 칼국수, 호떡",
     sights: "숭례문, 액세서리 도매상가, 카메라 거리",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Seoul-Namdaemun.Market.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=남대문시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=남대문시장&output=embed",
+    officialUrl: "https://namdaemunmarket.co.kr/"
   },
   {
     name: "망원시장",
@@ -24,7 +26,8 @@ const marketsData = [
     food: "닭강정, 수제 고로케, 칼국수",
     sights: "망원동 카페거리, 망원 한강공원",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Mangwon_Market_01.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=망원시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=망원시장&output=embed",
+    officialUrl: "https://www.mangwonmarket.com/"
   },
   {
     name: "통인시장",
@@ -33,7 +36,8 @@ const marketsData = [
     food: "기름떡볶이, 엽전 도시락, 효자동 닭꼬치",
     sights: "경복궁, 서촌 한옥마을",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tongin_Market_01.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=통인시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=통인시장&output=embed",
+    officialUrl: "https://www.instagram.com/tongin_official/"
   },
   {
     name: "경동시장",
@@ -42,7 +46,8 @@ const marketsData = [
     food: "한방차, 제철 과일, 시장 통닭",
     sights: "서울약령시 한의약박물관, 청년몰",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Korea-Seoul-Gyeongdong_Market-04.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=경동시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=경동시장&output=embed",
+    officialUrl: "https://www.kyungdongmarket.co.kr/"
   },
   {
     name: "가락시장",
@@ -51,7 +56,8 @@ const marketsData = [
     food: "신선한 회, 축산물 구이, 제철 해산물",
     sights: "가락몰 도서관, 야간 경매 현장",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Korea-Seoul-Garak_Fish_Market-02.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=가락시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=가락시장&output=embed",
+    officialUrl: "https://www.instagram.com/saffc_official/"
   },
   {
     name: "서울풍물시장",
@@ -60,7 +66,8 @@ const marketsData = [
     food: "전통 주전부리, 빈대떡",
     sights: "청계천로 산책길, 추억의 거리 전시관",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Seoul_Folk_Flea_Market_01.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=서울풍물시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=서울풍물시장&output=embed",
+    officialUrl: "https://pungmul.or.kr/"
   },
   {
     name: "영동전통시장",
@@ -69,7 +76,8 @@ const marketsData = [
     food: "족발, 전 요리, 반찬",
     sights: "강남 야경, 논현동 가구거리",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Yeongdong_Traditional_Market_01.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=영동전통시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=영동전통시장&output=embed",
+    officialUrl: "https://pf.kakao.com/_MBdxdG"
   },
   {
     name: "동대문종합시장",
@@ -78,7 +86,8 @@ const marketsData = [
     food: "생선구이 골목, 닭한마리, 핫바",
     sights: "청계천, DDP(동대문디자인플라자), 흥인지문",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/2020-05-16_10.23.37_동대문종합시장_한복_가게.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=동대문종합시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=동대문종합시장&output=embed",
+    officialUrl: "https://www.ddm-mall.com/"
   },
   {
     name: "서울중앙시장",
@@ -87,7 +96,8 @@ const marketsData = [
     food: "보리밥, 수제 어묵, 갑오징어 구이",
     sights: "신당동 떡볶이 타운, 주방가구거리",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Seoul_Central_Market_01.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=서울중앙시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=서울중앙시장&output=embed",
+    officialUrl: "https://blog.naver.com/jungangmk"
   },
   {
     name: "동묘 벼룩시장",
@@ -96,7 +106,8 @@ const marketsData = [
     food: "토스트, 고기튀김, 동묘 짜장면",
     sights: "동묘공원, 빈티지 샵 거리",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dongmyo_Flea_Market_06.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=동묘벼룩시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=동묘벼룩시장&output=embed",
+    officialUrl: "https://korean.visitseoul.net/shopping/%EB%8F%99%EB%AC%98-%EB%B2%BC%EB%A3%A9%EC%8B%9C%EC%9E%A5-KR_/9648"
   },
   {
     name: "마장 축산물시장",
@@ -105,7 +116,8 @@ const marketsData = [
     food: "한우 구이, 육회, 머릿고기",
     sights: "청계천 산책로, 마장동 벽화마을",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Majang_Meat_Market_01.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=마장축산물시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=마장축산물시장&output=embed",
+    officialUrl: "https://namu.wiki/w/%EB%A7%88%EC%9E%A5%EB%8F%99%20%EC%B6%95%EC%82%B0%EB%AC%BC%EC%8B%9C%EC%9E%A5"
   },
   {
     name: "노량진수산시장",
@@ -114,7 +126,8 @@ const marketsData = [
     food: "모둠회, 매운탕, 킹크랩/대게",
     sights: "경매 현장(새벽), 여의도 야경 뷰",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Korea-Seoul-Noryangjin_Fish_Market-01.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=노량진수산시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=노량진수산시장&output=embed",
+    officialUrl: "https://www.susansijang.co.kr/nsis/miw/intro"
   },
   {
     name: "수유시장",
@@ -123,7 +136,8 @@ const marketsData = [
     food: "떡볶이, 만두, 족발",
     sights: "북한산 국립공원 입구, 우이천 산책길",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Suyu_Market_01.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=수유시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=수유시장&output=embed",
+    officialUrl: "https://sooyu.tistory.com/"
   },
   {
     name: "영등포전통시장",
@@ -132,7 +146,8 @@ const marketsData = [
     food: "순대국, 머릿고기, 곰탕",
     sights: "영등포 타임스퀘어, 문래창작촌",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Yeongdeungpo_Traditional_Market_01.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=영등포전통시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=영등포전통시장&output=embed",
+    officialUrl: "https://access.visitkorea.or.kr/ms/detail.do?cotId=15351285-5cda-4443-afa3-a1b7042dec82"
   },
   {
     name: "자양전통시장",
@@ -141,7 +156,8 @@ const marketsData = [
     food: "닭강정, 꽈배기, 칼국수",
     sights: "뚝섬 한강공원, 건대 양꼬치거리",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jayang_Traditional_Market_01.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=자양전통시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=자양전통시장&output=embed",
+    officialUrl: "https://www.gwangjin.go.kr/portal/bbs/B0000104/view.do?nttId=134138&menuNo=200734"
   },
   {
     name: "암사종합시장",
@@ -150,7 +166,8 @@ const marketsData = [
     food: "떡갈비, 닭강정, 수제 반찬",
     sights: "암사동 선사유적지, 광나루 한강공원",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Amsa_General_Market_01.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=암사종합시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=암사종합시장&output=embed",
+    officialUrl: "https://blog.naver.com/amsamarket_"
   },
   {
     name: "방이시장",
@@ -159,7 +176,8 @@ const marketsData = [
     food: "순대국, 돈까스, 호떡",
     sights: "올림픽공원, 롯데월드타워, 석촌호수",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bangi_Market_01.jpg&width=1200",
-    mapUrl: "https://www.google.com/maps?q=방이시장&output=embed"
+    mapUrl: "https://www.google.com/maps?q=방이시장&output=embed",
+    officialUrl: "https://access.visitkorea.or.kr/ms/detail.do?cotId=1c91f5ba-d28b-4bdb-a58a-d2788733a625"
   },
   {
     name: "서울 특별시 전통시장 목록",
@@ -168,7 +186,8 @@ const marketsData = [
     food: "서울 전역의 모든 로컬 푸드",
     sights: "수백 곳의 서울 전통시장 가이드",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Seoul_Jungang_Market.JPG&width=1200",
-    mapUrl: "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%9D%98_%EC%8B%9C%EC%9E%A5_%EB%AA%A9%EB%A1%9D"
+    mapUrl: "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%9D%98_%EC%8B%9C%EC%9E%A5_%EB%AA%A9%EB%A1%9D",
+    officialUrl: "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%9D%98_%EC%8B%9C%EC%9E%A5_%EB%AA%A9%EB%A1%9D"
   }
 ];
 
@@ -179,7 +198,7 @@ class MarketCard extends HTMLElement {
   }
 
   static get observedAttributes() {
-    return ["name", "district", "description", "food", "sights", "image", "map-url"];
+    return ["name", "district", "description", "food", "sights", "image", "map-url", "official-url"];
   }
 
   attributeChangedCallback() {
@@ -198,10 +217,11 @@ class MarketCard extends HTMLElement {
     const sights = this.getAttribute("sights") || "";
     const image = this.getAttribute("image") || "";
     const mapUrl = this.getAttribute("map-url") || "";
+    const officialUrl = this.getAttribute("official-url") || "";
 
     if (!name) return;
 
-    const isExternalLink = mapUrl.includes("wikipedia.org");
+    const isExternalMap = mapUrl.includes("wikipedia.org");
 
     this.shadowRoot.innerHTML = `
       <style>
@@ -315,15 +335,41 @@ class MarketCard extends HTMLElement {
           color: #eee;
         }
 
+        .btn-group {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          margin-top: 8px;
+        }
+
+        .official-btn {
+          display: block;
+          width: 100%;
+          padding: 14px;
+          background: linear-gradient(45deg, #444, #222);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          border-radius: 12px;
+          color: #fff;
+          text-align: center;
+          text-decoration: none;
+          font-weight: 600;
+          font-size: 0.95rem;
+          transition: all 0.3s ease;
+        }
+
+        .official-btn:hover {
+          background: linear-gradient(45deg, #666, #333);
+          transform: translateY(-2px);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
         .map-container {
           width: 100%;
           height: 200px;
           border-radius: 12px;
           overflow: hidden;
           background: #111;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          position: relative;
         }
 
         iframe {
@@ -333,19 +379,22 @@ class MarketCard extends HTMLElement {
         }
 
         .external-btn {
-          background: rgba(255, 255, 255, 0.1);
-          border: 1px solid rgba(255, 255, 255, 0.2);
+          position: absolute;
+          inset: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgba(0, 0, 0, 0.4);
           color: #fff;
-          padding: 12px 24px;
-          border-radius: 12px;
           text-decoration: none;
           font-weight: 600;
+          backdrop-filter: blur(2px);
           transition: all 0.3s ease;
         }
 
         .external-btn:hover {
-          background: #fff;
-          color: #000;
+          background: rgba(0, 0, 0, 0.6);
+          font-size: 1.1rem;
         }
 
         @container (max-width: 400px) {
@@ -382,10 +431,13 @@ class MarketCard extends HTMLElement {
             <p>${sights}</p>
           </div>
         </div>
-        <div class="map-container">
-          ${isExternalLink 
-            ? `<a href="${mapUrl}" target="_blank" class="external-btn">목록 전체 보기</a>` 
-            : `<iframe src="${mapUrl}" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`}
+        <div class="btn-group">
+          ${officialUrl ? `<a href="${officialUrl}" target="_blank" class="official-btn">공식 홈페이지 / SNS 방문</a>` : ""}
+          <div class="map-container">
+            ${isExternalMap 
+              ? `<a href="${mapUrl}" target="_blank" class="external-btn">전체 목록 확인하기</a>` 
+              : `<iframe src="${mapUrl}" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`}
+          </div>
         </div>
       </div>
     `;
@@ -413,6 +465,7 @@ function init() {
       card.setAttribute("sights", market.sights);
       card.setAttribute("image", market.image);
       card.setAttribute("map-url", market.mapUrl);
+      card.setAttribute("official-url", market.officialUrl || "");
       container.appendChild(card);
     });
   }
