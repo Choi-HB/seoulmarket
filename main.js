@@ -4,6 +4,20 @@ const translations = {
     subtitle: "서울의 정과 맛이 살아있는 구별 대표 전통시장 가이드",
     all: "전체",
     other: "기타",
+    districts: {
+      "종로구": "종로구",
+      "중구": "중구",
+      "성동구": "성동구",
+      "동작구": "동작구",
+      "마포구": "마포구",
+      "동대문구": "동대문구",
+      "강북구": "강북구",
+      "영등포구": "영등포구",
+      "송파구": "송파구",
+      "강남구": "강남구",
+      "광진구": "광진구",
+      "강동구": "강동구"
+    },
     food: "대표 먹거리",
     sights: "대표 볼거리",
     visitOfficial: "공식 홈페이지 / SNS 방문",
@@ -19,6 +33,20 @@ const translations = {
     subtitle: "Premium digital guide to the unique traditional markets in each district of Seoul",
     all: "All",
     other: "Other",
+    districts: {
+      "종로구": "Jongno-gu",
+      "중구": "Jung-gu",
+      "성동구": "Seongdong-gu",
+      "동작구": "Dongjak-gu",
+      "마포구": "Mapo-gu",
+      "동대문구": "Dongdaemun-gu",
+      "강북구": "Gangbuk-gu",
+      "영등포구": "Yeongdeungpo-gu",
+      "송파구": "Songpa-gu",
+      "강남구": "Gangnam-gu",
+      "광진구": "Gwangjin-gu",
+      "강동구": "Gangdong-gu"
+    },
     food: "Signature Food",
     sights: "Top Sights",
     visitOfficial: "Visit Official Website / SNS",
@@ -34,6 +62,20 @@ const translations = {
     subtitle: "ソウルの各区別にある特色豊かな伝統市場を紹介하는 プレミアムガイド",
     all: "すべて",
     other: "その他",
+    districts: {
+      "종로구": "鍾路区",
+      "중구": "中区",
+      "성동구": "城東区",
+      "동작구": "銅雀区",
+      "마포구": "麻浦区",
+      "동대문구": "東大門区",
+      "강북구": "江北区",
+      "영등포구": "永登浦区",
+      "송파구": "松坡区",
+      "강남구": "江南区",
+      "광진구": "広津区",
+      "강동구": "江東区"
+    },
     food: "代表的な食べ物",
     sights: "見どころ",
     visitOfficial: "公式サイト / SNS 訪問",
@@ -628,18 +670,18 @@ function init() {
     // Update labels based on current language
     const currentDistrictList = [
       { key: "ALL", label: t.all },
-      { key: "종로구", label: "종로구" },
-      { key: "중구", label: "중구" },
-      { key: "성동구", label: "성동구" },
-      { key: "동작구", label: "동작구" },
-      { key: "마포구", label: "마포구" },
-      { key: "동대문구", label: "동대문구" },
-      { key: "강북구", label: "강북구" },
-      { key: "영등포구", label: "영등포구" },
-      { key: "송파구", label: "송파구" },
-      { key: "강남구", label: "강남구" },
-      { key: "광진구", label: "광진구" },
-      { key: "강동구", label: "강동구" },
+      { key: "종로구", label: t.districts["종로구"] || "종로구" },
+      { key: "중구", label: t.districts["중구"] || "중구" },
+      { key: "성동구", label: t.districts["성동구"] || "성동구" },
+      { key: "동작구", label: t.districts["동작구"] || "동작구" },
+      { key: "마포구", label: t.districts["마포구"] || "마포구" },
+      { key: "동대문구", label: t.districts["동대문구"] || "동대문구" },
+      { key: "강북구", label: t.districts["강북구"] || "강북구" },
+      { key: "영등포구", label: t.districts["영등포구"] || "영등포구" },
+      { key: "송파구", label: t.districts["송파구"] || "송파구" },
+      { key: "강남구", label: t.districts["강남구"] || "강남구" },
+      { key: "광진구", label: t.districts["광진구"] || "광진구" },
+      { key: "강동구", label: t.districts["강동구"] || "강동구" },
       { key: "OTHER", label: t.other }
     ];
     
@@ -668,9 +710,10 @@ function init() {
     filtered.forEach(market => {
       const card = document.createElement("market-card");
       const m = market.translations[currentLang];
+      const translatedDistrict = t.districts[market.district] || market.district;
       
       card.setAttribute("name", m.name);
-      card.setAttribute("district", market.district);
+      card.setAttribute("district", translatedDistrict);
       card.setAttribute("description", m.description);
       card.setAttribute("food", m.food);
       card.setAttribute("sights", m.sights);

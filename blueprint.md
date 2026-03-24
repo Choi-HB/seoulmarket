@@ -28,10 +28,15 @@
 - [x] Premium Market Card Web Component (`<market-card>`)
 - [x] Detailed market data population (18 markets)
 - [x] Support for external links in MarketCard
+- [x] Disqus Comment System Integration
 
 ## Current Plan & Steps
 
-### 1. Structure & Data (Updated)
+### 1. Disqus Integration (New)
+- `index.html` 하단에 Disqus 댓글 창 추가.
+- `style.css`에서 댓글 창을 프로젝트의 다크/라이트 모드 테마에 어울리도록 커스텀 스타일링 적용.
+
+### 2. Structure & Data (Updated)
 - `main.js`에 UI 문자열 및 시장 상세 정보의 다국어 번역 데이터(KO, EN, JA, ZH) 통합 관리.
 - 망원, 마장, 수유, 자양, 암사, 영동 등 로딩 문제가 발생하던 시장 이미지를 고품질 외부 소스로 전면 교체.
 
