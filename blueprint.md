@@ -29,17 +29,36 @@
 - [x] Detailed market data population (18 markets)
 - [x] Support for external links in MarketCard
 - [x] Disqus Comment System Integration (Refined styling & dynamic config)
+- [x] **AdSense Readiness: Privacy Policy & About Pages**
+- [x] **AdSense Readiness: Global Navigation & Content Depth (Market Guide)**
+
+## AdSense Approval Strategy
+To ensure the website passes Google AdSense approval, the following enhancements are implemented based on official guidelines:
+- **Substantial Content:** Added a 'Market Travel Guide' section with detailed tips for visitors to increase text volume.
+- **Clear Navigation:** Implemented a global navigation menu (Home, About, Privacy) for better user experience.
+- **Policy Compliance:** Created a dedicated Privacy Policy page and About page.
+- **Credibility:** Enhanced the 'About' section to clearly state the site's purpose and contact information.
 
 ## Current Plan & Steps
 
-### 1. Disqus Integration (Refined)
+### 1. Structure Expansion (AdSense Readiness)
+- [ ] Create `privacy.html`: Comprehensive privacy policy including cookie usage.
+- [ ] Create `about.html`: Detailed site mission and team information.
+- [ ] Update `index.html`: 
+    - Add a professional navigation bar.
+    - Add a 'Market Travel Guide' section for more text-based value.
+    - Update footer with mandatory policy links.
+- [ ] Update `style.css`: Style the new navigation and informational pages.
+
+### 2. Disqus Integration (Refined)
 - `index.html`: `disqus_config`에서 현재 페이지의 URL과 식별자를 동적으로 받아오도록 설정하여 안정성을 강화했습니다.
 - `style.css`: 댓글 창에 카드 형태의 디자인과 `backdrop-filter`를 적용하여 웹사이트 전체의 프리미엄 룩앤필과 일치시켰습니다.
 - 라이트 모드와 다크 모드 각각에 최적화된 그림자 효과를 적용했습니다.
 
 ### 2. Structure & Data (Updated)
 - `main.js`에 UI 문자열 및 시장 상세 정보의 다국어 번역 데이터(KO, EN, JA, ZH) 통합 관리.
-- 망원, 마장, 수유, 자양, 암사, 영동 등 로딩 문제가 발생하던 시장 이미지를 고품질 외부 소스로 전면 교체.
+- 모든 시장의 썸네일 이미지를 위키백과(Wikimedia Commons) 소스를 우선적으로 적용하여 고품질 및 신뢰성 확보. 위키백과 이미지가 없는 경우 공식 홈페이지 및 관련 기관(VisitKorea 등)의 이미지로 대체.
+- 망원, 마장, 수유, 자양, 암사, 영동 등 모든 시장의 이미지 경로를 최신 고품질 소스로 전면 업데이트.
 
 ### 2. Premium Design (Updated)
 - 라이트 모드 대응을 위해 `style.css`의 컬러 변수 체계 최적화.

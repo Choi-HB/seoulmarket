@@ -8,7 +8,17 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <nav class="global-nav">
+            <div class="container nav-flex">
+                <a href="index.html" class="logo">SEOUL MARKET</a>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active" id="nav-home">홈</a></li>
+                    <li><a href="about.html" id="nav-about">소개</a></li>
+                    <li><a href="privacy.html" id="nav-privacy">개인정보처리방침</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container header-main">
             <div class="header-controls">
                 <div class="lang-selector">
                     <button class="lang-btn active" data-lang="ko">KO</button>
@@ -34,6 +44,29 @@
             <!-- Market cards will be injected here by main.js -->
         </div>
     </main>
+
+    <!-- AdSense Optimization: Content Depth Section -->
+    <section class="guide-section">
+        <div class="container">
+            <div class="guide-content">
+                <h2 id="guide-title">서울 전통시장 100% 즐기기 가이드</h2>
+                <div class="guide-grid">
+                    <div class="guide-card">
+                        <h3 id="guide-tip1-title">결제는 어떻게 하나요?</h3>
+                        <p id="guide-tip1-desc">대부분의 시장 상점에서 신용카드와 삼성페이를 사용할 수 있습니다. 하지만 작은 노점이나 전통 간식을 구매할 때는 현금을 준비하거나 제로페이(Zero Pay), 온누리상품권을 이용하면 더 편리하고 혜택이 많습니다.</p>
+                    </div>
+                    <div class="guide-card">
+                        <h3 id="guide-tip2-title">언제 방문하는 것이 좋은가요?</h3>
+                        <p id="guide-tip2-desc">대부분의 시장은 오전 9시부터 오후 7시까지 활발하게 운영됩니다. 하지만 광장시장이나 남대문시장 같은 곳은 야시장이나 먹거리 골목이 밤늦게까지(밤 10~11시) 운영되기도 하니 방문 전 공식 시간을 확인하는 것이 좋습니다.</p>
+                    </div>
+                    <div class="guide-card">
+                        <h3 id="guide-tip3-title">주차 및 대중교통 이용 팁</h3>
+                        <p id="guide-tip3-desc">서울의 전통시장은 지하철역과 매우 인접한 경우가 많습니다. 주차 공간이 협소할 수 있으므로 대중교통 이용을 적극 권장합니다. 특히 시장 주변 공영 주차장을 이용하면 저렴하게 이용 가능합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="contact-section">
         <div class="container">
@@ -80,8 +113,14 @@
     </section>
 
     <footer>
-        <div class="container">
-            <p id="footer-text">&copy; 2026 서울 전통시장 가이드. All rights reserved.</p>
+        <div class="container footer-content">
+            <div class="footer-info">
+                <p id="footer-text">&copy; 2026 서울 전통시장 가이드. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <a href="about.html" id="footer-about">소개</a>
+                <a href="privacy.html" id="footer-privacy">개인정보처리방침</a>
+            </div>
         </div>
     </footer>
 

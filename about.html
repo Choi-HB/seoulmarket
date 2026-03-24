@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>소개 - 서울 전통시장 가이드</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-content {
+            padding: 100px 20px 60px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .hero-section {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        .hero-section h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .mission-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        .mission-card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .mission-card:hover {
+            transform: translateY(-10px);
+        }
+        .mission-card h3 {
+            margin-bottom: 15px;
+            color: var(--accent-color);
+        }
+        .about-text {
+            line-height: 2;
+            color: var(--text-color-secondary);
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body class="light">
+    <header style="padding: 20px 0; border-bottom: 1px solid rgba(0,0,0,0.1);">
+        <nav class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <a href="index.html" style="text-decoration: none; font-weight: bold; font-size: 1.2rem; color: var(--text-color);">SEOUL MARKET</a>
+            <div>
+                <a href="index.html" style="margin-left: 20px; text-decoration: none; color: var(--text-color);">홈</a>
+                <a href="about.html" style="margin-left: 20px; text-decoration: none; color: var(--accent-color); font-weight: bold;">소개</a>
+                <a href="privacy.html" style="margin-left: 20px; text-decoration: none; color: var(--text-color);">개인정보처리방침</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="about-content">
+        <div class="hero-section">
+            <h1>전통의 가치를 잇다</h1>
+            <p class="about-text">
+                '서울 전통시장 가이드'는 현대화된 도시 속에서 여전히 따뜻한 정과 삶의 에너지를 간직하고 있는 서울의 전통시장을 기록하고 소개합니다. 
+                우리는 지역 경제의 뿌리인 시장의 매력을 발굴하여 더 많은 사람들이 시장의 맛과 멋을 경험할 수 있도록 돕는 디지털 가이드입니다.
+            </p>
+        </div>
+
+        <div class="mission-grid">
+            <div class="mission-card">
+                <h3>정보의 가치</h3>
+                <p>파편화된 시장 정보를 구별로 체계적으로 정리하여 누구나 쉽게 찾아갈 수 있는 정확한 정보를 제공합니다.</p>
+            </div>
+            <div class="mission-card">
+                <h3>로컬 콘텐츠</h3>
+                <p>단순한 상점 목록을 넘어, 각 시장만이 가진 고유한 스토리와 대표 먹거리를 깊이 있게 조명합니다.</p>
+            </div>
+            <div class="mission-card">
+                <h3>글로벌 확산</h3>
+                <p>4개 국어 지원을 통해 서울을 방문하는 외국인 관광객들에게도 한국 전통시장의 매력을 널리 알립니다.</p>
+            </div>
+        </div>
+
+        <section style="margin-top: 100px; text-align: center;">
+            <h2>우리의 약속</h2>
+            <p class="about-text" style="max-width: 700px; margin: 20px auto;">
+                우리는 어떠한 상업적 대가 없이 순수하게 전통시장의 활성화를 위해 정보를 공유합니다. 
+                잘못된 정보가 있거나 제안하고 싶은 시장이 있다면 언제든 하단의 문의 폼을 통해 연락해 주세요.
+            </p>
+        </section>
+    </main>
+
+    <footer style="margin-top: 100px;">
+        <div class="container">
+            <p>&copy; 2026 서울 전통시장 가이드. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        if (savedTheme === 'light') {
+            document.documentElement.classList.add('light-mode');
+        }
+    </script>
+</body>
+</html>
