@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제휴 및 문의 - 서울 전통시장 가이드</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-page {
+            padding: 100px 20px 60px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .contact-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .contact-header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="light">
+    <header style="padding: 20px 0; border-bottom: 1px solid rgba(0,0,0,0.1);">
+        <nav class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <a href="index.html" style="text-decoration: none; font-weight: bold; font-size: 1.2rem; color: var(--text-color);">SEOUL MARKET</a>
+            <div>
+                <a href="index.html" style="margin-left: 20px; text-decoration: none; color: var(--text-color);">홈</a>
+                <a href="about.html" style="margin-left: 20px; text-decoration: none; color: var(--text-color);">소개</a>
+                <a href="contact.html" style="margin-left: 20px; text-decoration: none; color: var(--accent-color); font-weight: bold;">제휴 및 문의</a>
+                <a href="privacy.html" style="margin-left: 20px; text-decoration: none; color: var(--text-color);">개인정보처리방침</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <div class="contact-header">
+            <h1 id="contact-title">제휴 및 문의</h1>
+            <p id="contact-subtitle" style="opacity: 0.7;">서울 전통시장 가이드와 함께할 파트너를 기다립니다.</p>
+        </div>
+
+        <div class="contact-card" style="background: var(--card-bg); padding: 40px; border-radius: 24px; border: 1px solid var(--border-color);">
+            <form action="https://formspree.io/f/xreynrvb" method="POST" class="contact-form">
+                <div class="form-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                    <div class="form-group">
+                        <label for="name" id="label-name" style="display: block; margin-bottom: 8px; font-weight: 600;">이름 / 업체명</label>
+                        <input type="text" name="name" id="name" required placeholder="홍길동" style="width: 100%; padding: 12px; border-radius: 12px; border: 1px solid var(--border-color); background: var(--bg-primary); color: var(--text-color);">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" id="label-email" style="display: block; margin-bottom: 8px; font-weight: 600;">이메일 주소</label>
+                        <input type="email" name="email" id="email" required placeholder="example@mail.com" style="width: 100%; padding: 12px; border-radius: 12px; border: 1px solid var(--border-color); background: var(--bg-primary); color: var(--text-color);">
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 20px;">
+                    <label for="message" id="label-message" style="display: block; margin-bottom: 8px; font-weight: 600;">문의 내용</label>
+                    <textarea name="message" id="message" rows="5" required placeholder="문의하실 내용을 입력해주세요." style="width: 100%; padding: 12px; border-radius: 12px; border: 1px solid var(--border-color); background: var(--bg-primary); color: var(--text-color); resize: none;"></textarea>
+                </div>
+                <button type="submit" class="submit-btn" id="btn-submit" style="width: 100%; padding: 15px; border-radius: 12px; border: none; background: var(--accent-color); color: white; font-weight: bold; cursor: pointer;">문의하기</button>
+            </form>
+        </div>
+    </main>
+
+    <footer style="margin-top: 100px;">
+        <div class="container">
+            <p>&copy; 2026 서울 전통시장 가이드. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        if (savedTheme === 'light') {
+            document.documentElement.classList.add('light-mode');
+        }
+    </script>
+</body>
+</html>

@@ -25,7 +25,14 @@ const translations = {
     footer: "&copy; 2026 서울 전통시장 가이드. All rights reserved.",
     navHome: "홈",
     navAbout: "소개",
+    navContact: "제휴 및 문의",
     navPrivacy: "개인정보처리방침",
+    contactTitle: "제휴 및 문의",
+    contactSubtitle: "서울 전통시장 가이드와 함께할 파트너를 기다립니다.",
+    labelName: "이름 / 업체명",
+    labelEmail: "이메일 주소",
+    labelMessage: "문의 내용",
+    btnSubmit: "문의하기",
     guideTitle: "서울 전통시장 100% 즐기기 가이드",
     guideTip1Title: "결제는 어떻게 하나요?",
     guideTip1Desc: "대부분의 시장 상점에서 신용카드와 삼성페이를 사용할 수 있습니다. 하지만 작은 노점이나 전통 간식을 구매할 때는 현금을 준비하거나 제로페이(Zero Pay), 온누리상품권을 이용하면 더 편리하고 혜택이 많습니다.",
@@ -64,7 +71,14 @@ const translations = {
     footer: "&copy; 2026 Seoul Market Guide. All rights reserved.",
     navHome: "Home",
     navAbout: "About",
+    navContact: "Partnership & Inquiry",
     navPrivacy: "Privacy Policy",
+    contactTitle: "Partnership & Inquiry",
+    contactSubtitle: "We are waiting for partners to join the Seoul Traditional Market Guide.",
+    labelName: "Name / Company",
+    labelEmail: "Email Address",
+    labelMessage: "Message",
+    btnSubmit: "Submit",
     guideTitle: "Ultimate Guide to Seoul's Traditional Markets",
     guideTip1Title: "How do I pay?",
     guideTip1Desc: "Most market shops accept credit cards and mobile pay. However, at small stalls or for street snacks, it's better to prepare cash or use Zero Pay/Onnuri Gift Certificates for more benefits.",
@@ -103,7 +117,14 @@ const translations = {
     footer: "&copy; 2026 ソウル市場ガイド. All rights reserved.",
     navHome: "ホーム",
     navAbout: "紹介",
+    navContact: "提携およびお問い合わせ",
     navPrivacy: "個人情報保護方針",
+    contactTitle: "提携およびお問い合わせ",
+    contactSubtitle: "ソウル伝統市場ガイドとともに歩むパートナーをお待ちしております。",
+    labelName: "お名前 / 会社名",
+    labelEmail: "メールアドレス",
+    labelMessage: "お問い合わせ内容",
+    btnSubmit: "送信する",
     guideTitle: "ソウル伝統市場100%満喫ガイド",
     guideTip1Title: "支払いはどうすればいいですか？",
     guideTip1Desc: "ほとんどの市場店舗でクレジットカードやモバイル決済が可能です。しかし、小さな屋台や伝統的なおやつを買うときは、現金を準備するか、ゼロペイ(Zero Pay)を利用すると便利で特典も多いです。",
@@ -142,7 +163,14 @@ const translations = {
     footer: "&copy; 2026 首尔市场指南. All rights reserved.",
     navHome: "首页",
     navAbout: "关于我们",
+    navContact: "合作与咨询",
     navPrivacy: "隐私政策",
+    contactTitle: "合作与咨询",
+    contactSubtitle: "我们正在寻找与首尔传统市场指南互动的合作伙伴。",
+    labelName: "姓名 / 公司名称",
+    labelEmail: "电子邮箱",
+    labelMessage: "咨询内容",
+    btnSubmit: "提交",
     guideTitle: "首尔传统市场 100% 游玩指南",
     guideTip1Title: "如何支付？",
     guideTip1Desc: "大多数市场商店都接受信用卡和移动支付。但在小摊位或购买传统零食时，最好准备现金或使用 Zero Pay，这样更方便且优惠更多。",
@@ -671,20 +699,27 @@ function init() {
     // New Navigation
     document.getElementById("nav-home").textContent = t.navHome;
     document.getElementById("nav-about").textContent = t.navAbout;
+    document.getElementById("nav-contact").textContent = t.navContact;
     document.getElementById("nav-privacy").textContent = t.navPrivacy;
-
-    // Guide Section
-    document.getElementById("guide-title").textContent = t.guideTitle;
-    document.getElementById("guide-tip1-title").textContent = t.guideTip1Title;
-    document.getElementById("guide-tip1-desc").textContent = t.guideTip1Desc;
-    document.getElementById("guide-tip2-title").textContent = t.guideTip2Title;
-    document.getElementById("guide-tip2-desc").textContent = t.guideTip2Desc;
-    document.getElementById("guide-tip3-title").textContent = t.guideTip3Title;
-    document.getElementById("guide-tip3-desc").textContent = t.guideTip3Desc;
 
     // Footer Links
     document.getElementById("footer-about").textContent = t.navAbout;
+    document.getElementById("footer-contact").textContent = t.navContact;
     document.getElementById("footer-privacy").textContent = t.navPrivacy;
+
+    // Contact Page Elements (if exist)
+    const contactTitle = document.getElementById("contact-title");
+    if (contactTitle) contactTitle.textContent = t.contactTitle;
+    const contactSubtitle = document.getElementById("contact-subtitle");
+    if (contactSubtitle) contactSubtitle.textContent = t.contactSubtitle;
+    const labelName = document.getElementById("label-name");
+    if (labelName) labelName.textContent = t.labelName;
+    const labelEmail = document.getElementById("label-email");
+    if (labelEmail) labelEmail.textContent = t.labelEmail;
+    const labelMessage = document.getElementById("label-message");
+    if (labelMessage) labelMessage.textContent = t.labelMessage;
+    const btnSubmit = document.getElementById("btn-submit");
+    if (btnSubmit) btnSubmit.textContent = t.btnSubmit;
     langButtons.forEach(btn => {
       btn.classList.toggle("active", btn.dataset.lang === lang);
     });
