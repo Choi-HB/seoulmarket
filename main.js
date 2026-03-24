@@ -25,7 +25,7 @@ const marketsData = [
     description: "최근 MZ세대에게 가장 사랑받는 시장 중 하나로, 세련된 감각과 전통이 공존하는 곳입니다. 저렴하고 맛있는 주전부리가 많아 식도락 여행을 즐기기에 최적이며, 인근 망원 한강공원과 연계하여 나들이 코스로도 좋습니다. 시장 특유의 활기찬 에너지와 정겨움이 동시에 느껴지는 특별한 공간입니다. 트렌디한 카페와 전통적인 맛이 어우러진 마포의 명물입니다.",
     food: "닭강정, 수제 고로케, 칼국수",
     sights: "망원동 카페거리, 망원 한강공원",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Mangwon_Market_Entrance_20150614.jpg/1200px-Mangwon_Market_Entrance_20150614.jpg",
+    image: "https://images.unsplash.com/photo-1590333746438-d81ff1551522?auto=format&fit=crop&q=80&w=1200",
     mapUrl: "https://www.google.com/maps?q=망원시장&output=embed",
     officialUrl: "https://www.mangwonmarket.com/"
   },
@@ -75,7 +75,7 @@ const marketsData = [
     description: "화려한 강남 한복판인 논현동에 위치하여 낮과 밤의 매력이 확연히 다른 이색적인 시장입니다. 주변 직장인들의 회식 장소로 사랑받는 맛집들이 즐비하며, 전통시장의 정겨움과 도시의 세련됨이 어우러져 있습니다. 신선한 반찬과 과일부터 트렌디한 안주까지 다양한 먹거리를 만나볼 수 있는 곳입니다. 강남의 현대적인 빌딩 숲 사이에서 만나는 소박한 따스함이 매력적입니다.",
     food: "족발, 전 요리, 반찬",
     sights: "강남 야경, 논현동 가구거리",
-    image: "https://images.unsplash.com/photo-1544126592-807daa2b567b?auto=format&fit=crop&q=80&w=1200",
+    image: "https://images.unsplash.com/photo-1505567745926-ba89000d255a?auto=format&fit=crop&q=80&w=1200",
     mapUrl: "https://www.google.com/maps?q=영동전통시장&output=embed",
     officialUrl: "https://pf.kakao.com/_MBdxdG"
   },
@@ -115,7 +115,7 @@ const marketsData = [
     description: "수도권 육류 유통의 60% 이상을 담당하는 대한민국 최대 규모의 축산물 전문 시장입니다. 신선하고 품질 좋은 한우와 돼지고기를 도매 가격으로 저렴하게 구입할 수 있어 고기 애호가들의 필수 방문 코스입니다. 시장 내 '먹자골목'에서는 구입한 고기를 바로 구워 먹을 수 있는 식당들이 줄지어 있어 활기찬 미식 경험을 제공합니다. 고기에 대한 모든 것을 만날 수 있는 전문적인 공간입니다.",
     food: "한우 구이, 육회, 머릿고기",
     sights: "청계천 산책로, 마장동 벽화마을",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Majang_Meat_Market_entrance.jpg/1200px-Majang_Meat_Market_entrance.jpg",
+    image: "https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&q=80&w=1200",
     mapUrl: "https://www.google.com/maps?q=마장축산물시장&output=embed",
     officialUrl: "https://namu.wiki/w/%EB%A7%88%EC%9E%A5%EB%8F%99%20%EC%B6%95%EC%82%B0%EB%AC%BC%EC%8B%9C%EC%9E%A5"
   },
@@ -135,7 +135,7 @@ const marketsData = [
     description: "서울 북부 지역을 대표하는 현대화된 전통시장으로, 매우 깔끔하고 정돈된 시설이 인상적인 곳입니다. 다양한 먹거리가 가득한 미로 같은 골목마다 상인들의 넉넉한 인심이 느껴지며, 특히 떡볶이와 족발 등 분식류 맛집이 많기로 유명합니다. 시장 내부가 아케이드로 덮여 있어 날씨와 상관없이 쾌적한 쇼핑이 가능합니다. 지역 주민들의 삶과 정이 깊게 배어 있는 따뜻한 시장입니다.",
     food: "떡볶이, 만두, 족발",
     sights: "북한산 국립공원 입구, 우이천 산책길",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Suyu_Market_entrance.jpg/1200px-Suyu_Market_entrance.jpg",
+    image: "https://images.unsplash.com/photo-1516211697149-41efbc3a2dfb?auto=format&fit=crop&q=80&w=1200",
     mapUrl: "https://www.google.com/maps?q=수유시장&output=embed",
     officialUrl: "https://sooyu.tistory.com/"
   },
@@ -155,7 +155,7 @@ const marketsData = [
     description: "광진구 주민들의 든든한 먹거리를 책임지는 활기 넘치는 시장으로, 저렴한 물가와 뛰어난 맛의 주전부리가 가득합니다. 최근에는 전통시장 현대화 사업을 통해 모바일 결제와 배송 서비스가 잘 갖춰진 스마트한 시장으로 변모했습니다. 시장 주변의 뚝섬 한강공원과 건대입구 상권이 가까워 나들이 코스로도 매우 훌륭합니다. 소박하지만 알찬 서울 골목 시장의 정석을 보여주는 곳입니다.",
     food: "닭강정, 꽈배기, 칼국수",
     sights: "뚝섬 한강공원, 건대 양꼬치거리",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jayang_Market_entrance.jpg/1200px-Jayang_Market_entrance.jpg",
+    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=1200",
     mapUrl: "https://www.google.com/maps?q=자양전통시장&output=embed",
     officialUrl: "https://www.gwangjin.go.kr/portal/bbs/B0000104/view.do?nttId=134138&menuNo=200734"
   },
@@ -165,7 +165,7 @@ const marketsData = [
     description: "선사 시대 유적지가 있는 암사동에 위치한 시장으로, 역사적인 동네 분위기와 어우러진 정겨운 시장입니다. 인근 아파트 단지와 인접하여 항상 장을 보는 사람들로 붐비며, 신선한 제철 채소와 과일의 품질이 좋기로 소문나 있습니다. 시장 내 반찬 가게들은 집밥 같은 맛으로 지역 주민들에게 인기가 높습니다. 깔끔하게 정비된 아케이드 시설 덕분에 아이들과 함께 방문하기에도 좋은 가족 친화적 시장입니다.",
     food: "떡갈비, 닭강정, 수제 반찬",
     sights: "암사동 선사유적지, 광나루 한강공원",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Amsa_Market_entrance.jpg/1200px-Amsa_Market_entrance.jpg",
+    image: "https://images.unsplash.com/photo-1466632346460-9d533a2d1c86?auto=format&fit=crop&q=80&w=1200",
     mapUrl: "https://www.google.com/maps?q=암사종합시장&output=embed",
     officialUrl: "https://blog.naver.com/amsamarket_"
   },
@@ -227,20 +227,20 @@ class MarketCard extends HTMLElement {
       <style>
         :host {
           display: block;
-          background: rgba(255, 255, 255, 0.05);
+          background: var(--card-bg, rgba(255, 255, 255, 0.05));
           backdrop-filter: blur(10px);
           -webkit-backdrop-filter: blur(10px);
           border: 1px solid rgba(255, 255, 255, 0.1);
           border-radius: 20px;
           overflow: hidden;
           transition: transform 0.3s ease, box-shadow 0.3s ease;
-          color: #fff;
+          color: inherit;
           container-type: inline-size;
         }
 
         :host(:hover) {
           transform: translateY(-10px);
-          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+          box-shadow: var(--shadow, 0 20px 40px rgba(0, 0, 0, 0.4));
           border-color: rgba(255, 255, 255, 0.2);
         }
 
@@ -290,7 +290,7 @@ class MarketCard extends HTMLElement {
           font-size: 1.8rem;
           font-weight: 700;
           margin: 0;
-          background: linear-gradient(45deg, #fff, #aaa);
+          background: linear-gradient(45deg, var(--accent-color, #fff), #888);
           background-clip: text;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
@@ -301,14 +301,14 @@ class MarketCard extends HTMLElement {
           background: rgba(255, 255, 255, 0.1);
           padding: 4px 12px;
           border-radius: 20px;
-          color: #ddd;
+          opacity: 0.8;
           white-space: nowrap;
         }
 
         .description {
           font-size: 1rem;
           line-height: 1.7;
-          color: #bbb;
+          opacity: 0.8;
           margin-bottom: 24px;
           text-align: justify;
           word-break: keep-all;
@@ -323,7 +323,7 @@ class MarketCard extends HTMLElement {
 
         .info-item h4 {
           font-size: 0.85rem;
-          color: #888;
+          opacity: 0.6;
           text-transform: uppercase;
           margin: 0 0 8px 0;
           letter-spacing: 1px;
@@ -332,7 +332,6 @@ class MarketCard extends HTMLElement {
         .info-item p {
           font-size: 1rem;
           margin: 0;
-          color: #eee;
         }
 
         .btn-group {
@@ -346,10 +345,10 @@ class MarketCard extends HTMLElement {
           display: block;
           width: 100%;
           padding: 14px;
-          background: linear-gradient(45deg, #444, #222);
+          background: var(--btn-grad, linear-gradient(45deg, #444, #222));
           border: 1px solid rgba(255, 255, 255, 0.2);
           border-radius: 12px;
-          color: #fff;
+          color: #fff !important;
           text-align: center;
           text-decoration: none;
           font-weight: 600;
@@ -358,7 +357,7 @@ class MarketCard extends HTMLElement {
         }
 
         .official-btn:hover {
-          background: linear-gradient(45deg, #666, #333);
+          filter: brightness(1.2);
           transform: translateY(-2px);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         }
@@ -449,6 +448,21 @@ customElements.define("market-card", MarketCard);
 function init() {
   const container = document.getElementById("markets-container");
   const filterButtons = document.querySelectorAll(".filter-btn");
+  const themeToggle = document.getElementById("theme-toggle");
+
+  // Theme Toggle Logic
+  themeToggle.addEventListener("click", () => {
+    document.documentElement.classList.toggle("light-mode");
+    const isLight = document.documentElement.classList.contains("light-mode");
+    themeToggle.textContent = isLight ? "🌙" : "🌓";
+    localStorage.setItem("theme", isLight ? "light" : "dark");
+  });
+
+  // Load Saved Theme
+  if (localStorage.getItem("theme") === "light") {
+    document.documentElement.classList.add("light-mode");
+    themeToggle.textContent = "🌙";
+  }
 
   function renderMarkets(district = "전체") {
     container.innerHTML = "";
