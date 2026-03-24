@@ -47,6 +47,7 @@
         letter-spacing: -1px;
         margin-bottom: 10px;
         background: linear-gradient(45deg, oklch(90% 0.05 40), oklch(70% 0.15 40));
+        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }

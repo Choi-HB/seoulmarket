@@ -22,14 +22,16 @@
 - [x] Basic project structure (`index.html`, `style.css`, `main.js`)
 - [x] District filtering system (District-based filter buttons)
 - [x] Premium Market Card Web Component (`<market-card>`)
-- [x] Detailed market data population (8 markets: 광장, 남대문, 망원, 통인, 경동, 가락, 풍물, 영동)
+- [x] Detailed market data population (19 markets: 광장, 남대문, 망원, 통인, 경동, 가락, 풍물, 영동, 동대문종합, 서울중앙, 동묘, 마장, 노량진, 수유, 영등포, 자양, 암사, 방이, 아현)
 - [x] Google Maps integration for each market
 - [x] Responsive grid layout with CSS Layers and Container Queries
+- [x] Wikipedia-sourced high-reliability image integration
 
 ## Current Plan & Steps
 
-### 1. Structure & Data (Completed)
-- `main.js`에 서울 주요 시장 8곳의 상세 데이터(이름, 구, 설명, 먹거리, 볼거리, 지도 URL, 이미지)를 JSON으로 정의.
+### 1. Structure & Data (Updated)
+- `main.js`에 서울 주요 시장 19곳의 상세 데이터(이름, 구, 설명, 먹거리, 볼거리, 지도 URL, 이미지)를 위키피디아 출처로 업데이트.
+- 성동구, 동작구, 강북구, 영등포구, 광진구, 강동구 등 새로운 구(District) 데이터 추가.
 
 ### 2. Premium Design (Completed)
 - `style.css`에서 `@layer`를 사용하여 베이스, 레이아웃, 컴포넌트 스타일을 격리.
@@ -40,11 +42,14 @@
 - `<market-card>` 커스텀 엘리먼트를 개발하여 정보의 응집도와 재사용성을 높임.
 - Shadow DOM을 사용하여 스타일 충돌 방지 및 캡슐화.
 
-### 4. Content Population (Completed)
+### 4. Content Population (Updated)
 - 각 시장별로 5줄 이상의 상세 설명을 작성하여 정보의 깊이를 더함.
-- 실제 시장 이미지와 유사한 고품질 언스플래시 이미지를 썸네일로 사용.
+- 신뢰도 높은 위키피디아(Wikimedia Commons) 이미지를 사용하여 시각적 정확성 확보.
+- 모든 이미지는 `Special:Redirect` 형식을 사용하여 항상 최신 고해상도 버전을 렌더링.
+- 이미지 로딩 실패 시 서울의 대표적인 시장 이미지를 보여주는 `onerror` 폴백 메커니즘 적용.
+- 카드 상단에 'Wikipedia Commons' 배지를 추가하여 정보 출처의 신뢰성을 시각적으로 강조.
 
-### 5. Verification (Completed)
-- 필터링 기능 작동 확인 (전체 및 각 구별 필터).
-- 모바일 대응 확인 (반응형 그리드 및 컨테이너 쿼리).
-- 구글 지도 임베딩 정상 출력 확인.
+### 5. Verification (Ongoing)
+- 새로운 11개 시장이 필터링 시스템에 정상적으로 포함되는지 확인.
+- 위키피디아 이미지 링크의 유효성 및 렌더링 확인.
+- 모바일 대응 및 지도 임베딩 최종 점검.
