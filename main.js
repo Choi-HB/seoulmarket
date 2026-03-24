@@ -5,7 +5,7 @@ const marketsData = [
     description: "100년이 넘는 역사를 가진 대한민국 최초의 상설시장으로, 활발한 분위기가 가득합니다. 빈대떡, 마약김밥 등 전 세계적으로 유명한 길거리 음식들이 가득하며, 전통 한복과 침구류 등 다양한 상품을 취급합니다. 밤이 되면 야시장의 정취가 더해져 여행자들의 필수 코스로 손꼽힙니다. 서울의 전통과 현대적 먹거리가 공존하는 가장 대표적인 장소입니다.",
     food: "빈대떡, 마약김밥, 육회",
     sights: "한복 거리, 구제 시장, 야시장",
-    image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gwangjang_Market.jpg&width=1200",
+    image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Korea-Seoul-Gwangjang_Market-01.jpg&width=1200",
     mapUrl: "https://www.google.com/maps?q=광장시장&output=embed"
   },
   {
@@ -86,7 +86,7 @@ const marketsData = [
     description: "신당동에 위치한 역사 깊은 시장으로, 최근 '힙당동' 열풍과 함께 젊은 층에게 새롭게 주목받고 있는 명소입니다. 전통적인 주방 가구 거리와 어우러진 감각적인 맛집과 술집들이 독특한 분위기를 자아냅니다. 보리밥 골목과 어묵 골목 등 전통적인 먹거리도 여전히 큰 사랑을 받고 있습니다. 과거의 정취를 간직하면서도 현대적인 감각이 더해진 매력적인 공간입니다.",
     food: "보리밥, 수제 어묵, 갑오징어 구이",
     sights: "신당동 떡볶이 타운, 주방가구거리",
-    image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Seoul_Jungang_Market.JPG&width=1200",
+    image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Seoul_Central_Market_01.jpg&width=1200",
     mapUrl: "https://www.google.com/maps?q=서울중앙시장&output=embed"
   },
   {
@@ -169,6 +169,15 @@ const marketsData = [
     sights: "아현동 간장게장 골목, 이대 앞 상권",
     image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ahyeon_Market_entrance.jpg&width=1200",
     mapUrl: "https://www.google.com/maps?q=아현시장&output=embed"
+  },
+  {
+    name: "서울 특별시 전통시장 목록",
+    district: "기타",
+    description: "서울 전역에 위치한 모든 전통시장의 상세 리스트를 확인하실 수 있습니다. 구별로 정리된 방대한 데이터를 통해 숨겨진 로컬 시장까지 모두 찾아보세요. 서울의 맛과 멋을 탐험하는 가장 확실한 가이드가 되어줄 것입니다.",
+    food: "서울 전역의 모든 로컬 푸드",
+    sights: "수백 곳의 서울 전통시장 가이드",
+    image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Seoul_Jungang_Market.JPG&width=1200",
+    mapUrl: "https://ko.wikipedia.org/wiki/서울특별시의_전통시장_목록"
   }
 ];
 
@@ -199,7 +208,9 @@ class MarketCard extends HTMLElement {
     const image = this.getAttribute("image") || "";
     const mapUrl = this.getAttribute("map-url") || "";
 
-    if (!name) return; // 속성이 아직 설정되지 않았으면 렌더링 건너뜀
+    if (!name) return;
+
+    const isExternalLink = mapUrl.includes("wikipedia.org");
 
     this.shadowRoot.innerHTML = `
       <style>
@@ -236,6 +247,21 @@ class MarketCard extends HTMLElement {
           object-fit: cover;
           border-bottom: 1px solid rgba(255, 255, 255, 0.1);
           display: block;
+        }
+
+        .wiki-badge {
+          position: absolute;
+          top: 12px;
+          right: 12px;
+          background: rgba(0, 0, 0, 0.6);
+          backdrop-filter: blur(4px);
+          padding: 4px 10px;
+          border-radius: 6px;
+          font-size: 0.7rem;
+          color: #fff;
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          pointer-events: none;
+          z-index: 1;
         }
 
         .content {
@@ -304,27 +330,31 @@ class MarketCard extends HTMLElement {
           border-radius: 12px;
           overflow: hidden;
           background: #111;
-        }
-
-        .wiki-badge {
-          position: absolute;
-          top: 12px;
-          right: 12px;
-          background: rgba(0, 0, 0, 0.6);
-          backdrop-filter: blur(4px);
-          padding: 4px 10px;
-          border-radius: 6px;
-          font-size: 0.7rem;
-          color: #fff;
-          border: 1px solid rgba(255, 255, 255, 0.2);
-          pointer-events: none;
-          z-index: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
 
         iframe {
           width: 100%;
           height: 100%;
           border: 0;
+        }
+
+        .external-btn {
+          background: rgba(255, 255, 255, 0.1);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          color: #fff;
+          padding: 12px 24px;
+          border-radius: 12px;
+          text-decoration: none;
+          font-weight: 600;
+          transition: all 0.3s ease;
+        }
+
+        .external-btn:hover {
+          background: #fff;
+          color: #000;
         }
 
         @container (max-width: 400px) {
@@ -362,12 +392,9 @@ class MarketCard extends HTMLElement {
           </div>
         </div>
         <div class="map-container">
-          <iframe 
-            src="${mapUrl}" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
+          ${isExternalLink 
+            ? `<a href="${mapUrl}" target="_blank" class="external-btn">목록 전체 보기</a>` 
+            : `<iframe src="${mapUrl}" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`}
         </div>
       </div>
     `;
@@ -388,7 +415,6 @@ function init() {
 
     filteredMarkets.forEach(market => {
       const card = document.createElement("market-card");
-      // 속성을 먼저 설정한 후 추가
       card.setAttribute("name", market.name);
       card.setAttribute("district", market.district);
       card.setAttribute("description", market.description);
