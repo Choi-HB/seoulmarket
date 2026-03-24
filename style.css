@@ -266,17 +266,23 @@
         box-shadow: 0 15px 40px var(--accent-color);
     }
 
-    .comments-section {
-    padding: 4rem 0;
+.comments-section {
+    padding: 100px 0;
     background: var(--bg-primary);
+    border-top: 1px solid var(--border-color);
 }
 
 #disqus_thread {
-    background: var(--bg-secondary);
-    padding: 2rem;
-    border-radius: 1.5rem;
+    background: var(--card-bg);
+    padding: 40px;
+    border-radius: 24px;
     border: 1px solid var(--border-color);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.light-mode #disqus_thread {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
 }
 
 footer {
