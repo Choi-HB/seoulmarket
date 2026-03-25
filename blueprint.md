@@ -26,11 +26,12 @@
 - [x] Dark / Light Mode Theme Toggle with Persistence
 - [x] High-reliability image integration (Stabilized Unsplash & Wikimedia sources)
 - [x] Premium Market Card Web Component (`<market-card>`)
-- [x] Detailed market data population (18 markets)
+- [x] Detailed market data population (17 markets - Bangi Market removed)
 - [x] Support for external links in MarketCard
 - [x] Disqus Comment System Integration (Refined styling & dynamic config)
 - [x] **AdSense Readiness: Privacy Policy & About Pages**
 - [x] **AdSense Readiness: Global Navigation & Content Depth (Market Guide)**
+- [x] **UI/UX: Optimized 3-column Market Grid for various screen sizes**
 
 ## AdSense Approval Strategy
 To ensure the website passes Google AdSense approval, the following enhancements are implemented based on official guidelines:
@@ -41,36 +42,21 @@ To ensure the website passes Google AdSense approval, the following enhancements
 
 ## Current Plan & Steps
 
-### 1. Structure Expansion (AdSense Readiness)
-- [ ] Create `privacy.html`: Comprehensive privacy policy including cookie usage.
-- [ ] Create `about.html`: Detailed site mission and team information.
-- [ ] Update `index.html`: 
-    - Add a professional navigation bar.
-    - Add a 'Market Travel Guide' section for more text-based value.
-    - Update footer with mandatory policy links.
-- [ ] Update `style.css`: Style the new navigation and informational pages.
+### 1. UI/UX Refinement (Grid & Responsiveness)
+- [x] Update `style.css`: Change `.market-grid` to display 3 columns on desktop (`repeat(3, 1fr)`) and ensure smooth responsiveness for tablet and mobile.
+- [x] Ensure the container width and gaps are balanced for the 3-column layout.
 
-### 2. Disqus Integration (Refined)
-- `index.html`: `disqus_config`에서 현재 페이지의 URL과 식별자를 동적으로 받아오도록 설정하여 안정성을 강화했습니다.
-- `style.css`: 댓글 창에 카드 형태의 디자인과 `backdrop-filter`를 적용하여 웹사이트 전체의 프리미엄 룩앤필과 일치시켰습니다.
-- 라이트 모드와 다크 모드 각각에 최적화된 그림자 효과를 적용했습니다.
+### 2. Content Management
+- [x] Remove Bangi Market as per user request to streamline the list.
+- [ ] Update `main.js`: Expand the `description` for each market in `marketsData` (especially for Korean language) to be at least 5 lines long to provide more value and better AdSense compatibility.
+- [ ] Ensure the `<market-card>` web component handles longer text gracefully.
 
-### 2. Structure & Data (Updated)
-- `main.js`에 UI 문자열 및 시장 상세 정보의 다국어 번역 데이터(KO, EN, JA, ZH) 통합 관리.
-- 모든 시장의 썸네일 이미지를 위키백과(Wikimedia Commons) 소스를 우선적으로 적용하여 고품질 및 신뢰성 확보. 위키백과 이미지가 없는 경우 공식 홈페이지 및 관련 기관(VisitKorea 등)의 이미지로 대체.
-- 망원, 마장, 수유, 자양, 암사, 영동 등 모든 시장의 이미지 경로를 최신 고품질 소스로 전면 업데이트.
+### 3. Navigation Enhancement (Filter Bar)
+- [ ] Update `main.js`: Add a "서울 전통시장 목록" (Seoul Traditional Market List) button in the filter bar next to the "기타" (Other) button.
+- [ ] Configure this button to specifically highlight or display the comprehensive list card (Wikipedia link).
+- [ ] Update translations for the new button in all 4 languages.
 
-### 2. Premium Design (Updated)
-- 라이트 모드 대응을 위해 `style.css`의 컬러 변수 체계 최적화.
-- 다국어 선택 버튼(KO, EN, JP, CN) UI 디자인 및 배치 완료.
-
-### 3. Web Component Development (Updated)
-- `<market-card>`가 다국어 레이블(Signature Food, Top Sights 등)을 속성으로 전달받아 동적으로 렌더링하도록 수정.
-
-### 4. Content Population (Completed)
-- 모든 시장의 4개 국어 번역 텍스트 수록 및 검증 완료.
-
-### 5. Verification (Completed)
-- 다국어 전환 시 모든 텍스트가 정상적으로 번역되는지 확인.
-- 다크/라이트 모드 전환 시 시각적 일관성 확인.
-- 모든 시장 이미지의 로딩 안정성 확보 및 리모트 저장소 배포 완료.
+### 4. Verification
+- [ ] Check the 3-column layout on various screen sizes.
+- [ ] Verify that descriptions are sufficiently long and visually appealing.
+- [ ] Test the new navigation button functionality and translation.
