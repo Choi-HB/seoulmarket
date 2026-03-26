@@ -44,7 +44,7 @@ const translations = {
     guideTip3Title: "주차 및 대중교통 이용 팁",
     guideTip3Desc: "서울의 전통시장은 지하철역과 매우 인접한 경우가 많습니다. 주차 공간이 협소할 수 있으므로 대중교통 이용을 적극 권장합니다. 특히 시장 주변 공영 주차장을 이용하면 저렴하게 이용 가능합니다.",
     miscMarketName: "서울 특별시 전통시장 목록",
-    miscMarketDesc: "서울 전역에 위치한 모든 전통시장의 상세 리스트를 확인하실 수 있습니다. 구별로 정리된 방대한 데이터를 통해 숨겨진 로컬 시장까지 모두 찾아보세요. 서울의 각 구마다 수십 년의 역사를 가진 수많은 시장들이 여러분을 기다리고 있습니다. 이 목록은 위키백과의 검증된 데이터를 바탕으로 제공되며, 서울 전역의 시장 정보를 한눈에 파악하기에 최적화된 자료입니다.",
+    miscMarketDesc: "서울 전역에 위치한 모든 전통시장의 상세 리스트를 확인하실 수 있습니다. 가나다순으로 정리된 방대한 데이터를 통해 숨겨진 로컬 시장까지 모두 찾아보세요. 서울에서 수십 년의 역사를 가진 수많은 시장들이 여러분을 기다리고 있습니다. 이 목록은 위키백과의 검증된 데이터를 바탕으로 제공되며, 서울 전역의 시장 정보를 한눈에 파악하기에 최적화된 자료입니다.",
     miscMarketFood: "서울 전역의 모든 로컬 푸드",
     miscMarketSights: "수백 곳의 서울 전통시장 가이드"
   },
@@ -158,13 +158,13 @@ const translations = {
       "성동구": "城东区",
       "동작구": "铜雀区",
       "마포구": "麻浦区",
-      "동대门区": "东大门区",
+      "동대문구": "东大门区",
       "강북구": "江北区",
-      "영등포구": "Yeongdeungpo-gu",
-      "송파구": "Songpa-gu",
-      "강남구": "Gangnam-gu",
-      "광진구": "Gwangjin-gu",
-      "강동구": "Gangdong-gu"
+      "영등포구": "永登浦区",
+      "송파구": "松坡区",
+      "강남구": "江南区",
+      "광진구": "广津区",
+      "강동구": "江东区"
     },
     food: "代表美食",
     sights: "代表景点",
@@ -229,7 +229,7 @@ const marketsData = [
     mapUrl: "https://www.google.com/maps?q=망원시장&output=embed",
     officialUrl: "https://www.mangwonmarket.com/",
     translations: {
-      ko: { name: "mangwon", description: "최근 MZ세대와 젊은 여행객들에게 가장 사랑받는 핫플레이스 시장 중 하나로, 세련된 감각과 전통 시장의 정겨움이 절묘하게 공존하는 곳입니다. 망원동의 독특한 분위기를 담은 맛집들과 저렴하면서도 훌륭한 퀄리티를 자랑하는 주전부리들이 많아 SNS에서도 큰 화제가 되고 있습니다. 닭강정, 수제 고로케, 칼국수 등 줄을 서서 먹는 유명한 가게들이 즐비하며, 인근의 망리단길과 망원 한강공원을 함께 방문하기에 매우 좋습니다. 시장 내부가 깔끔하게 정비되어 있어 쾌적하게 쇼핑과 미식 여행을 즐길 수 있다는 것이 큰 장점입니다.", food: "닭강정, 수제 고로케, 칼국수", sights: "망원동 카페거리, 망원 한강공원" },
+      ko: { name: "망원시장", description: "최근 MZ세대와 젊은 여행객들에게 가장 사랑받는 핫플레이스 시장 중 하나로, 세련된 감각과 전통 시장의 정겨움이 절묘하게 공존하는 곳입니다. 망원동의 독특한 분위기를 담은 맛집들과 저렴하면서도 훌륭한 퀄리티를 자랑하는 주전부리들이 많아 SNS에서도 큰 화제가 되고 있습니다. 닭강정, 수제 고로케, 칼국수 등 줄을 서서 먹는 유명한 가게들이 즐비하며, 인근의 망리단길과 망원 한강공원을 함께 방문하기에 매우 좋습니다. 시장 내부가 깔끔하게 정비되어 있어 쾌적하게 쇼핑과 미식 여행을 즐길 수 있다는 것이 큰 장점입니다.", food: "닭강정, 수제 고로케, 칼국수", sights: "망원동 카페거리, 망원 한강공원" },
       en: { name: "Mangwon Market", description: "One of the most loved hot spots by the MZ generation and young travelers recently, Mangwon Market is a place where sophisticated modern vibes and the warmth of a traditional market coexist perfectly. There are many famous eateries and affordable yet high-quality snacks that reflect the unique atmosphere of Mangwon-dong, making it a big hit on social media. Famous shops for Dakgangjeong (sweet and spicy fried chicken), handmade croquettes, and Kalguksu (hand-cut noodles) often have long lines. It's an excellent place to visit alongside the nearby Mangridan-gil and Mangwon Hangang Park. A major advantage is that the market interior is well-maintained, providing a clean and pleasant shopping and culinary journey.", food: "Dakgangjeong, Handmade Croquettes, Kalguksu", sights: "Mangwon-dong Cafe Street, Hangang Park" },
       ja: { name: "望遠市場", description: "最近, MZ世代や若い旅行者に最も愛されているホットプレイス市場の一つで, 洗練された感覚と伝統市場の温かみが絶妙に共存する場所です。望遠洞（マンウォンドン）の独特な雰囲気を盛り込んだ美味しい店や, 安くて質の高い軽食が多く, SNSでも大きな話題になっています。タッカンジョン, 手作りコロッケ, カルグクスなど, 行列ができる有名な店が立ち並び, 近くのマンリダン通りや望遠漢江公園を一緒に訪れるのに非常に適しています。市場内部が綺麗に整備されており, 快適にショッピングと美食の旅を楽しめるのが大きな長所です。", food: "タッカンジョン、手作りコロッケ、カルグクス", sights: "望遠洞カフェ通り、望遠漢江公園" },
       zh: { name: "望远市场", description: "近期最受MZ世代和年轻游客喜爱的热门市场之一, 这里巧妙地融合了时尚感和传统市场的亲切感。这里有很多融入了望远洞独特氛围的美食店, 以及价格实惠且品质优良的小吃, 在社交媒体上引发了巨大关注。炸鸡块、手工可乐饼、刀切面等排队购买的名店林立, 非常适合与周边的望理团路和望远汉江公园一同游览。市场内部整洁有序, 能让游客在舒适的环境中享受购物和美食之旅, 这是它的一大优点。", food: "炸鸡块、手工可乐饼、刀切面", sights: "望远洞咖啡街、望远汉江公园" }

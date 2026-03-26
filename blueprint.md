@@ -33,18 +33,23 @@
 - [x] **AdSense Readiness: Global Navigation & Content Depth (Market Guide)**
 - [x] **UI/UX: Optimized 3-column Market Grid for various screen sizes**
 - [x] **UI/UX: Remove thumbnails for a cleaner, text-focused design**
-- [x] **UI/UX: Full description visibility without line-clamping**
+- [x] UI/UX: Full description visibility without line-clamping
+- [x] **Google AdSense Integration (Completed)**
 
 ## AdSense Approval Strategy
 To ensure the website passes Google AdSense approval, the following enhancements are implemented based on official guidelines:
 - **Substantial Content:** Added a 'Market Travel Guide' section with detailed tips for visitors to increase text volume.
-- **Clear Navigation:** Implemented a global navigation menu (Home, About, Privacy) for better user experience.
+- **Clear Navigation:** Implemented a global navigation menu (Home, About, Privacy, Contact) for better user experience.
 - **Policy Compliance:** Created a dedicated Privacy Policy page and About page.
 - **Credibility:** Enhanced the 'About' section to clearly state the site's purpose and contact information.
 
 ## Current Plan & Steps
 
-### 1. UI/UX Refinement (Grid & Design)
+### 1. Google AdSense Integration
+- [x] **Meta Tag & Script:** Add the AdSense account meta tag and the auto-ads script to the `<head>` of all HTML files (`index.html`, `about.html`, `privacy.html`, `contact.html`).
+- [x] **ads.txt:** Create the `ads.txt` file in the root directory with the authorized digital sellers information.
+
+### 2. UI/UX Refinement (Grid & Design)
 - [x] Update `style.css`: Change `.market-grid` to display 3 columns on desktop (`repeat(3, 1fr)`) and ensure smooth responsiveness for tablet and mobile.
 - [x] **Remove thumbnails**: Remove `thumbnail-container` and related styles from `<market-card>` to simplify the visual layout.
 
