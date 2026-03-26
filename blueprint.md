@@ -23,7 +23,7 @@
 ### Feature Implementation Status
 - [x] Basic project structure (`index.html`, `style.css`, `main.js`)
 - [x] District filtering system (Dynamic filtering with multi-language support)
-- [x] Multi-language Translation (KO, EN, JA, ZH)
+- [x] Multi-language Translation (KO, EN, JA, ZH) - **Full detailed descriptions for all 4 languages**
 - [x] Dark / Light Mode Theme Toggle with Persistence
 - [x] Premium Market Card Web Component (`<market-card>`)
 - [x] Detailed market data population (17 markets - Bangi Market removed)
@@ -33,6 +33,7 @@
 - [x] **AdSense Readiness: Global Navigation & Content Depth (Market Guide)**
 - [x] **UI/UX: Optimized 3-column Market Grid for various screen sizes**
 - [x] **UI/UX: Remove thumbnails for a cleaner, text-focused design**
+- [x] **UI/UX: Full description visibility without line-clamping**
 
 ## AdSense Approval Strategy
 To ensure the website passes Google AdSense approval, the following enhancements are implemented based on official guidelines:
