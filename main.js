@@ -519,10 +519,6 @@ class MarketCard extends HTMLElement {
           margin-bottom: 24px;
           text-align: justify;
           word-break: keep-all;
-          display: -webkit-box;
-          -webkit-line-clamp: 6;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
           flex-grow: 1;
         }
 
