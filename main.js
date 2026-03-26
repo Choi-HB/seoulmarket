@@ -23,6 +23,8 @@ const translations = {
     sights: "대표 볼거리",
     visitOfficial: "공식 홈페이지 / SNS 방문",
     viewAllList: "전체 목록 확인하기",
+    navGuide: "가이드",
+    navComments: "댓글",
     footer: "&copy; 2026 서울 전통시장 가이드. All rights reserved.",
     navHome: "홈",
     navAbout: "소개",
@@ -70,6 +72,8 @@ const translations = {
     sights: "Top Sights",
     visitOfficial: "Visit Official Website / SNS",
     viewAllList: "View Full Market List",
+    navGuide: "Guide",
+    navComments: "Comments",
     footer: "&copy; 2026 Seoul Market Guide. All rights reserved.",
     navHome: "Home",
     navAbout: "About",
@@ -114,10 +118,12 @@ const translations = {
       "강동구": "江東区"
     },
     food: "代表的な食べ物",
-    sights: "見どころ",
-    visitOfficial: "公式サイト / SNS 訪問",
-    viewAllList: "全市場リストを見る",
-    footer: "&copy; 2026 ソウル市場ガイド. All rights reserved.",
+    sights: "代表的な見どころ",
+    visitOfficial: "公式ホームページ / SNS 訪問",
+    viewAllList: "全リストを確認する",
+    navGuide: "ガイド",
+    navComments: "コメント",
+    footer: "&copy; 2026 ソウル伝統市場ガイド. All rights reserved.",
     navHome: "ホーム",
     navAbout: "紹介",
     navContact: "提携およびお問い合わせ",
@@ -420,7 +426,7 @@ class MarketCard extends HTMLElement {
   }
 
   static get observedAttributes() {
-    return ["name", "district", "description", "food", "sights", "image", "map-url", "official-url", "lang-food", "lang-sights", "lang-visit", "lang-viewlist"];
+    return ["name", "district", "description", "food", "sights", "map-url", "official-url", "lang-food", "lang-sights", "lang-visit", "lang-viewlist"];
   }
 
   attributeChangedCallback() {
@@ -437,7 +443,6 @@ class MarketCard extends HTMLElement {
     const description = this.getAttribute("description") || "";
     const food = this.getAttribute("food") || "";
     const sights = this.getAttribute("sights") || "";
-    const image = this.getAttribute("image") || "";
     const mapUrl = this.getAttribute("map-url") || "";
     const officialUrl = this.getAttribute("official-url") || "";
     
@@ -474,23 +479,6 @@ class MarketCard extends HTMLElement {
           border-color: rgba(255, 255, 255, 0.2);
         }
 
-        .thumbnail-container {
-          width: 100%;
-          height: 220px;
-          background: #222;
-          overflow: hidden;
-          position: relative;
-          flex-shrink: 0;
-        }
-
-        .thumbnail {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-          display: block;
-        }
-
         .content {
           padding: 24px;
           display: flex;
@@ -510,8 +498,8 @@ class MarketCard extends HTMLElement {
           font-weight: 700;
           margin: 0;
           background: linear-gradient(45deg, var(--accent-color, #fff), #888);
-          background-clip: text;
           -webkit-background-clip: text;
+          background-clip: text;
           -webkit-text-fill-color: transparent;
         }
 
@@ -633,13 +621,6 @@ class MarketCard extends HTMLElement {
           }
         }
       </style>
-      <div class="thumbnail-container">
-        <img src="${image}" 
-             alt="${name}" 
-             class="thumbnail" 
-             loading="lazy" 
-             referrerpolicy="no-referrer">
-      </div>
       <div class="content">
         <div class="header">
           <h2 class="name">${name}</h2>
@@ -769,7 +750,6 @@ function init() {
       { key: "강남구", label: t.districts["강남구"] || "강남구" },
       { key: "광진구", label: t.districts["광진구"] || "광진구" },
       { key: "강동구", label: t.districts["강동구"] || "강동구" },
-      { key: "OTHER", label: t.other },
       { key: "FULL_LIST", label: t.fullList }
     ];
     

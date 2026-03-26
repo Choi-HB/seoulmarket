@@ -13,6 +13,7 @@
   - **Color:** 다크/라이트 모드 완전 지원 프리미엄 팔레트 (`oklch` 및 CSS 변수 활용).
   - **Texture:** 배경에 미세한 노이즈 텍스처를 적용하여 고급스러운 질감 표현.
   - **Effects:** Glassmorphism(배경 흐림), 3D 리프트 효과, 부드러운 전환.
+  - **Layout:** **이미지 없는 깔끔한 텍스트 중심 카드 레이아웃** (사용자 요청에 따라 썸네일 제거).
 - **Content:**
   - **구별 카테고리:** 종로구, 중구, 마포구, 동대문구 등 주요 구 필터링 및 '기타' 분류 제공.
   - **다국어 지원:** 한국어, 영어, 일본어, 중국어(간체) 번역 기능 탑재.
@@ -24,7 +25,6 @@
 - [x] District filtering system (Dynamic filtering with multi-language support)
 - [x] Multi-language Translation (KO, EN, JA, ZH)
 - [x] Dark / Light Mode Theme Toggle with Persistence
-- [x] High-reliability image integration (Stabilized Unsplash & Wikimedia sources)
 - [x] Premium Market Card Web Component (`<market-card>`)
 - [x] Detailed market data population (17 markets - Bangi Market removed)
 - [x] Support for external links in MarketCard
@@ -32,6 +32,7 @@
 - [x] **AdSense Readiness: Privacy Policy & About Pages**
 - [x] **AdSense Readiness: Global Navigation & Content Depth (Market Guide)**
 - [x] **UI/UX: Optimized 3-column Market Grid for various screen sizes**
+- [x] **UI/UX: Remove thumbnails for a cleaner, text-focused design**
 
 ## AdSense Approval Strategy
 To ensure the website passes Google AdSense approval, the following enhancements are implemented based on official guidelines:
@@ -42,21 +43,21 @@ To ensure the website passes Google AdSense approval, the following enhancements
 
 ## Current Plan & Steps
 
-### 1. UI/UX Refinement (Grid & Responsiveness)
+### 1. UI/UX Refinement (Grid & Design)
 - [x] Update `style.css`: Change `.market-grid` to display 3 columns on desktop (`repeat(3, 1fr)`) and ensure smooth responsiveness for tablet and mobile.
-- [x] Ensure the container width and gaps are balanced for the 3-column layout.
+- [x] **Remove thumbnails**: Remove `thumbnail-container` and related styles from `<market-card>` to simplify the visual layout.
 
 ### 2. Content Management
 - [x] Remove Bangi Market as per user request to streamline the list.
-- [ ] Update `main.js`: Expand the `description` for each market in `marketsData` (especially for Korean language) to be at least 5 lines long to provide more value and better AdSense compatibility.
-- [ ] Ensure the `<market-card>` web component handles longer text gracefully.
+- [x] Update `main.js`: Expand the `description` for each market in `marketsData` (especially for Korean language) to be at least 5 lines long.
 
 ### 3. Navigation Enhancement (Filter Bar)
-- [ ] Update `main.js`: Add a "서울 전통시장 목록" (Seoul Traditional Market List) button in the filter bar next to the "기타" (Other) button.
-- [ ] Configure this button to specifically highlight or display the comprehensive list card (Wikipedia link).
-- [ ] Update translations for the new button in all 4 languages.
+- [x] Update `main.js`: Add a "서울 전통시장 목록" (Seoul Traditional Market List) button in the filter bar next to the "기타" (Other) button.
+- [x] Configure this button to specifically highlight or display the comprehensive list card (Wikipedia link).
+- [x] Update translations for the new button in all 4 languages.
 
 ### 4. Verification
-- [ ] Check the 3-column layout on various screen sizes.
-- [ ] Verify that descriptions are sufficiently long and visually appealing.
-- [ ] Test the new navigation button functionality and translation.
+- [x] Check the 3-column layout on various screen sizes.
+- [x] Verify that descriptions are sufficiently long and visually appealing.
+- [x] Test the new navigation button functionality and translation.
+- [x] Confirm that thumbnails are completely removed and the card layout is adjusted.

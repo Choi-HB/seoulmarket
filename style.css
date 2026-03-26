@@ -119,8 +119,8 @@
         letter-spacing: -1px;
         margin-bottom: 10px;
         background: linear-gradient(45deg, var(--accent-color), oklch(80% 0.1 60));
-        background-clip: text;
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
@@ -241,8 +241,8 @@
         font-weight: 800;
         margin-bottom: 10px;
         background: linear-gradient(45deg, var(--accent-color), #888);
-        background-clip: text;
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
@@ -355,6 +355,7 @@
     font-weight: 800;
     background: linear-gradient(45deg, var(--accent-color), oklch(80% 0.1 60));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .guide-grid {
