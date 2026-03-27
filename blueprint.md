@@ -62,8 +62,16 @@ To ensure the website passes Google AdSense approval, the following enhancements
 - [x] Configure this button to specifically highlight or display the comprehensive list card (Wikipedia link).
 - [x] Update translations for the new button in all 4 languages.
 
-### 4. Verification
+### 4. SEO Enhancement Plan
+- [x] **Standard Meta Tags:** Add unique `description`, `keywords`, and `author` tags to all pages (`index.html`, `about.html`, `contact.html`, `privacy.html`).
+- [x] **Open Graph & Twitter Cards:** Implement social media preview tags for all pages.
+- [x] **Canonical & Language Tags:** Add `<link rel="canonical">` and `hreflang` tags to support multi-language SEO and prevent duplicate content.
+- [x] **Structured Data (JSON-LD):** Add JSON-LD schemas (WebSite, LocalBusiness) to `index.html` for better search result rich snippets.
+- [x] **Search Engine Files:** Create `robots.txt` and `sitemap.xml` in the root directory.
+
+### 5. Verification
 - [x] Check the 3-column layout on various screen sizes.
 - [x] Verify that descriptions are sufficiently long and visually appealing.
 - [x] Test the new navigation button functionality and translation.
 - [x] Confirm that thumbnails are completely removed and the card layout is adjusted.
+- [x] Validate SEO tags and files using online tools.
