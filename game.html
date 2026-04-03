@@ -171,6 +171,17 @@
                 </ul>
             </div>
         </nav>
+        <div class="container header-main">
+            <div class="header-controls">
+                <div class="lang-selector">
+                    <button class="lang-btn" data-lang="ko">KO</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ja">JP</button>
+                    <button class="lang-btn" data-lang="zh">CN</button>
+                </div>
+                <button id="theme-toggle" class="theme-toggle" title="테마 변경">🌓</button>
+            </div>
+        </div>
     </header>
 
     <main class="container">
@@ -179,12 +190,12 @@
         </div>
 
         <div class="game-container">
-            <h1>AI 가위바위보 게임</h1>
-            <p>Teachable Machine AI와 대결해보세요!</p>
+            <h1 id="game-title">AI 가위바위보 게임</h1>
+            <p id="game-subtitle">Teachable Machine AI와 대결해보세요!</p>
 
             <div class="score-board status-box">
-                <div>나: <span id="user-score">0</span></div>
-                <div>AI: <span id="ai-score">0</span></div>
+                <div><span id="user-label-text">나</span>: <span id="user-score">0</span></div>
+                <div><span id="ai-label-text">AI</span>: <span id="ai-score">0</span></div>
             </div>
 
             <div class="game-grid">
@@ -194,7 +205,7 @@
                 </div>
                 <div class="view-box ai-view">
                     <div id="ai-choice-emoji" class="choice-emoji">🤖</div>
-                    <div id="ai-label">AI의 선택</div>
+                    <div id="ai-choice-label">AI의 선택</div>
                 </div>
             </div>
 
@@ -204,12 +215,12 @@
             </div>
 
             <div class="instructions">
-                <h3>게임 방법:</h3>
+                <h3 id="game-how-title">게임 방법:</h3>
                 <ul>
-                    <li>'게임 시작!' 버튼을 누르면 3초 카운트다운이 시작됩니다.</li>
-                    <li>카운트다운이 끝나기 전, 카메라를 향해 <strong>가위, 바위, 보</strong> 중 하나를 내주세요.</li>
-                    <li>AI가 당신의 손 모양을 인식하여 승패를 결정합니다.</li>
-                    <li>팁: 밝은 곳에서 손이 잘 보이게 해주세요!</li>
+                    <li id="game-how-1">'게임 시작!' 버튼을 누르면 3초 카운트다운이 시작됩니다.</li>
+                    <li id="game-how-2">카운트다운이 끝나기 전, 카메라를 향해 <strong>가위, 바위, 보</strong> 중 하나를 내주세요.</li>
+                    <li id="game-how-3">AI가 당신의 손 모양을 인식하여 승패를 결정합니다.</li>
+                    <li id="game-how-4">팁: 밝은 곳에서 손이 잘 보이게 해주세요!</li>
                 </ul>
             </div>
         </div>
@@ -217,13 +228,15 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 서울 전통시장 가이드. All rights reserved.</p>
+            <p id="footer-text">&copy; 2026 서울 전통시장 가이드. All rights reserved.</p>
         </div>
     </footer>
 
     <!-- TensorFlow.js and Teachable Machine Image -->
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <!-- Use main.js for translations, game.js for logic -->
+    <script src="main.js"></script>
     <script src="game.js"></script>
 </body>
 </html>
