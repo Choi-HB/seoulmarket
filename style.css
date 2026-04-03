@@ -96,13 +96,21 @@
         color: var(--accent-color);
     }
     .nav-links a.nav-world {
-        color: #ff9800; /* Orange color for distinction */
+        background-color: #ff9800;
+        color: white !important;
+        padding: 6px 16px;
+        border-radius: 20px;
         opacity: 1;
-        font-weight: 800;
+        font-weight: 700;
+        display: inline-flex;
+        align-items: center;
+        transition: all 0.3s ease;
     }
     .nav-links a.nav-world:hover {
-        color: #ffb74d;
-        text-shadow: 0 0 8px rgba(255, 152, 0, 0.4);
+        background-color: #f57c00;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(255, 152, 0, 0.3);
+        filter: brightness(1.1);
     }
 
     header {
