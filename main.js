@@ -31,7 +31,7 @@ const translations = {
     navContact: "문의",
     navPrivacy: "개인정보처리방침",
     contactTitle: "문의",
-    contactSubtitle: "서울 전통시장 가이드와 함께할 파트너를 기다립니다.",
+    contactSubtitle: "서울 전통시장 가이드에 대해 궁금한 점이나 제안하고 싶은 의견이 있으시면 언제든 편하게 남겨주세요.",
     labelName: "이름 / 업체명",
     labelEmail: "이메일 주소",
     labelMessage: "문의 내용",
