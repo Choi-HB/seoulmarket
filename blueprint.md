@@ -30,21 +30,22 @@
 - [x] Disqus Comment System Integration
 - [x] AdSense Readiness: Privacy Policy, About, Contact Pages
 - [x] **AI Content: Rock-Paper-Scissors Game using Teachable Machine (`game.html`, `game.js`)**
-- [x] **Navigation: Added 'Game' link to global navigation across all pages**
+- [x] **AI Tool: Image Transformer for Grayscale/Color conversion (`transform.html`, `transform.js`)**
+- [x] **Navigation: Added 'Game' and 'Photo Transform' links to global navigation across all pages**
 
 ## Current Plan & Steps
 
 ### 1. AI Game Implementation
 - [x] **New Page:** Create `game.html` with a modern, responsive game UI.
 - [x] **AI Logic:** Implement `game.js` using TensorFlow.js and Teachable Machine Image model.
-- [x] **Webcam Integration:** Real-time hand gesture recognition for Rock, Paper, and Scissors.
-- [x] **Game Loop:** Add countdown, AI decision making, score tracking, and visual feedback.
 
-### 2. Global Navigation Update
-- [x] Update `index.html`, `about.html`, `contact.html`, `privacy.html`: Add "게임" (Game) link to the `global-nav`.
-- [x] Ensure the theme persistence works correctly on the new game page.
+### 2. Image Transformer Implementation
+- [x] **New Page:** Create `transform.html` with a glassmorphism image processing UI.
+- [x] **Logic:** Implement `transform.js` using HTML5 Canvas for grayscale/color conversion.
+- [x] **Download:** Add functionality to save the processed image to the local device.
 
 ### 3. Verification & Optimization
-- [x] Test AI recognition accuracy with a public model.
-- [x] Verify responsiveness of the game grid on mobile devices.
-- [x] Ensure smooth transition between the home screen and the game screen.
+- [x] Test AI recognition accuracy and image processing speed.
+- [x] Verify responsiveness and accessibility across all new pages.
+- [x] Ensure multi-language support (KO, EN, JA, ZH) is fully integrated.
+

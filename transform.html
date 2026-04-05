@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 이미지 변환기 - 서울 전통시장 가이드</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="noise-bg"></div>
+    
+    <header class="main-header">
+        <div class="header-content">
+            <h1 id="transform-title" class="title-grad">AI 이미지 변환기</h1>
+            <p id="transform-subtitle" class="subtitle">업로드한 사진을 흑백 또는 컬러로 변환하고 다운로드하세요.</p>
+        </div>
+        
+        <nav class="global-nav">
+            <a href="index.html" id="nav-home">홈</a>
+            <a href="game.html" id="nav-game">게임</a>
+            <a href="transform.html" id="nav-transform" class="active">사진 변환</a>
+            <a href="about.html" id="nav-about">소개</a>
+            <a href="contact.html" id="nav-contact">문의</a>
+        </nav>
+
+        <div class="header-controls">
+            <button id="theme-toggle" class="icon-btn" title="테마 변경">🌓</button>
+            <div class="lang-selector">
+                <button class="lang-btn active" data-lang="ko">KO</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="ja">JA</button>
+                <button class="lang-btn" data-lang="zh">ZH</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="transform-section">
+            <div class="transform-card glass">
+                <div class="upload-area" id="drop-zone">
+                    <input type="file" id="image-upload" accept="image/*" hidden>
+                    <div id="preview-placeholder">
+                        <span class="upload-icon">📸</span>
+                        <p id="label-upload">사진을 업로드하려면 클릭하세요</p>
+                    </div>
+                    <canvas id="image-canvas" style="display: none;"></canvas>
+                </div>
+
+                <div class="transform-controls">
+                    <button id="btn-upload-trigger" class="btn primary">
+                        <span id="btn-upload-text">사진 업로드</span>
+                    </button>
+                    <button id="btn-toggle" class="btn secondary" disabled>
+                        <span id="btn-toggle-text">흑백/컬러 전환</span>
+                    </button>
+                    <button id="btn-download" class="btn accent" disabled>
+                        <span id="btn-download-text">이미지 저장</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="guide-card glass" style="margin-top: 40px;">
+                <h3 id="guide-how-title">사용 방법:</h3>
+                <ul class="guide-list">
+                    <li id="guide-how-1">'사진 업로드' 버튼을 눌러 변환하고 싶은 사진을 선택하세요.</li>
+                    <li id="guide-how-2">'흑백/컬러 전환' 버튼을 누르면 사진의 색상이 바뀝니다.</li>
+                    <li id="guide-how-3">'이미지 저장' 버튼을 누르면 현재 보이는 이미지가 파일로 저장됩니다.</li>
+                    <li id="guide-how-4">팁: 고화질 사진도 빠르게 변환하여 다운로드할 수 있습니다!</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p id="footer-text">&copy; 2026 서울 전통시장 가이드. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="about.html" id="footer-about">소개</a>
+                <a href="contact.html" id="footer-contact">문의</a>
+                <a href="privacy.html" id="footer-privacy">개인정보처리방침</a>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        .transform-section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .transform-card {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            border-radius: 30px;
+        }
+
+        .upload-area {
+            width: 100%;
+            min-height: 400px;
+            border: 2px dashed rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            overflow: hidden;
+            background: rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        .upload-area:hover {
+            border-color: var(--accent-color, #ff6b6b);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        #preview-placeholder {
+            text-align: center;
+            opacity: 0.6;
+        }
+
+        .upload-icon {
+            font-size: 4rem;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        #image-canvas {
+            max-width: 100%;
+            max-height: 70vh;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .transform-controls {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        .primary { background: var(--btn-grad, linear-gradient(45deg, #444, #222)); color: white; border: 1px solid rgba(255,255,255,0.1); }
+        .secondary { background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.1); }
+        .accent { background: linear-gradient(45deg, #ff6b6b, #ff8e8e); color: white; }
+
+        .btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            filter: brightness(1.1);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .guide-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        .guide-list li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+            opacity: 0.8;
+            font-size: 0.95rem;
+        }
+
+        .guide-list li::before {
+            content: "✦";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color, #ff6b6b);
+        }
+
+        @media (max-width: 600px) {
+            .transform-card { padding: 20px; }
+            .upload-area { min-height: 250px; }
+            .transform-controls { flex-direction: column; width: 100%; }
+            .btn { width: 100%; justify-content: center; }
+        }
+    </style>
+
+    <script src="main.js"></script>
+    <script src="transform.js"></script>
+</body>
+</html>

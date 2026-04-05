@@ -66,7 +66,14 @@ const translations = {
     gameHow1: "'게임 시작!' 버튼을 누르면 3초 카운트다운이 시작됩니다.",
     gameHow2: "카운트다운이 끝나기 전, 카메라를 향해 가위, 바위, 보 중 하나를 내주세요.",
     gameHow3: "AI가 당신의 손 모양을 인식하여 승패를 결정합니다.",
-    gameHow4: "팁: 밝은 곳에서 손이 잘 보이게 해주세요!"
+    gameHow4: "팁: 밝은 곳에서 손이 잘 보이게 해주세요!",
+    navTransform: "사진 변환",
+    transformTitle: "AI 이미지 변환기",
+    transformSubtitle: "업로드한 사진을 흑백 또는 컬러로 변환하고 다운로드하세요.",
+    btnUpload: "사진 업로드",
+    btnToggle: "흑백/컬러 전환",
+    btnDownload: "이미지 저장",
+    noImage: "먼저 사진을 업로드해주세요."
   },
   en: {
     title: "Seoul Traditional Markets Guide",
@@ -135,7 +142,14 @@ const translations = {
     gameHow1: "Click 'Start Game!' to begin a 3-second countdown.",
     gameHow2: "Show your hand (Rock, Paper, or Scissors) to the camera before time runs out.",
     gameHow3: "The AI will recognize your gesture and determine the winner.",
-    gameHow4: "Tip: Make sure you're in a well-lit area!"
+    gameHow4: "Tip: Make sure you're in a well-lit area!",
+    navTransform: "Transform",
+    transformTitle: "AI Image Transformer",
+    transformSubtitle: "Convert your uploaded photos to grayscale or color and download them.",
+    btnUpload: "Upload Photo",
+    btnToggle: "Toggle B&W/Color",
+    btnDownload: "Save Image",
+    noImage: "Please upload a photo first."
   },
   ja: {
     title: "ソウル伝統市場ガイド",
@@ -204,7 +218,14 @@ const translations = {
     gameHow1: "「ゲーム開始！」ボタンを押すと3秒のカウントダウンが始まります。",
     gameHow2: "カウントダウンが終わる前に、カメラに向かって「ぐー・ちょき・ぱー」のいずれかを出してください。",
     gameHow3: "AIがあなたの手の形を認識して勝敗を決定します。",
-    gameHow4: "ヒント：明るい場所で手が見えやすいようにしてください！"
+    gameHow4: "ヒント：明るい場所で手が見えやすいようにしてください！",
+    navTransform: "写真変形",
+    transformTitle: "AI画像変換器",
+    transformSubtitle: "アップロードした写真を白黒またはカラーに変換してダウンロードします。",
+    btnUpload: "写真アップロード",
+    btnToggle: "白黒/カラー切り替え",
+    btnDownload: "画像保存",
+    noImage: "まず写真をアップロードしてください。"
   },
   zh: {
     title: "首尔传统市场指南",
@@ -271,7 +292,14 @@ const translations = {
     gameHow1: "点击“开始游戏！”按钮，开始 3 秒倒计时。",
     gameHow2: "倒计时结束前，请对着摄像头做出“石头、剪刀、布”中的任意一个动作。",
     gameHow3: "AI 将识别你的手势并决定胜负。",
-    gameHow4: "提示：请在明亮的地方让手部清晰可见！"
+    gameHow4: "提示：请在明亮的地方让手部清晰可见！",
+    navTransform: "照片转换",
+    transformTitle: "AI 图像转换器",
+    transformSubtitle: "将上传的照片转换为黑白或彩色并下载。",
+    btnUpload: "上传照片",
+    btnToggle: "切换黑白/彩色",
+    btnDownload: "保存图像",
+    noImage: "请先上传照片。"
   }
 };
 
@@ -767,6 +795,8 @@ function init() {
     if (navHome) navHome.textContent = t.navHome;
     const navGame = document.getElementById("nav-game");
     if (navGame) navGame.textContent = t.navGame;
+    const navTransform = document.getElementById("nav-transform");
+    if (navTransform) navTransform.textContent = t.navTransform;
     const navAbout = document.getElementById("nav-about");
     if (navAbout) navAbout.textContent = t.navAbout;
     const navContact = document.getElementById("nav-contact");
