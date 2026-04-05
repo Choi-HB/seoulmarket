@@ -39,28 +39,33 @@
 <body>
     <div class="noise-bg"></div>
     
-    <header class="main-header">
-        <div class="header-content">
+    <header>
+        <nav class="global-nav">
+            <div class="container nav-flex">
+                <a href="index.html" class="logo">SEOUL MARKET</a>
+                <ul class="nav-links">
+                    <li><a href="index.html" id="nav-home">홈</a></li>
+                    <li><a href="game.html" id="nav-game">게임</a></li>
+                    <li><a href="transform.html" class="active" id="nav-transform">사진 변환</a></li>
+                    <li><a href="about.html" id="nav-about">소개</a></li>
+                    <li><a href="contact.html" id="nav-contact">문의</a></li>
+                    <li><a href="privacy.html" id="nav-privacy">개인정보처리방침</a></li>
+                    <li><a href="https://product-bakone.pages.dev/" target="_blank" rel="noopener noreferrer" class="nav-world">Photo World Travel</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container header-main">
+            <div class="header-controls">
+                <div class="lang-selector">
+                    <button class="lang-btn active" data-lang="ko">KO</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ja">JP</button>
+                    <button class="lang-btn" data-lang="zh">CN</button>
+                </div>
+                <button id="theme-toggle" class="theme-toggle" title="테마 변경">🌓</button>
+            </div>
             <h1 id="transform-title" class="title-grad">AI 이미지 변환기</h1>
             <p id="transform-subtitle" class="subtitle">업로드한 사진을 흑백 또는 컬러로 변환하고 다운로드하세요.</p>
-        </div>
-        
-        <nav class="global-nav">
-            <a href="index.html" id="nav-home">홈</a>
-            <a href="game.html" id="nav-game">게임</a>
-            <a href="transform.html" id="nav-transform" class="active">사진 변환</a>
-            <a href="about.html" id="nav-about">소개</a>
-            <a href="contact.html" id="nav-contact">문의</a>
-        </nav>
-
-        <div class="header-controls">
-            <button id="theme-toggle" class="icon-btn" title="테마 변경">🌓</button>
-            <div class="lang-selector">
-                <button class="lang-btn active" data-lang="ko">KO</button>
-                <button class="lang-btn" data-lang="en">EN</button>
-                <button class="lang-btn" data-lang="ja">JP</button>
-                <button class="lang-btn" data-lang="zh">CN</button>
-            </div>
         </div>
     </header>
 
