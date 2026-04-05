@@ -73,7 +73,12 @@ const translations = {
     btnUpload: "사진 업로드",
     btnToggle: "흑백/컬러 전환",
     btnDownload: "이미지 저장",
-    noImage: "먼저 사진을 업로드해주세요."
+    noImage: "먼저 사진을 업로드해주세요.",
+    transformHowTitle: "사용 방법:",
+    transformHow1: "'사진 업로드' 버튼을 눌러 변환하고 싶은 사진을 선택하세요.",
+    transformHow2: "'흑백/컬러 전환' 버튼을 누르면 사진의 색상이 바뀝니다.",
+    transformHow3: "'이미지 저장' 버튼을 누르면 현재 보이는 이미지가 파일로 저장됩니다.",
+    transformHow4: "팁: 고화질 사진도 빠르게 변환하여 다운로드할 수 있습니다!"
   },
   en: {
     title: "Seoul Traditional Markets Guide",
@@ -149,7 +154,12 @@ const translations = {
     btnUpload: "Upload Photo",
     btnToggle: "Toggle B&W/Color",
     btnDownload: "Save Image",
-    noImage: "Please upload a photo first."
+    noImage: "Please upload a photo first.",
+    transformHowTitle: "How to Use:",
+    transformHow1: "Click 'Upload Photo' to select the image you want to convert.",
+    transformHow2: "Click 'Toggle B&W/Color' to change the color state.",
+    transformHow3: "Click 'Save Image' to download the current image.",
+    transformHow4: "Tip: High-resolution photos are converted and saved instantly!"
   },
   ja: {
     title: "ソウル伝統市場ガイド",
@@ -225,7 +235,12 @@ const translations = {
     btnUpload: "写真アップロード",
     btnToggle: "白黒/カラー切り替え",
     btnDownload: "画像保存",
-    noImage: "まず写真をアップロードしてください。"
+    noImage: "まず写真をアップロードしてください。",
+    transformHowTitle: "使い方:",
+    transformHow1: "「写真アップロード」ボタンを押して、変換したい写真を選択してください。",
+    transformHow2: "「白黒/カラー切り替え」ボタンを押すと、写真の色が変わります。",
+    transformHow3: "「画像保存」ボタンを押すと、現在表示されている画像がファイルとして保存されます。",
+    transformHow4: "ヒント: 高画질写真も素早く変換してダウンロードできます！"
   },
   zh: {
     title: "首尔传统市场指南",
@@ -299,7 +314,12 @@ const translations = {
     btnUpload: "上传照片",
     btnToggle: "切换黑白/彩色",
     btnDownload: "保存图像",
-    noImage: "请先上传照片。"
+    noImage: "请先上传照片。",
+    transformHowTitle: "使用方法:",
+    transformHow1: "点击“上传照片”按钮，选择您想要转换的照片。",
+    transformHow2: "点击“切换黑白/彩色”按钮，即可变换照片颜色。",
+    transformHow3: "点击“保存图像”按钮，即可将当前显示的图像保存为文件。",
+    transformHow4: "提示：高分辨率照片也可以快速转换并下载！"
   }
 };
 

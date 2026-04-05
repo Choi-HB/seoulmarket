@@ -30,21 +30,12 @@ document.addEventListener("DOMContentLoaded", () => {
                                                             lang === 'en' ? "Click to upload a photo" :
                                                             lang === 'ja' ? "クリックして写真をアップロード" : "点击上传照片";
         
-        // Update Guide
-        if (lang === 'ko') {
-            document.getElementById("guide-how-title").textContent = "사용 방법:";
-            document.getElementById("guide-how-1").textContent = "'사진 업로드' 버튼을 눌러 변환하고 싶은 사진을 선택하세요.";
-            document.getElementById("guide-how-2").textContent = "'흑백/컬러 전환' 버튼을 누르면 사진의 색상이 바뀝니다.";
-            document.getElementById("guide-how-3").textContent = "'이미지 저장' 버튼을 누르면 현재 보이는 이미지가 파일로 저장됩니다.";
-            document.getElementById("guide-how-4").textContent = "팁: 고화질 사진도 빠르게 변환하여 다운로드할 수 있습니다!";
-        } else if (lang === 'en') {
-            document.getElementById("guide-how-title").textContent = "How to Use:";
-            document.getElementById("guide-how-1").textContent = "Click 'Upload Photo' to select the image you want to convert.";
-            document.getElementById("guide-how-2").textContent = "Click 'Toggle B&W/Color' to change the color state.";
-            document.getElementById("guide-how-3").textContent = "Click 'Save Image' to download the current image.";
-            document.getElementById("guide-how-4").textContent = "Tip: High-resolution photos are converted and saved instantly!";
-        }
-        // ... (Add JA and ZH if needed, but these cover the basics)
+        // Update Guide using translations from main.js
+        document.getElementById("guide-how-title").textContent = t.transformHowTitle;
+        document.getElementById("guide-how-1").textContent = t.transformHow1;
+        document.getElementById("guide-how-2").textContent = t.transformHow2;
+        document.getElementById("guide-how-3").textContent = t.transformHow3;
+        document.getElementById("guide-how-4").textContent = t.transformHow4;
     };
 
     // Listen for language changes from main.js
