@@ -45,7 +45,7 @@
 - [x] **Download:** Add functionality to save the processed image to the local device.
 
 ### 3. Verification & Optimization
-- [x] Test AI recognition accuracy and image processing speed.
-- [x] Verify responsiveness and accessibility across all new pages.
-- [x] Ensure multi-language support (KO, EN, JA, ZH) is fully integrated.
+- [x] Integrated local market images (PNG) into the Guide page.
+- [x] Updated MarketCard component to display market images with hover effects.
+- [x] Verified image paths and filenames for all featured markets.
 

@@ -554,7 +554,7 @@ class MarketCard extends HTMLElement {
   }
 
   static get observedAttributes() {
-    return ["name", "district", "description", "food", "sights", "map-url", "official-url", "lang-food", "lang-sights", "lang-visit", "lang-viewlist"];
+    return ["name", "image", "district", "description", "food", "sights", "map-url", "official-url", "lang-food", "lang-sights", "lang-visit", "lang-viewlist"];
   }
 
   attributeChangedCallback() {
@@ -567,6 +567,7 @@ class MarketCard extends HTMLElement {
 
   render() {
     const name = this.getAttribute("name") || "";
+    const image = this.getAttribute("image") || "";
     const district = this.getAttribute("district") || "";
     const description = this.getAttribute("description") || "";
     const food = this.getAttribute("food") || "";
@@ -605,6 +606,24 @@ class MarketCard extends HTMLElement {
           transform: translateY(-10px);
           box-shadow: var(--shadow, 0 20px 40px rgba(0, 0, 0, 0.4));
           border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .img-container {
+          width: 100%;
+          height: 200px;
+          overflow: hidden;
+          position: relative;
+        }
+
+        .img-container img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.5s ease;
+        }
+
+        :host(:hover) .img-container img {
+          transform: scale(1.1);
         }
 
         .content {
@@ -745,6 +764,9 @@ class MarketCard extends HTMLElement {
           }
         }
       </style>
+      <div class="img-container">
+        ${image ? `<img src="${image}" alt="${name}" loading="lazy">` : ""}
+      </div>
       <div class="content">
         <div class="header">
           <h2 class="name">${name}</h2>
@@ -925,15 +947,15 @@ function init() {
       const card = document.createElement("market-card");
       const m = market.translations[currentLang];
       const translatedDistrict = t.districts[market.district] || market.district;
-      
+
       card.setAttribute("name", m.name);
+      card.setAttribute("image", market.image);
       card.setAttribute("district", translatedDistrict);
       card.setAttribute("description", m.description);
       card.setAttribute("food", m.food);
       card.setAttribute("sights", m.sights);
       card.setAttribute("map-url", market.mapUrl);
       card.setAttribute("official-url", market.officialUrl || "");
-      
       card.setAttribute("lang-food", t.food);
       card.setAttribute("lang-sights", t.sights);
       card.setAttribute("lang-visit", t.visitOfficial);
