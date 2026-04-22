@@ -968,6 +968,7 @@ function init() {
     if (currentDistrictKey === "ALL" || currentDistrictKey === "OTHER") {
       const card = document.createElement("market-card");
       card.setAttribute("name", t.miscMarketName);
+      card.setAttribute("image", "./전통시장목록.png");
       card.setAttribute("district", t.other);
       card.setAttribute("description", t.miscMarketDesc);
       card.setAttribute("food", t.miscMarketFood);
