@@ -1,4 +1,4 @@
-// transform.js
+// memory.js
 document.addEventListener("DOMContentLoaded", () => {
     const uploadInput = document.getElementById("image-upload");
     const uploadTrigger = document.getElementById("btn-upload-trigger");
