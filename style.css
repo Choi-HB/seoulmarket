@@ -359,12 +359,32 @@
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
 }
 
-/* Guide Section */
-.guide-section {
+/* Detailed Articles Section */
+.articles-preview-section {
     padding: 100px 0;
-    border-top: 1px solid var(--border-color);
     background: var(--bg-primary);
 }
+
+.article-link-card:hover div {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow);
+    border-color: var(--accent-color) !important;
+}
+
+.article-link-card h3 {
+    transition: color 0.3s ease;
+}
+
+.article-link-card:hover h3 {
+    color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+    .articles-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .guide-content h2 {
     text-align: center;
     margin-bottom: 50px;
