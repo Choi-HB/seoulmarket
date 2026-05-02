@@ -802,11 +802,14 @@ function init() {
   const container = document.getElementById("markets-container");
   const filterContainer = document.getElementById("filter-container");
   const themeToggle = document.getElementById("theme-toggle");
-  const langButtons = document.querySelectorAll(".lang-btn");
+  const mobileMenuToggle = document.querySelector(".mobile-menu-toggle");
+  const navLinks = document.querySelector(".nav-links");
+  const langInputs = document.querySelectorAll('input[name="language"]');
   
   let currentLang = localStorage.getItem("lang") || "ko";
   let currentDistrictKey = "ALL";
 
+  // Theme Toggle
   themeToggle.addEventListener("click", () => {
     document.documentElement.classList.toggle("light-mode");
     const isLight = document.documentElement.classList.contains("light-mode");
@@ -818,6 +821,25 @@ function init() {
     document.documentElement.classList.add("light-mode");
     themeToggle.textContent = "🌙";
   }
+
+  // Mobile Menu Toggle
+  if (mobileMenuToggle) {
+    mobileMenuToggle.addEventListener("click", () => {
+      mobileMenuToggle.classList.toggle("active");
+      navLinks.classList.toggle("active");
+    });
+  }
+
+  // Close menu when link is clicked
+  const navItems = document.querySelectorAll(".nav-links a");
+  navItems.forEach(item => {
+    item.addEventListener("click", () => {
+      if (mobileMenuToggle) {
+        mobileMenuToggle.classList.remove("active");
+        navLinks.classList.remove("active");
+      }
+    });
+  });
 
   function setLanguage(lang) {
     currentLang = lang;
@@ -868,8 +890,11 @@ function init() {
     const footerPrivacy = document.getElementById("footer-privacy");
     if (footerPrivacy) footerPrivacy.textContent = t.navPrivacy;
 
-    langButtons.forEach(btn => {
-      btn.classList.toggle("active", btn.dataset.lang === lang);
+    // Update Radio Buttons
+    langInputs.forEach(input => {
+      if (input.value === lang) {
+        input.checked = true;
+      }
     });
 
     if (filterContainer && container) {
@@ -878,8 +903,12 @@ function init() {
     }
   }
 
-  langButtons.forEach(btn => {
-    btn.addEventListener("click", () => setLanguage(btn.dataset.lang));
+  langInputs.forEach(input => {
+    input.addEventListener("change", (e) => {
+      if (e.target.checked) {
+        setLanguage(e.target.value);
+      }
+    });
   });
 
   function renderFilters() {

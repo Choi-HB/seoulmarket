@@ -56,11 +56,16 @@
         }
     </style>
 </head>
-<body class="light"> <!-- Default class, theme-toggle will override -->
+<body class="light">
     <header>
         <nav class="global-nav">
             <div class="container nav-flex">
                 <a href="index.html" class="logo">SEOUL MARKET</a>
+                <button class="mobile-menu-toggle" aria-label="메뉴 열기">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
                 <ul class="nav-links">
                     <li><a href="index.html" id="nav-home">홈</a></li>
                     <li><a href="play.html" id="nav-game">놀이</a></li>
@@ -72,54 +77,72 @@
                 </ul>
             </div>
         </nav>
+        <div class="container header-main">
+            <div class="header-controls">
+                <div class="lang-selector">
+                    <label class="lang-option">
+                        <input type="radio" name="language" value="ko" checked>
+                        <span>KO</span>
+                    </label>
+                    <label class="lang-option">
+                        <input type="radio" name="language" value="en">
+                        <span>EN</span>
+                    </label>
+                    <label class="lang-option">
+                        <input type="radio" name="language" value="ja">
+                        <span>JP</span>
+                    </label>
+                    <label class="lang-option">
+                        <input type="radio" name="language" value="zh">
+                        <span>CN</span>
+                    </label>
+                </div>
+                <button id="theme-toggle" class="theme-toggle" title="테마 변경">🌓</button>
+            </div>
+        </div>
     </header>
 
     <main class="policy-content">
-        <h1>개인정보처리방침</h1>
-        <p>본 개인정보처리방침은 '서울 전통시장 가이드'(이하 '본 사이트')의 서비스 이용과 관련하여 이용자의 개인정보를 어떻게 수집, 이용, 보호하는지에 대해 설명합니다.</p>
+        <h1 id="privacy-title">개인정보처리방침</h1>
+        <p id="privacy-intro">본 개인정보처리방침은 '서울 전통시장 가이드'(이하 '본 사이트')의 서비스 이용과 관련하여 이용자의 개인정보를 어떻게 수집, 이용, 보호하는지에 대해 설명합니다.</p>
 
-        <h2>1. 수집하는 개인정보 항목</h2>
-        <p>본 사이트는 별도의 회원가입 없이 이용이 가능합니다. 다만, '문의' 폼을 이용하실 경우 다음과 같은 정보를 수집합니다:</p>
+        <h2 id="section-1-title">1. 수집하는 개인정보 항목</h2>
+        <p id="section-1-desc">본 사이트는 별도의 회원가입 없이 이용이 가능합니다. 다만, '문의' 폼을 이용하실 경우 다음과 같은 정보를 수집합니다:</p>
         <ul>
-            <li>필수 항목: 이름/업체명, 이메일 주소</li>
-            <li>선택 항목: 문의 내용</li>
+            <li id="item-1-1">필수 항목: 이름/업체명, 이메일 주소</li>
+            <li id="item-1-2">선택 항목: 문의 내용</li>
         </ul>
 
-        <h2>2. 개인정보의 수집 및 이용 목적</h2>
-        <p>수집된 개인정보는 다음의 목적을 위해서만 활용됩니다:</p>
+        <h2 id="section-2-title">2. 개인정보의 수집 및 이용 목적</h2>
+        <p id="section-2-desc">수집된 개인정보는 다음의 목적을 위해서만 활용됩니다:</p>
         <ul>
-            <li>문의 사항에 대한 답변 및 상담 처리</li>
-            <li>서비스 개선을 위한 통계 분석 (비식별 정보)</li>
+            <li id="item-2-1">문의 사항에 대한 답변 및 상담 처리</li>
+            <li id="item-2-2">서비스 개선을 위한 통계 분석 (비식별 정보)</li>
         </ul>
 
-        <h2>3. 쿠키(Cookie) 및 광고에 대한 안내</h2>
-        <p>본 사이트는 구글 애드센스(Google AdSense)를 포함한 제3자 광고 시스템을 이용할 수 있습니다. 구글을 포함한 제3자 제공업체는 이용자의 이전 방문 기록을 바탕으로 광고를 게재하기 위해 쿠키를 사용합니다.</p>
+        <h2 id="section-3-title">3. 쿠키(Cookie) 및 광고에 대한 안내</h2>
+        <p id="section-3-desc">본 사이트는 구글 애드센스(Google AdSense)를 포함한 제3자 광고 시스템을 이용할 수 있습니다. 구글을 포함한 제3자 제공업체는 이용자의 이전 방문 기록을 바탕으로 광고를 게재하기 위해 쿠키를 사용합니다.</p>
         <ul>
-            <li>구글의 광고 쿠키 사용을 통해 구글 및 파트너사는 이용자의 본 사이트 및 다른 사이트 방문 기록을 토대로 적절한 광고를 제공할 수 있습니다.</li>
-            <li>이용자는 구글 광고 설정 페이지(https://www.google.com/settings/ads)를 방문하여 맞춤설정 광고 게재를 중단할 수 있습니다.</li>
-            <li>당사는 사용자의 관심사를 파악하고 사이트 트래픽 및 상호작용 데이터를 컴파일하기 위해 타사 서비스(예: Google Analytics)와 협력할 수 있습니다.</li>
+            <li id="item-3-1">구글의 광고 쿠키 사용을 통해 구글 및 파트너사는 이용자의 본 사이트 및 다른 사이트 방문 기록을 토대로 적절한 광고를 제공할 수 있습니다.</li>
+            <li id="item-3-2">이용자는 구글 광고 설정 페이지(https://www.google.com/settings/ads)를 방문하여 맞춤설정 광고 게재를 중단할 수 있습니다.</li>
+            <li id="item-3-3">당사는 사용자의 관심사를 파악하고 사이트 트래픽 및 상호작용 데이터를 컴파일하기 위해 타사 서비스(예: Google Analytics)와 협력할 수 있습니다.</li>
         </ul>
 
-        <h2>4. 개인정보의 보유 및 이용 기간</h2>
-        <p>수집된 개인정보는 원칙적으로 개인정보의 수집 및 이용 목적이 달성되면 지체 없이 파기합니다. 단, 관계 법령의 규정에 의하여 보존할 필요가 있는 경우 해당 법령에서 정한 기간 동안 보관합니다.</p>
+        <h2 id="section-4-title">4. 개인정보의 보유 및 이용 기간</h2>
+        <p id="section-4-desc">수집된 개인정보는 원칙적으로 개인정보의 수집 및 이용 목적이 달성되면 지체 없이 파기합니다. 단, 관계 법령의 규정에 의하여 보존할 필요가 있는 경우 해당 법령에서 정한 기간 동안 보관합니다.</p>
 
-        <h2>5. 제3자 제공 및 위탁</h2>
-        <p>본 사이트는 이용자의 개인정보를 원칙적으로 외부에 제공하거나 위탁하지 않습니다. 다만, 이용자가 사전에 동의한 경우나 법령의 규정에 의거한 경우에는 예외로 합니다.</p>
+        <h2 id="section-5-title">5. 제3자 제공 및 위탁</h2>
+        <p id="section-5-desc">본 사이트는 이용자의 개인정보를 원칙적으로 외부에 제공하거나 위탁하지 않습니다. 다만, 이용자가 사전에 동의한 경우나 법령의 규정에 의거한 경우에는 예외로 합니다.</p>
 
-        <p style="margin-top: 50px; font-size: 0.9rem; opacity: 0.7;">공고일자: 2026년 3월 24일 / 시행일자: 2026년 3월 24일</p>
+        <p style="margin-top: 50px; font-size: 0.9rem; opacity: 0.7;" id="privacy-date">공고일자: 2026년 3월 24일 / 시행일자: 2026년 3월 24일</p>
     </main>
 
-    <footer style="margin-top: 100px;">
+    <footer>
         <div class="container">
-            <p>&copy; 2026 서울 전통시장 가이드. All rights reserved.</p>
+            <p id="footer-text">&copy; 2026 서울 전통시장 가이드. All rights reserved.</p>
         </div>
     </footer>
 
-    <script>
-        const savedTheme = localStorage.getItem('theme') || 'dark';
-        if (savedTheme === 'light') {
-            document.documentElement.classList.add('light-mode');
-        }
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>

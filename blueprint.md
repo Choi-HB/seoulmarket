@@ -44,7 +44,11 @@
 - [x] **Logic:** Implement `memory.js` using HTML5 Canvas for grayscale/color conversion.
 - [x] **Download:** Add functionality to save the processed image to the local device.
 
-### 3. Verification & Optimization
+### 3. Navigation & UX Optimization
+- [x] **Language Selector:** Change language selection buttons to semantic radio buttons for improved UX and accessibility.
+- [x] **Mobile Navigation:** Implement a hamburger menu for mobile devices to optimize space and improve usability.
+
+### 4. Verification & Optimization
 - [x] Integrated local market images (PNG) into the Guide page.
 - [x] Updated MarketCard component to display market images with hover effects.
 - [x] Verified image paths and filenames for all featured markets.

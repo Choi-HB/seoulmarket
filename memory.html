@@ -43,6 +43,11 @@
         <nav class="global-nav">
             <div class="container nav-flex">
                 <a href="index.html" class="logo">SEOUL MARKET</a>
+                <button class="mobile-menu-toggle" aria-label="메뉴 열기">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
                 <ul class="nav-links">
                     <li><a href="index.html" id="nav-home">홈</a></li>
                     <li><a href="play.html" id="nav-game">놀이</a></li>
@@ -57,10 +62,22 @@
         <div class="container header-main">
             <div class="header-controls">
                 <div class="lang-selector">
-                    <button class="lang-btn active" data-lang="ko">KO</button>
-                    <button class="lang-btn" data-lang="en">EN</button>
-                    <button class="lang-btn" data-lang="ja">JP</button>
-                    <button class="lang-btn" data-lang="zh">CN</button>
+                    <label class="lang-option">
+                        <input type="radio" name="language" value="ko" checked>
+                        <span>KO</span>
+                    </label>
+                    <label class="lang-option">
+                        <input type="radio" name="language" value="en">
+                        <span>EN</span>
+                    </label>
+                    <label class="lang-option">
+                        <input type="radio" name="language" value="ja">
+                        <span>JP</span>
+                    </label>
+                    <label class="lang-option">
+                        <input type="radio" name="language" value="zh">
+                        <span>CN</span>
+                    </label>
                 </div>
                 <button id="theme-toggle" class="theme-toggle" title="테마 변경">🌓</button>
             </div>
