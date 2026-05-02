@@ -37,6 +37,36 @@ const translations = {
     labelEmail: "이메일 주소",
     labelMessage: "문의 내용",
     btnSubmit: "문의하기",
+    aboutHeroTitle: "전통의 가치를 잇다",
+    aboutHeroDesc: "'서울 전통시장 가이드'는 현대화된 도시 속에서 여전히 따뜻한 정과 삶의 에너지를 간직하고 있는 서울의 전통시장을 기록하고 소개합니다. 우리는 지역 경제의 뿌리인 시장의 매력을 발굴하여 더 많은 사람들이 시장의 맛과 멋을 경험할 수 있도록 돕는 디지털 가이드입니다.",
+    mission1Title: "정보의 가치",
+    mission1Desc: "파편화된 시장 정보를 구별로 체계적으로 정리하여 누구나 쉽게 찾아갈 수 있는 정확한 정보를 제공합니다.",
+    mission2Title: "로컬 콘텐츠",
+    mission2Desc: "단순한 상점 목록을 넘어, 각 시장만이 가진 고유한 스토리와 대표 먹거리를 깊이 있게 조명합니다.",
+    mission3Title: "글로벌 확산",
+    mission3Desc: "4개 국어 지원을 통해 서울을 방문하는 외국인 관광객들에게도 한국 전통시장의 매력을 널리 알립니다.",
+    promiseTitle: "우리의 약속",
+    promiseDesc: "우리는 어떠한 상업적 대가 없이 순수하게 전통시장의 활성화를 위해 정보를 공유합니다. 잘못된 정보가 있거나 제안하고 싶은 시장이 있다면 언제든 하단의 문의 폼을 통해 연락해 주세요.",
+    privacyTitle: "개인정보처리방침",
+    privacyIntro: "본 개인정보처리방침은 '서울 전통시장 가이드'(이하 '본 사이트')의 서비스 이용과 관련하여 이용자의 개인정보를 어떻게 수집, 이용, 보호하는지에 대해 설명합니다.",
+    section1Title: "1. 수집하는 개인정보 항목",
+    section1Desc: "본 사이트는 별도의 회원가입 없이 이용이 가능합니다. 다만, '문의' 폼을 이용하실 경우 다음과 같은 정보를 수집합니다:",
+    item11: "필수 항목: 이름/업체명, 이메일 주소",
+    item12: "선택 항목: 문의 내용",
+    section2Title: "2. 개인정보의 수집 및 이용 목적",
+    section2Desc: "수집된 개인정보는 다음의 목적을 위해서만 활용됩니다:",
+    item21: "문의 사항에 대한 답변 및 상담 처리",
+    item22: "서비스 개선을 위한 통계 분석 (비식별 정보)",
+    section3Title: "3. 쿠키(Cookie) 및 광고에 대한 안내",
+    section3Desc: "본 사이트는 구글 애드센스(Google AdSense)를 포함한 제3자 광고 시스템을 이용할 수 있습니다. 구글을 포함한 제3자 제공업체는 이용자의 이전 방문 기록을 바탕으로 광고를 게재하기 위해 쿠키를 사용합니다.",
+    item31: "구글의 광고 쿠키 사용을 통해 구글 및 파트너사는 이용자의 본 사이트 및 다른 사이트 방문 기록을 토대로 적절한 광고를 제공할 수 있습니다.",
+    item32: "이용자는 구글 광고 설정 페이지를 방문하여 맞춤설정 광고 게재를 중단할 수 있습니다.",
+    item33: "당사는 사용자의 관심사를 파악하고 사이트 트래픽 및 상호작용 데이터를 컴파일하기 위해 타사 서비스와 협력할 수 있습니다.",
+    section4Title: "4. 개인정보의 보유 및 이용 기간",
+    section4Desc: "수집된 개인정보는 원칙적으로 개인정보의 수집 및 이용 목적이 달성되면 지체 없이 파기합니다. 단, 관계 법령의 규정에 의하여 보존할 필요가 있는 경우 해당 법령에서 정한 기간 동안 보관합니다.",
+    section5Title: "5. 제3자 제공 및 위탁",
+    section5Desc: "본 사이트는 이용자의 개인정보를 원칙적으로 외부에 제공하거나 위탁하지 않습니다. 다만, 이용자가 사전에 동의한 경우나 법령의 규정에 의거한 경우에는 예외로 합니다.",
+    privacyDate: "공고일자: 2026년 3월 24일 / 시행일자: 2026년 3월 24일",
     guideTitle: "서울 전통시장 100% 즐기기 가이드",
     guideTip1Title: "결제는 어떻게 하나요?",
     guideTip1Desc: "대부분의 시장 상점에서 신용카드와 삼성페이를 사용할 수 있습니다. 하지만 작은 노점이나 전통 간식을 구매할 때는 현금을 준비하거나 제로페이(Zero Pay), 온누리상품권을 이용하면 더 편리하고 혜택이 많습니다.",
@@ -118,6 +148,36 @@ const translations = {
     labelEmail: "Email Address",
     labelMessage: "Message",
     btnSubmit: "Submit",
+    aboutHeroTitle: "Connecting Traditional Values",
+    aboutHeroDesc: "'Seoul Traditional Market Guide' records and introduces Seoul's traditional markets that still maintain warm hospitality and life energy in a modernized city. We are a digital guide that helps more people experience the taste and beauty of markets by discovering their charm, which is the root of the local economy.",
+    mission1Title: "Value of Information",
+    mission1Desc: "We provide accurate information that anyone can easily find by systematically organizing fragmented market information by district.",
+    mission2Title: "Local Content",
+    mission2Desc: "Beyond a simple list of shops, we shed light on the unique stories and representative foods of each market in depth.",
+    mission3Title: "Global Expansion",
+    mission3Desc: "We spread the charm of Korean traditional markets to foreign tourists visiting Seoul through support for 4 languages.",
+    promiseTitle: "Our Promise",
+    promiseDesc: "We share information purely for the activation of traditional markets without any commercial compensation. If there is incorrect information or a market you want to suggest, please contact us anytime through the inquiry form below.",
+    privacyTitle: "Privacy Policy",
+    privacyIntro: "This Privacy Policy explains how 'Seoul Traditional Market Guide' (hereinafter 'this site') collects, uses, and protects users' personal information in connection with the use of the service.",
+    section1Title: "1. Items of Personal Information to be Collected",
+    section1Desc: "This site can be used without separate membership registration. However, if you use the 'Inquiry' form, we collect the following information:",
+    item11: "Required items: Name/Company name, Email address",
+    item12: "Optional items: Inquiry content",
+    section2Title: "2. Purpose of Collection and Use of Personal Information",
+    section2Desc: "Collected personal information is used only for the following purposes:",
+    item21: "Answering inquiries and handling consultations",
+    item22: "Statistical analysis for service improvement (non-identifiable information)",
+    section3Title: "3. Guide to Cookies and Advertising",
+    section3Desc: "This site may use third-party advertising systems including Google AdSense. Third-party providers, including Google, use cookies to serve ads based on users' previous visits.",
+    item31: "Through the use of Google's advertising cookies, Google and its partners can provide appropriate advertisements based on users' visit history to this site and other sites.",
+    item32: "Users can stop receiving personalized advertisements by visiting the Google Ad Settings page.",
+    item33: "We may work with third-party services to identify users' interests and compile site traffic and interaction data.",
+    section4Title: "4. Retention and Use Period of Personal Information",
+    section4Desc: "In principle, personal information is destroyed without delay after the purpose of collection and use is achieved. However, if it is necessary to preserve it according to the provisions of relevant laws, it is stored for the period prescribed by those laws.",
+    section5Title: "5. Third-Party Provision and Entrustment",
+    section5Desc: "In principle, this site does not provide or entrust users' personal information to the outside. However, exceptions are made in cases where the user has agreed in advance or according to the provisions of laws.",
+    privacyDate: "Announcement Date: March 24, 2026 / Effective Date: March 24, 2026",
     guideTitle: "Ultimate Guide to Seoul's Traditional Markets",
     guideTip1Title: "How do I pay?",
     guideTip1Desc: "Most market shops accept credit cards and mobile pay. However, at small stalls or for street snacks, it's better to prepare cash or use Zero Pay/Onnuri Gift Certificates for more benefits.",
@@ -199,6 +259,36 @@ const translations = {
     labelEmail: "メールアドレス",
     labelMessage: "お問い合わせ内容",
     btnSubmit: "送信する",
+    aboutHeroTitle: "伝統の価値をつなぐ",
+    aboutHeroDesc: "「ソウル伝統市場ガイド」は、近代化された都市の中で今もなお温かい人情と生活のエネルギーを保ち続けているソウルの伝統市場を記録し、紹介しています。私たちは地域経済の根幹である市場の魅력을発掘し、より多くの人々が市場の味と粋を体験できるよう支援するデジタルガイドです。",
+    mission1Title: "情報の価値",
+    mission1Desc: "断片化された市場情報を区別に体系的に整理し、誰でも簡単にアクセスできる正確な情報を提供します。",
+    mission2Title: "ローカルコンテンツ",
+    mission2Desc: "単なる商店リストを超え、各市場だけが持つ独自のストーリーと代表的な食べ物を深く掘り下げます。",
+    mission3Title: "グローバルな普及",
+    mission3Desc: "4カ国語対応を通じて、ソウルを訪れる外国人観光客にも韓国伝統市場の魅力を広く伝えます。",
+    promiseTitle: "私たちの約束",
+    promiseDesc: "私たちは商業的な見返りなしに、純粋に伝統市場の活性化のために情報を共有しています。誤った情報がある場合や、提案したい市場がある場合は、下のお問い合わせフォームからいつでもご連絡ください。",
+    privacyTitle: "個人情報保護方針",
+    privacyIntro: "本個人情報保護方針は、「ソウル伝統市場ガイド」（以下「当サイト」）のサービス利用に関連して、利用者の個人情報をどのように収集、利用、保護するかについて説明します。",
+    section1Title: "1. 収集する個人情報の項目",
+    section1Desc: "当サイトは別途の会員登録なしで利用可能です。ただし、「お問い合わせ」フォームをご利用の場合、以下の情報を収集します：",
+    item11: "必須項目：お名前／会社名、メールアドレス",
+    item12: "選択項目：お問い合わせ内容",
+    section2Title: "2. 個人情報の収集および利用目的",
+    section2Desc: "収集された個人情報は、以下の目的のためにのみ活用されます：",
+    item21: "お問い合わせ事項への回答および相談処理",
+    item22: "サービス向上のための統計分析（非識別情報）",
+    section3Title: "3. クッキー（Cookie）および広告に関する案内",
+    section3Desc: "当サイトは、Googleアドセンス（Google AdSense）を含む第三者広告システムを利用することがあります。Googleを含む第三者配信事業者は、利用者の過去の訪問記録に基づいて広告を配信するためにクッキーを使用します。",
+    item31: "Googleの広告クッキーを使用することで、Googleおよびそのパートナーは利用者の当サイトや他のサイトへの訪問履歴に基づき、適切な広告を提供することができます。",
+    item32: "利用者は、Google広告設定ページを訪問してパーソナライズ広告の掲載を停止できます。",
+    item33: "当社は利用者の関心を把握し、サイトのトラフィックやインタラクションデータをコンパイルするために、サードパーティサービスと協力することがあります。",
+    section4Title: "4. 個人情報の保有および利用期間",
+    section4Desc: "収集された個人情報は、原則として個人情報の収集および利用目的が達成された後、遅滞なく破棄します。ただし、関係法令の規定により保存する必要がある場合は、当該法令で定めた期間保管します。",
+    section5Title: "5. 第三者提供および委託",
+    section5Desc: "当サイトは、利用者の個人情報を原則として外部に提供または委託しません。ただし、利用者が事前に同意した場合や法令の規定に基づく場合は例外とします。",
+    privacyDate: "告知日：2026年3月24日 ／ 施行日：2026年3月24日",
     guideTitle: "ソウル伝統市場100%満喫ガイド",
     guideTip1Title: "支払いはどうすればいいですか？",
     guideTip1Desc: "ほとんどの市場店舗でクレジットカードやモバイル決済が可能です。しかし、小さな屋台や伝統的なおやつを買うときは、現金を準備するか、ゼロペイ(Zero Pay)を利用すると便利で特典も多いです。",
@@ -278,11 +368,41 @@ const translations = {
     labelEmail: "电子邮箱",
     labelMessage: "咨询内容",
     btnSubmit: "提交",
+    aboutHeroTitle: "传承传统价值",
+    aboutHeroDesc: "“首尔传统市场指南”旨在记录并介绍在现代化都市中依然保有温暖情谊与生活活力的首尔传统市场。我们是一个数字指南, 致力于挖掘作为地方经济根基的市场魅力, 帮助更多人体验市场的美味与风情。",
+    mission1Title: "信息的价值",
+    mission1Desc: "我们将零散的市场信息按行政区进行系统整理, 提供任何人都能轻松查询的准确信息。",
+    mission2Title: "本土内容",
+    mission2Desc: "超越单纯的商店列表, 深入探寻每个市场独有的故事和代表性美食。",
+    mission3Title: "全球传播",
+    mission3Desc: "通过支持4种语言, 向访问首尔的外国游客广泛宣传韩国传统市场的魅力。",
+    promiseTitle: "我们的承诺",
+    promiseDesc: "我们纯粹是为了传统市场的活化而分享信息, 不收取任何商业报酬。如果有错误信息或您想推荐的市场, 请随时通过下方的咨询表联系我们。",
+    privacyTitle: "隐私政策",
+    privacyIntro: "本隐私政策说明了“首尔传统市场指南”（以下简称“本站”）在提供服务过程中如何收集、使用和保护用户的个人信息。",
+    section1Title: "1. 收集的个人信息项",
+    section1Desc: "本站无需单独注册会员即可使用。但如果您使用“咨询”表单, 我们将收集以下信息：",
+    item11: "必填项：姓名/公司名称、电子邮箱地址",
+    item12: "可选项：咨询内容",
+    section2Title: "2. 个人信息的收集及使用目的",
+    section2Desc: "收集的个人信息仅用于以下目的：",
+    item21: "回答咨询事项及处理相关咨询",
+    item22: "用于改善服务的统计分析（非识别信息）",
+    section3Title: "3. Cookie 及广告相关说明",
+    section3Desc: "本站可能会使用包含 Google AdSense 在内的第三方广告系统。包括 Google 在内的第三方供应商会根据用户之前的访问记录使用 Cookie 来投放广告。",
+    item31: "通过使用 Google 的广告 Cookie, Google 及其合作伙伴可以根据用户访问本站及其他网站的历史记录提供合适的广告。",
+    item32: "用户可以访问 Google 广告设置页面来停止接收个性化广告。",
+    item33: "我们可能会与第三方服务合作, 以识别用户的兴趣并汇编网站流量和交互数据。",
+    section4Title: "4. 个人信息的保留及使用期限",
+    section4Desc: "原则上, 个人信息在实现收集和使用目的后会立即销毁。但如果根据相关法律法规的规定需要保存, 则在相关法律规定的期限内保存。",
+    section5Title: "5. 向第三方提供及委托",
+    section5Desc: "原则上, 本站不会向外部提供或委托用户的个人信息。但在用户事先同意或根据法律法规规定的情况除外。",
+    privacyDate: "公告日期：2026年3月24日 / 施行日期：2026年3月24日",
     guideTitle: "首尔传统市场 100% 游玩指南",
     guideTip1Title: "如何支付？",
-    guideTip1Desc: "大多数市场商店都接受信用卡和移动支付。但在小摊位或购买传统零食时, 最好准备现金或使用 Zero Pay, 这样更方便且优惠更多。",
+    guideTip1Desc: "大多数市场商店都接受信用卡和移动支付。但在小摊位或购买传统零食时, 最好准备现金 or 使用 Zero Pay, 这样更方便且优惠更多。",
     guideTip2Title: "什么时候去最好？",
-    guideTip2Desc: "大多数市场在上午 9 点到晚上 7 点之间最为活跃。像广藏市场或南大门市场, 夜市或美食街会营业到很晚（晚上 10-11 点）, 建议访问前确认官方营业时间。",
+    guideTip2Desc: "大多数市场在上午 9 点到晚上 7 点之间最为活跃。像广藏市场 or 南大门市场, 夜市 or 美食街会营业到很晚（晚上 10-11 点）, 建议访问前确认官方营业时间。",
     guideTip3Title: "停车及公共交通提示",
     guideTip3Desc: "首尔的传统市场通常离地铁站非常近。由于停车位可能有限, 强烈建议乘坐公共交通工具。如果需要停车, 可以使用市场周边的公营停车场。",
     miscMarketName: "首尔特别市传统市场列表",
@@ -334,7 +454,7 @@ const marketsData = [
       ko: { name: "광장시장", description: "100년이 넘는 역사를 가진 대한민국 최초의 상설시장으로, 종로의 중심에서 서울의 활기찬 에너지를 고스란히 느낄 수 있는 곳입니다. 이곳은 단순한 시장을 넘어 한국의 근현대사를 함께해온 역사적 장소이며, 전 세계 여행객들이 한국의 시장 문화를 경험하기 위해 반드시 찾는 명소입니다. 빈대떡, 마약김밥, 육회 등 입맛을 사로잡는 다양한 길거리 음식들이 가득하여 미식가들에게는 천국과 같은 공간입니다. 또한 한복과 직물 등 전통 상품들도 만나볼 수 있어 한국의 멋과 맛을 동시에 느낄 수 있는 특별한 경험을 선사합니다. 밤이 되면 야시장이 열려 더욱 활기찬 분위기를 자랑합니다.", food: "빈대떡, 마약김밥, 육회", sights: "한복 거리, 구제 시장, 야시장" },
       en: { name: "Gwangjang Market", description: "With a history of over 100 years, Gwangjang Market is Korea's first permanent market, where you can experience the vibrant energy of Seoul in the heart of Jongno. Beyond being a simple market, it is a historic site that has witnessed Korea's modern history and is a must-visit destination for world travelers looking to experience Korean market culture. It is a paradise for foodies, filled with various street foods like Bindaetteok (mung bean pancakes), Mayak Gimbap, and Yukhoe (beef tartare). You can also find traditional items such as Hanbok and textiles, offering a special experience where you can enjoy both the style and taste of Korea. At night, the market becomes even more lively with its famous night market.", food: "Bindaetteok, Mayak Gimbap, Beef Tartare", sights: "Hanbok Street, Vintage Market, Night Market" },
       ja: { name: "広蔵市場", description: "100年以上の歴史を持つ韓国初の常設市場であり, 鍾路の中心でソウルの活気あるエネルギーをそのまま感じることができる場所です。ここは単なる市場を超え, 韓国の近現代史を共にしてきた歴史的な場所であり, 世界中の旅行者が韓国の市場文化を体験するために必ず訪れる名所です。ピン데토ッ（緑豆チヂミ）, 麻薬キンパ, ユッケなど, 味覚を魅了する多様な屋台料理が溢れており, 美食家たちには天国のような空間です。また, 韓服や織物などの伝統商品も目にすることができ, 韓国の粋と味を同時に楽しめる特別な体験をプレゼントします。夜になると夜市が開かれ, さらに活気に満치た雰囲気を誇ります。", food: "ピン데토ッ, 麻薬キンパ, ユッケ", sights: "韓服通り, 古着市場, 夜市" },
-      zh: { name: "广藏市场", description: "拥有100多年历史的韩国首家常设市场, 是在钟路中心感受首尔充满活力的能量的最佳地点。这里不仅仅是一个市场, 还是一个见证了韩国近现代史的历史性场所, 也是全球游客体验韩国市场文化必访的圣地。这里布满了绿豆饼、麻药紫菜包饭、肉脍等各种勾人食欲的街头美食, 对美食家来说简直是天堂。此外, 还可以看到韩服和织物等传统商品, 为游客提供能同时感受韩国之美与韩国之味的特别体验。到了晚上, 这里会举办夜市, 氛围更加热闹非凡。", food: "绿豆饼, 麻药紫菜包饭, 肉脍", sights: "韩服街, 二手市场, 夜市" }
+      zh: { name: "广藏市场", description: "拥有100多年历史的韩国首家常设市场, 是在钟路中心感受首尔充满活力的能量的最佳地点。这里不仅仅是一个市场, 还是一个见证了韩国近现代史的历史性场所, 也是全球游客体验韩国市场文化必访的圣地。这里布满了绿豆饼、麻药紫菜包饭、肉脍等各种勾人食欲의 街头美食, 对美食家来说简直是天堂。此外, 还可以看到韩服和织物等传统商品, 为游客提供能同时感受韩国之美与韩国之味的特别体验。到了晚上, 这里会举办夜市, 氛围更加热闹非凡。", food: "绿豆饼, 麻药紫菜包饭, 肉脍", sights: "韩服街, 二手市场, 夜市" }
     }
   },
   {
@@ -347,7 +467,7 @@ const marketsData = [
       ko: { name: "남대문시장", description: "숭례문 인근에 위치한 한국 최대 규모의 전통시장으로, '고양이 뿔 빼고 다 있다'는 말이 있을 정도로 엄청난 규모를 자랑합니다. 아동복, 액세서리, 주방용품, 카메라 등 수만 가지 품목이 거래되는 만물시장이며, 도소매가 동시에 이루어져 항상 활기가 넘칩니다. 갈치조림 골목과 칼국수 골목은 남대문시장을 방문할 때 반드시 들러야 하는 필수 코스로 유명합니다. 외국인 관광객들에게는 한국의 쇼핑 문화를 가장 생생하게 느낄 수 있는 장소이며, 주변에 숭례문과 남산타워가 위치해 있어 관광 코스로도 매우 훌륭합니다.", food: "갈치조림, 칼국수, 호떡", sights: "숭례문, 액세서리 상가, 카메라 거리" },
       en: { name: "Namdaemun Market", description: "Located near Sungnyemun Gate, Namdaemun Market is Korea's largest traditional market, boasting an incredible scale where it's said they have 'everything except cat horns.' It is a true 'everything market' where tens of thousands of items including children's clothing, accessories, kitchenware, and cameras are traded, and it's always bustling with both wholesale and retail activities. The Braised Cutlassfish Alley and Kalguksu Alley are famous must-visit spots when visiting Namdaemun Market. For foreign tourists, it is the best place to vividly experience Korean shopping culture, and its proximity to Sungnyemun Gate and Namsan Tower makes it an excellent addition to any sightseeing course.", food: "Braised Cutlassfish, Kalguksu, Hotteok", sights: "Sungnyemun Gate, Wholesale Accessories, Camera Street" },
       ja: { name: "南大門市場", description: "崇礼門の近くに位置する韓国最大規模の伝統市場で, 「猫の角以外は何でもある」と言われるほど膨大な規模を誇ります。子供服, アクセサリー, 厨房用品, カメラなど数万種類の品目が取引される万物市場であり, 卸・小売が同時に行われ, 常に活気に満ち溢れています。太刀魚の煮付け通りとカルグクス通りは, 南大門市場を訪れる際に必ず立ち寄るべき必須コースとして有名です。外国人観光客にとっては, 韓国のショッピング文化を最も生き生きと感じられる場所であり, 周辺に崇礼門と南山タワーが位置しているため, 観光コースとしても非常に優れています。", food: "太刀魚の煮付け, カルグクス, ホットク", sights: "崇礼門, アクセサリー卸売商街, カメラ通り" },
-      zh: { name: "南大门市场", description: "位于崇礼门附近的韩国最大规模传统市场, 规模之大令人惊叹, 甚至有“除了猫角什么都有”的说法。这里是一个万物市场, 交易着童装、饰品、厨房用品、相机等数万种商品, 批发和零售同时进行, 始终充满活力。炖带鱼胡同和刀切面胡同是访问南大门市场时必去的打卡地。对于外国游客来说, 这里是能最生动地感受韩国购物文化的地方, 且周边紧邻崇礼门和南山塔, 作为旅游线路也非常出色。", food: "炖带鱼, 刀切面, 糖饼", sights: "崇礼门, 饰品批发商街, 相机街" }
+      zh: { name: "南大门 market", description: "位于崇礼门附近的韩国最大规模传统市场, 规模之大令人惊叹, 甚至有“除了猫角什么都有”的说法。这里是一个万物市场, 交易着童装、饰品、厨房用品、相机等数万种商品, 批发和零售同时进行, 始终充满活力。炖带鱼胡同和刀切面胡同是访问南大门市场时必去的打卡地。对于外国游客来说, 这里是能最生动地感受韩国购物文化的地方, 且周边紧邻崇礼门和南山塔, 作为旅游线路也非常出色。", food: "炖带鱼, 刀切面, 糖饼", sights: "崇礼门, 饰品批发商街, 相机街" }
     }
   },
   {
@@ -373,7 +493,7 @@ const marketsData = [
       ko: { name: "통인시장", description: "경복궁 서쪽 서촌 한복판에 위치한 아담하고 정겨운 시장입니다. 이곳의 가장 큰 특징은 시장 내에서 통용되는 '엽전'을 구매하여 자신만의 도시락을 구성해 먹는 '엽전 도시락' 카페입니다. 엽전을 들고 시장 곳곳을 돌며 기름떡볶이, 전, 나물 등 원하는 반찬을 골라 담는 재미가 있어 내외국인 모두에게 인기가 매우 높습니다. 규모는 작지만 서촌 한옥마을의 고즈넉한 분위기와 어우러져 독특한 매력을 발산하며, 식사 후 경복궁이나 청와대를 방문하기에도 최적의 위치를 자랑합니다. 옛 정취를 느끼며 즐거운 식사 경험을 할 수 있는 곳입니다.", food: "기름떡볶이, 엽전 도시락", sights: "경복궁, 서촌 한옥마을" },
       en: { name: "Tongin Market", description: "Located in the heart of Seochon, to the west of Gyeongbokgung Palace, Tongin Market is a cozy and charming market. Its most unique feature is the 'Yeopjeon (Brass Coin) Lunchbox' cafe, where you can purchase traditional coins to create your own customized lunchbox. It is highly popular among both locals and foreigners for the fun of walking around the market with brass coins and picking out dishes like Oil Tteokbokki, pancakes, and seasoned vegetables. Though small in scale, it exudes unique charm by harmonizing with the tranquil atmosphere of Seochon Hanok Village. It's ideally located for a visit to Gyeongbokgung Palace or the Blue House after a meal, offering a delightful dining experience with a nostalgic feel.", food: "Oil Tteokbokki, Coin Lunchbox", sights: "Gyeongbokgung Palace, Seochon Village" },
       ja: { name: "通仁市場", description: "景福宮の西側, 西村（ソチョン）のど真ん中に位置するこぢんまりとした趣のある市場입니다。ここの最大の特徴は, 市場内で流通する「葉銭（ヨプジョン）」を購入し, 自分だけのお弁当を構成して食べる「葉銭弁当」カフェ입니다。葉銭を持って市場のあちこちを回りながら, 油トッポギ, ジョン（チヂミ）, ナムルなど好みの おかずを選んで盛り付ける楽しさがあり, 内外国人の両方に非常に人気があります。規模は小さいですが, 西村韓屋村の静かな雰囲気と調和して独特の魅力を放っており, 食事の後に景福宮や青瓦台を訪れるのにも最適な立地を誇ります。昔の情緒を感じながら楽しい食事体験ができる場所です。", food: "油トッポギ, お弁当カフェ", sights: "景福宮, 西村韓屋村" },
-      zh: { name: "通仁市场", description: "位于景福宫西侧西村中心的通仁市场是一个小巧而温馨的市场。这里最大的特色是“铜钱便当”咖啡馆, 游客可以购买市场内通用的“铜钱”, 然后用它们挑选自己喜欢的菜肴组成便当。拿着铜钱在市场各处走动, 挑选油炒年糕、各类煎饼、凉拌菜等小吃的乐趣, 使其深受国内外游客的 喜爱。虽然规模不大, 但它与西村韩屋村幽静的氛围相得益彰, 散发着独特的魅力。这里地理位置优越, 饭后非常方便前往景福宫或青瓦台参观, 是一个可以感受怀旧情调并享受愉快用餐体验的好地方。", food: "油炒年糕, 铜钱便当", sights: "景福宫, 西村韩屋村" }
+      zh: { name: "通仁市场", description: "位于景福宫西侧西村中心的通仁市场是一个小巧而温馨的市场。这里最大的特色是“铜钱便当”咖啡馆, 游客可以购买市场内通用的“铜钱”, 然后用它们挑选自己喜欢的菜肴组成便当。拿着铜钱在市场各处走动, 挑选油炒年糕、各类煎饼、凉拌菜等小吃的乐趣, 使其深受国内外游客的 喜爱。虽然规模不大, 但它与西村韩屋村幽静의 氛围相得益彰, 散发着独特的魅力。这里地理位置优越, 饭后非常方便前往景福宫或青瓦台参观, 是一个可以感受怀旧情调并享受愉快用餐体验的好地方。", food: "油炒年糕, 铜钱便当", sights: "景福宫, 西村韩屋村" }
     }
   },
   {
@@ -411,7 +531,7 @@ const marketsData = [
     translations: {
       ko: { name: "서울풍물시장", description: "세월의 흔적이 묻어나는 골동품과 추억 속의 물건들이 가득한 국내 최대의 풍물시장입니다. 옛날 레코드판(LP), 고가구, 낡은 카메라, 구제 옷 등 과거로 시간 여행을 떠나는 듯한 독특한 분위기를 자아냅니다. 시장 내부에는 '추억의 거리' 테마존이 마련되어 있어 옛날 만화방이나 이발소를 재현해 놓아 기성세대에게는 향수를, 젊은 세대에게는 이색적인 볼거리를 제공합니다. 청계천 산책길과 연결되어 있어 가벼운 산책과 함께 보물 찾기를 하듯 시장을 구경하는 재미가 쏠쏠합니다. 세상에 단 하나뿐인 독특한 아이템을 발견할 수 있는 특별한 장소입니다.", food: "전통 주전부리", sights: "청계천 산책길, 추억의 거리" },
       en: { name: "Seoul Folk Flea Market", description: "The Seoul Folk Flea Market is Korea's largest flea market, filled with antiques showing the traces of time and items full of memories. It creates a unique atmosphere that feels like traveling back in time, featuring old vinyl records (LP), antique furniture, vintage cameras, and second-hand clothes. Inside the market, the 'Memories Street' theme zone recreates old cartoon shops and barbershops, offering nostalgia to the older generation and unique sights to the younger generation. Since it's connected to the Cheonggyecheon Stream walking path, it's fun to explore the market as if on a treasure hunt during a light stroll. It's a special place where you can discover one-of-a-kind items.", food: "Traditional Snacks", sights: "Cheonggyecheon Walk, Memories Street" },
-      ja: { name: "ソウル風物市場", description: "歳月の痕跡が感じられる骨董品や思い出の品々が並ぶ国内最大の風物市場です。昔のレコード（LP）, 古家具, 古いカメラ, 古着など, 過去へとタイムスリップしたような独特な雰囲気を醸し出しています。市場内部には「思い出の通り」テーマゾーンが設けられており, 昔の漫画喫茶や理髪店が再現され, 既成世代には郷愁を, 若い世代には異色の見どころを提供しています。清渓川（チョンゲチョン）の散歩道と繋がっており, 軽い散歩とともに宝探しをするように市場を見学する楽しさがあります。世界に一つだけのユニークなアイテムを見つけることができる特別な場所です。", food: "伝統的なおやつ", sights: "清渓川散歩道, 思い出の通り" },
+      ja: { name: "ソウル風物市場", description: "歳月の痕跡が感じられる骨董品や思い出の品々が並ぶ国内最大の風物市場です。昔のレコード（LP）, 古家具, 古いカメラ, 古着など, 過去へとタイムスリップしたような独特な雰囲기를 醸し出しています。市場内部には「思い出の通り」テーマゾーンが設けられており, 昔の漫画喫茶や理髪店が再現され, 既成世代には郷愁を, 若い世代には異色の見どころを提供しています。清渓川（チョンゲチョン）の散歩道と繋がっており, 軽い散歩とともに宝探しをするように市場を見学する楽しさがあります。世界に一つだけのユニークなアイテムを見つけることができる特別な場所です。", food: "伝統的なおやつ", sights: "清渓川散歩道, 思い出の通り" },
       zh: { name: "首尔风物市场", description: "首尔风物市场是韩国最大的风物市场, 这里充满了岁月痕迹的古董和承载回忆的物品。老唱片(LP)、旧家具、旧相机、二手衣物等营造出一种仿佛穿越时空的独特氛围。市场内设有“回忆之街”主题区, 再现了旧时的漫画房和理发店, 为中老年人提供怀旧情怀, 为年轻人提供新奇的看点。市场与清溪川散步道相连, 在轻松散步的同时, 像寻宝一样逛市场也别有一番乐趣。这是一个能发现世界上独一无二奇特物品的特别场所。", food: "传统零食", sights: "清溪川散步道, 回忆之街" }
     }
   },
@@ -450,7 +570,7 @@ const marketsData = [
     translations: {
       ko: { name: "서울중앙시장", description: "중구 황학동에 위치한 유서 깊은 시장으로, 한때 서울 3대 시장으로 꼽힐 만큼 거대한 위상을 자랑했던 곳입니다. 최근 신당동 일대가 '힙당동'이라 불리며 트렌디한 지역으로 부상함에 따라, 이 시장 역시 젊은 감각의 맛집과 펍들이 들어서며 세대를 아우르는 명소로 탈바꿈하고 있습니다. 수제 어묵, 호떡, 보리밥 등 전통적인 시장 먹거리와 함께 와인 바나 카페 같은 세련된 공간이 공존하는 독특한 풍경을 자아냅니다. 시장 골목 사이사이 숨겨진 맛집을 찾아다니는 재미가 쏠쏠하며, 인근 신당동 떡볶이 타운과 연계하여 미식 투어를 즐기기에 매우 훌륭한 장소입니다.", food: "보리밥, 수제 어묵", sights: "신당동 떡볶이 타운" },
       en: { name: "Seoul Central Market", description: "A historic market located in Hwanghak-dong, Jung-gu, it once boasted a grand status as one of Seoul's top three markets. Recently, as the Sindang-dong area has risen as a trendy neighborhood called 'Hip-dang-dong,' this market has also been transformed into a cross-generational landmark with the emergence of young-vibe eateries and pubs. It creates a unique landscape where traditional market foods like handmade fish cakes, Hotteok (sweet pancakes), and barley rice coexist with sophisticated spaces like wine bars and cafes. Searching for hidden gems among the market alleys is a delight, and its connection to the nearby Sindang-dong Tteokbokki Town makes it an excellent place for a culinary tour.", food: "Barley Rice, Handmade Fish Cakes", sights: "Sindang-dong Tteokbokki Town" },
-      ja: { name: "ソウル中央市場", description: "中区黄鶴洞（ファンハクトン）に位置する由緒ある市場で, かつてソウル三大市場に数えられるほど巨大な威容を誇った場所です。最近, 新堂洞（シンダンドン）一帯が「ヒップダンドン」と呼ばれトレンディな地域として浮上したことに伴い, この市場もまた若い感覚の美味しい店やパブが誕生し, 世代を問わず愛される名所へと変貌を遂げています。手作りさつま揚げ, ホットク, 麦ご飯などの伝統的な市場の食べ物とともに, ワインバーやカフェのような洗練された空間が共存する独特な風景を醸し出しています。市場の路地のあちこちに隠れた名店を探し出す楽しさがあり, 近くの新堂洞トッポギタウンと連携して美食ツアーを楽しむのに非常に優れた場所です。", food: "麦ご飯, 手作りさつま揚げ", sights: "新堂洞トッポギタウン" },
+      ja: { name: "ソウル中央市場", description: "中区黄鶴洞（ファンハクトン）に位置する由緒ある市場で, かつてソウル三大市場に数えられるほど巨大な威容を誇った場所です。最近, 新堂洞（シンダンドン）一帯が「ヒップダンドン」と呼ばれトレンディな地域として浮上したことに伴い, この市場もまた若い感覚の美味しい店やパブが誕生し, 世代を問わず愛される名所へと変貌を遂げています。手作りさつま揚げ, ホットク, 麦ご飯などの伝統적인 市場の食べ物とともに, ワインバーやカフェのような洗練された空間が共存する独特な風景を醸し出しています。市場の路地のあちこちに隠れた名店を探し出す楽しさがあり, 近くの新堂洞トッポギタウンと連携して美食ツアーを楽しむのに非常に優れた場所です。", food: "麦ご飯, 手作りさつま揚げ", sights: "新堂洞トッポギタウン" },
       zh: { name: "首尔中央市场", description: "位于中区黄鹤洞的首尔中央市场历史悠久, 曾被誉为首尔三大市场之一, 拥有极高的地位。随着最近新堂洞一带被称为“Hip堂洞”并成长为时尚地带, 该市场也入驻了许多符合年轻人品味的美食店和酒吧, 蜕变为一个跨越世代的胜地。这里呈现出独特景象：手工鱼饼、糖饼、大麦饭等传统市场美食与红酒吧、咖啡馆等精致空间共存。在市场胡同间寻找隐藏美食店的乐趣十足, 与周边的新堂洞年糕街联动进行美食之旅也是极佳的选择。", food: "大麦饭, 手工鱼饼", sights: "新堂洞年糕街" }
     }
   },
@@ -476,7 +596,7 @@ const marketsData = [
     translations: {
       ko: { name: "마장 축산물시장", description: "대한민국 최대 규모이자 수도권 육류 유통의 중심지로, 신선하고 고품질의 한우를 가장 합리적인 가격에 만날 수 있는 축산물 특화 시장입니다. 시장 골목마다 정육점들이 즐비하며, 마블링이 예술인 한우를 직접 골라 식당에서 바로 구워 먹는 재미가 일품입니다. 육회, 한우 구이 등 최고급 고기 요리를 푸짐하게 즐길 수 있어 고기 애호가들에게는 성지와 같은 곳입니다. 도축 직후의 신선한 고기를 취급하여 맛과 신선도 면에서 압도적이며, 최근에는 온라인 배송과 깔끔한 포장 서비스도 잘 갖추어져 있습니다. 청계천 산책로와 인접해 있어 식사 후 가벼운 산책을 즐기기에도 최적의 위치입니다.", food: "한우 구이, 육회", sights: "청계천 산책로" },
       en: { name: "Majang Meat Market", description: "The largest specialized livestock market in Korea and the center of meat distribution in the metropolitan area, Majang Meat Market is where you can find fresh, high-quality Hanwoo beef at the most reasonable prices. Butcher shops line every alley of the market, and the experience of directly choosing Hanwoo with artistic marbling and grilling it right away at a nearby restaurant is top-notch. It is a sanctuary for meat lovers, offering generous portions of top-tier meat dishes like Yukhoe (beef tartare) and grilled Hanwoo. Handling meat fresh from slaughter ensures overwhelming taste and freshness, and recently, online delivery and clean packaging services have also become well-established. Its proximity to the Cheonggyecheon Stream walking path makes it an ideal location for a light stroll after a meal.", food: "Grilled Hanwoo, Beef Tartare", sights: "Cheonggyecheon Stream Walk" },
-      ja: { name: "馬場畜産物市場", description: "韓国最大規模であり首都圏の精肉流通の中心地で, 新鮮で高品質な韓牛（ハヌ）を最も合理的な価格で楽しむことができる畜産物特化市場です。市場の路地ごとに精肉店が立ち並び, マーブル模様が芸術的な 韓牛を直接選び, 食堂ですぐに焼いて食べる楽しさは格別입니다. ユッケ, 韓牛焼きなどの最高級の肉料理をふんだんに楽しむことができ, お肉愛好家にとっては聖地のような場所です。屠畜直後の新鮮な肉を扱っているため, 味と鮮度の面で圧倒적であり, 最近はオンライン配送や清潔な包装サービスも整っています。清渓川（チョンゲチョン）の散歩道と隣接しており, 食事の後に軽い散歩を楽しむのにも最適な場所です。", food: "韓牛焼き, ユッケ", sights: "清渓川散歩道" },
+      ja: { name: "馬場畜産物市場", description: "韓国最大規模であり首都圏の精肉流通の中心地で, 新鮮で高品質な韓牛（ハヌ）を最も合理적인 価格で楽しむことができる畜産物特化市場です。市場の路地ごとに精肉店が立ち並び, マーブル模様が芸術的な 韓牛を直接選び, 食堂ですぐに焼いて食べる楽しさは格別입니다. ユッケ, 韓牛焼きなどの最高級の肉料理をふんだんに楽しむことができ, お肉愛好家にとっては聖地のような場所です。屠畜直後の新鮮な肉を扱っているため, 味と鮮度の面で圧倒적であり, 最近はオンライン配送や清潔な包装サービスも整っています。清渓川（チョンゲチョン）の散歩道と隣接しており, 食事の後に軽い散歩を楽しむのにも最適な場所です。", food: "韓牛焼き, ユッケ", sights: "清渓川散歩道" },
       zh: { name: "马场畜产物市场", description: "作为韩国最大规模及首都圈肉类流通中心, 这里是能以最合理的价格购买到新鲜高品质韩牛的畜产品特化市场。市场胡同内肉铺林立, 亲自挑选大理石花纹完美的韩牛并直接在餐厅烤食的乐趣绝佳。这里可以尽情享用肉脍、烤韩牛等最高级肉类料理, 是肉食爱好者의 圣地。由于经营屠宰后直接运达的新鲜肉类, 在口感和新鲜度上具有压倒性优势, 最近在线配送和整洁的包装服务也一应洁全。市场紧邻清溪川散步道, 非常适合饭后享受轻松的散步。", food: "烤韩牛, 肉脍", sights: "清溪川散步道" }
     }
   },
@@ -489,7 +609,7 @@ const marketsData = [
     translations: {
       ko: { name: "노량진수산시장", description: "100년 가까운 역사를 자랑하는 서울 최고의 수산물 도매시장으로, 현대화 사업을 통해 깔끔한 복합 문화 공간으로 재탄생했습니다. 새벽마다 열리는 활기찬 경매 현장부터 제철 해산물을 바로 골라 즐길 수 있는 식당가까지, 오감을 만족시키는 바다의 생동감이 넘쳐나는 곳입니다. 모둠회, 킹크랩, 매운탕 등 신선한 해산물 요리를 합리적인 가격에 즐길 수 있어 내외국인 모두에게 필수 관광 코스로 꼽힙니다. 한강과 여의도 야경이 내려다보이는 훌륭한 조망권을 갖춘 식당들도 많아 특별한 저녁 식사를 하기에도 좋습니다. 서울 도심 한복판에서 바다의 신선함을 만끽할 수 있는 최고의 장소입니다.", food: "모둠회, 매운탕, 킹크랩", sights: "경매 현장, 여의도 야경" },
       en: { name: "Noryangjin Fish Market", description: "Boasting nearly 100 years of history, Noryangjin Fish Market is Seoul's premier seafood wholesale market, reborn as a clean complex cultural space through modernization. From the vibrant auction scenes held every dawn to the restaurant area where you can immediately enjoy seasonal seafood you've selected, it is a place overflowing with the vitality of the sea that satisfies all five senses. Enjoying fresh seafood dishes like assorted sashimi, king crab, and Maeuntang (spicy fish stew) at reasonable prices makes it a essential tourist course for both locals and foreigners. Many restaurants offer excellent views of the Han River and the Yeouido nightscape, making it a great spot for a special dinner. It is the best place to enjoy the freshness of the ocean in the middle of downtown Seoul.", food: "Assorted Sashimi, Fish Stew, King Crab", sights: "Auction Scene, Yeouido Night View" },
-      ja: { name: "鷺梁津水産市場", description: "100年近い歴史を誇るソウル最高の水産物卸売市場で, 現代化事業を通じて清潔な複合文化空間として生まれ変わりました。早朝ごとに開かれる活気ある競りの現場から, 旬の海産物をすぐに選んで楽しめる食堂街まで, 五感を満足させる海の躍動感があふれる場所です。刺身の盛り合わせ, キングクラブ, メウンタン（辛い魚鍋）などの新鮮な海鮮料理を合理的な価格で楽しむことができ, 内外国人の両方にとって必須の観光コースに挙げられます。漢江（ハンガン）と汝矣島（ヨイド）の夜景が見下ろせる優れた眺望を持つ食堂も多く, 特別なディナーを楽しむのにも適しています。ソウルの都心の真ん中で海の新鮮さを満喫できる最高の場所です。", food: "刺身の盛り合わせ, 메운탕, カニ料理", sights: "競りの現場, 汝矣島の夜景" },
+      ja: { name: "鷺梁津水産市場", description: "100年近い歴史を誇るソウル最高の水産物卸売市場で, 現代化事業を通じて清潔な複合文化空間として生まれ変わりました。早朝ごとに開かれる活気ある競りの現場から, 旬の海産物をすぐに選んで楽しめる食堂街まで, 五感を満足させる海の躍動感があふれる場所です。刺身の盛り合わせ, キングクラブ, メウンタン（辛い魚鍋）などの新鮮な海鮮料理を合理적인 価格で楽しむことができ, 内外国人の両方にとって必須の観光コースに挙げられます。漢江（ハンガン）と汝矣島（ヨイド）の夜景が見下ろせる優れた眺望を持つ食堂も多く, 特別なディナーを楽しむのにも適しています。ソウルの都心の真ん中で海の新鮮さを満喫できる最高の場所です。", food: "刺身の盛り合わせ, メウンタン, カニ料理", sights: "競りの現場, 汝矣島の夜景" },
       zh: { name: "鹭梁津水产市场", description: "拥有近百年历史的鹭梁津水产市场是首尔顶级的海鲜批发市场, 通过现代化改造已焕发新生, 成为整洁的复合文化空间. 从每天凌晨举行的活力四射的拍卖现场, 到可以直接挑选并享用时令海鲜的餐厅区, 这里处处洋溢着满足五感的海洋生机。能以合理的价格享用综合刺身、帝王蟹、辣鱼汤等新鲜海鲜料理, 使其成为国内外游客必访的旅游线路。许多餐厅拥有可俯瞰汉江和汝矣岛夜景的绝佳视野, 非常适合享受特别的晚餐。这里是在首尔市中心尽情领略海洋新鲜气息的最佳去处。", food: "综合刺身, 辣鱼汤, 帝王蟹", sights: "拍卖现场, 汝矣岛夜景" }
     }
   },
@@ -502,7 +622,7 @@ const marketsData = [
     translations: {
       ko: { name: "수유시장", description: "서울 북부 강북구를 대표하는 전통시장으로, 매우 깔끔하게 정비된 현대적인 시설과 전통 시장 특유의 따뜻한 인심이 공존하는 모범적인 시장입니다. 아케이드 지붕이 설치되어 날씨와 상관없이 쾌적하게 쇼핑할 수 있으며, 상점들이 일목요연하게 정리되어 있어 구경하기에 매우 편리합니다. 떡볶이, 만두, 족발 등 시장의 정석이라 할 수 있는 먹거리들의 퀄리티가 매우 높고 가격 또한 저렴하여 인근 주민들의 든든한 사랑을 받고 있습니다. 북한산 국립공원 입구와 가까워 산행 전후에 들러 든든한 한 끼를 해결하기에도 더없이 좋으며, 사람 사는 냄새가 물씬 풍기는 정겨운 공간입니다.", food: "떡볶이, 만두, 족발", sights: "북한산 국립공원 입구" },
       en: { name: "Suyu Market", description: "A representative traditional market in Gangbuk-gu, northern Seoul, Suyu Market is a model market where very clean, modernized facilities coexist with the warm hospitality unique to traditional markets. With an arcade roof installed, you can shop pleasantly regardless of the weather, and the shops are organized systematically, making browsing very convenient. The quality of standard market foods like Tteokbokki, dumplings, and Jokbal (pigs' feet) is very high, and prices are affordable, earning it steady love from nearby residents. Being close to the entrance of Bukhansan National Park, it's a great place to stop for a hearty meal before or after a hike, providing a cozy space filled with the essence of local life.", food: "Tteokbokki, Dumplings, Jokbal", sights: "Bukhansan National Park Entrance" },
-      ja: { name: "水踰市場", description: "ソウル北部・江北区（カンブクク）を代表する伝統市場で, 非常に綺麗に整備された現代的な施設と伝統市場特有の温かい人情が共存する模範적인 市場です。アーケードの屋根が設置されており, 天候に関係なく快適にショッピングを楽しむことができ, 商店が一目瞭然に整理されているため見学するのに非常に便利です。トッポギ, マンドゥ（餃子）, 豚足（チョッパル）など, 市場の定番と言える食べ物の質が非常に高く, 価格도 安いため, 近隣住民から根強い人気を集めています。北漢山（プ칸サン）国立公園の入り口に近く, 登山前後に立ち寄って心強い食事を済ませるのにも最適で, 人々の暮らしの匂いが漂う趣のある空間です。", food: "トッポギ, マンドゥ, 豚足", sights: "北漢山国立公園入口" },
+      ja: { name: "水踰市場", description: "ソウル北部・江北区（カンブクク）を代表する伝統市場で, 非常に綺麗に整備された現代的な施設と伝統市場特有の温かい人情が共存する模範적인 市場です。アーケードの屋根が設置されており, 天候に関係なく快適にショッピングを楽しむことができ, 商店が一目瞭然に整理されているため見学するのに非常に便利です。トッポギ, マンドゥ（餃子）, 豚足（チョッ파ル）など, 市場の定番と言える食べ物の質が非常に高く, 価格도 安いため, 近隣住民から根強い人気を集めています。北漢山（プカンサン）国立公園の入り口に近く, 登山前後に立ち寄って心強い食事を済ませるのにも最適で, 人々の暮らしの匂いが漂う趣のある空間です。", food: "トッポギ, マンドゥ, 豚足", sights: "北漢山国立公園入口" },
       zh: { name: "水逾市场", description: "作为代表首尔北部江北区的传统市场, 水逾市场是一个整洁的现代化设施与传统市场特有的人情味并存的模范市场。市场安装了拱廊屋顶, 无论天气如何都能舒适购物, 店铺排列井然有序, 浏览起来非常方便。炒年糕、饺子、猪蹄等正宗市场美食的品质极高且价格低廉, 深受附近居民的喜爱。由于靠近北汉山国立公园入口, 非常适合在登山前后顺道吃上一顿丰盛的饭菜。这是一个洋溢着生活气息、充满温情的空间。", food: "炒年糕, 饺子, 猪蹄", sights: "水逾市场" }
     }
   },
@@ -515,7 +635,7 @@ const marketsData = [
     translations: {
       ko: { name: "영등포전통시장", description: "서울 서남권에서 최대 규모를 자랑하는 거대 시장으로, 농수산물, 공산품, 의류, 신발 등 상상을 초월하는 방대한 품목을 취급하는 유통의 허브입니다. 미로처럼 펼쳐진 시장 골목 사이사이에는 수십 년 전통의 노포들이 숨겨져 있어 진정한 미식가들의 발길이 끊이지 않습니다. 특히 순대국 골목은 영등포시장의 명물로, 진한 국물과 푸짐한 인심을 느낄 수 있는 가성비 최고의 식사 장소입니다. 주변의 화려한 타임스퀘어 쇼핑몰과 대비되는 전통적인 시장의 모습이 독특한 매력을 발산하며, 거친 듯하지만 따뜻한 사람들의 활기를 가장 생생하게 느낄 수 있는 리얼한 시장의 현장입니다.", food: "순대국, 머릿고기", sights: "영등포 타임스퀘어" },
       en: { name: "Yeongdeungpo Traditional Market", description: "A massive market boasting the largest scale in southwestern Seoul, it is a distribution hub handling a vast range of items beyond imagination, including agricultural and marine products, manufactured goods, clothing, and shoes. Hidden among the maze-like market alleys are decades-old restaurants that constantly attract true foodies. In particular, the Sundaeguk (Korean blood sausage soup) Alley is a specialty of Yeongdeungpo Market, offering the best value meals with rich broth and generous hospitality. The contrast between the traditional market and the nearby glamorous Times Square shopping mall creates a unique charm, providing a realistic market scene where you can most vividly feel the rugged yet warm energy of the people.", food: "Sundaeguk, Steamed Pork", sights: "Yeongdeungpo Times Square" },
-      ja: { name: "永登浦伝統市場", description: "ソウル南西圏で最大規模を誇る巨大な市場で, 農水産物, 工業製品, 衣類, 靴など, 想像を絶する膨大な品目を扱う流通のハブです。迷路のように広がる市場の路地のあちこちには, 数十年の伝統を持つ老舗が隠れており, 真の美食家たちの足が絶えません。特にスンデク（韓国式ソーセージスープ）通りは永登浦市場の名物で, 濃厚なスープとたっぷりとした人情を感じられるコスパ最高の食事場所입니다. 周辺の華やかなタイムズスクエア・ショッピングモールと対比される伝統的な市場の姿が独特な魅力を放っており, 荒削りながらも温かい人々の活気を最も生き生きと感じられるリアルな市場の現場です。", food: "スン데크, 머릿고기", sights: "永登浦タイムズスクエア" },
+      ja: { name: "永登浦伝統市場", description: "ソウル南西圏で最大規模を誇る巨大な市場で, 農水産物, 工業製品, 衣類, 靴など, 想像を絶する膨大な品目を扱う流通のハブです。迷路のように広がる市場の路地のあちこちには, 数十年の伝統を持つ老舗が隠れており, 真の美食家たちの足が絶えません。特にスン데ク（韓国式ソーセージスープ）通りは永登浦市場の名物で, 濃厚なスープとたっぷりとした人情を感じられるコスパ最高の食事場所입니다. 周辺の華やかなタイムズスクエア・ショッピングモールと対比される伝統的な市場の姿が独特な魅力を放っており, 荒削りながらも温かい人々の活気を最も生き生きと感じられるリアルな市場の現場です。", food: "スンデク, 머릿고기", sights: "永登浦タイムズスクエア" },
       zh: { name: "永登浦传统市场", description: "作为首尔西南地区规模最大的庞大市场, 这里是经营农水产品、工业品、服装、鞋类等超乎想象的广泛品类的流通枢纽。在迷宫般的市场胡同间, 隐藏着拥有数十年传统的百年老店, 资深美食家络绎不绝。特别是血肠汤胡同是永登浦市场的名产, 是能感受到浓郁汤头和慷慨人情味的性价比极高的用餐地点。与周边的华丽时代广场购物中心形成鲜明对比的传统市场面貌散发着独特魅力, 是能最生动地感受粗犷却温暖的人们活力的真实市场现场。", food: "血肠汤, 白切肉", sights: "永登浦时代广场" }
     }
   },
@@ -528,7 +648,7 @@ const marketsData = [
     translations: {
       ko: { name: "자양전통시장", description: "뚝섬 한강공원 인근에 위치한 정겹고 활기찬 시장으로, 저렴한 물가와 훌륭한 퀄리티의 주전부리들이 가득하여 주민들과 한강 나들이객들에게 사랑받는 곳입니다. 시장 곳곳에 스마트 배송 시스템과 현대화된 결제 수단이 잘 갖추어져 있어 '스마트 전통 시장'의 면모를 보여줍니다. 닭강정, 꽈배기, 즉석 칼국수 등 입맛을 돋우는 먹거리들이 저렴한 가격에 판매되어 부담 없이 즐길 수 있습니다. 한강 산책 후에 들러 간식을 사 먹거나 장을 보기에 매우 좋은 동선에 있으며, 상인들의 친절함과 활기찬 분위기 덕분에 방문할 때마다 기분이 좋아지는 따뜻한 시장입니다.", food: "닭강정, 꽈배기, 칼국수", sights: "뚝섬 한강공원" },
       en: { name: "Jayang Traditional Market", description: "A friendly and vibrant market located near Ttukseom Hangang Park, Jayang Traditional Market is loved by local residents and Han River visitors for its low prices and high-quality snacks. It demonstrates the aspect of a 'smart traditional market' with smart delivery systems and modernized payment methods established throughout. Appetite-whetting foods like Dakgangjeong (sweet and spicy fried chicken), twists, and instant Kalguksu are sold at affordable prices for everyone to enjoy. It's ideally located for grabbing snacks or grocery shopping after a stroll along the Han River, and the kindness of the merchants along with the lively atmosphere makes it a heartwarming market that brightens your mood upon every visit.", food: "Dakgangjeong, Twists, Kalguksu", sights: "Ttukseom Hangang Park" },
-      ja: { name: "紫陽伝統市場", description: "トゥクソム漢江公園の近くに位置する趣のある活気にあふれた市場で, 低価格で質の高い軽食が豊富に揃っており, 住民や漢江を訪れる人々へ愛されている場所입니다. 市場のあちこちにスマート配送システムや現代化された決済手段が整っており, 「スマート伝統市場」の面目を見せてくれます。タッカンジョン, クァベギ（ねじり揚げパン）, 即席カルグクスなど, 食欲をそそる食べ物が安く販売されており, 気軽に楽しむことができます。漢江の散歩の後に立ち寄って軽食を食べたり買い物をしたりするのに非常に良い動線にあり, 商人たちの親切さと活気に満ちた雰囲気のおかげで, 訪れるたびに気分が良くなる温かい市場です。", food: "タッカンジョン, クァベギ, 칼국수", sights: "トゥクソム漢江公園" },
+      ja: { name: "紫陽伝統市場", description: "トゥクソム漢江公園の近くに位置する趣のある活気にあふれた市場で, 低価格で質の高い軽食が豊富に揃っており, 住民や漢江を訪れる人々へ愛されている場所입니다. 市場のあちこちにスマート配送システムや現代化された決済手段が整っており, 「スマート伝統市場」の面目を見せてくれます。タッカンジョン, クァベギ（ねじり揚げパン）, 即席カルグクスなど, 食欲をそそる食べ物が安く販売されており, 気軽に楽しむことができます。漢江の散歩の後に立ち寄って軽食を食べたり買い物をしたりするのに非常に良い動線にあり, 商人たちの親切さと活気に満ちた雰囲気のおかげで, 訪れるたびに気分が良くなる温かい市場です。", food: "タッカンジョン, クァベギ, カル국수", sights: "トゥクソム漢江公園" },
       zh: { name: "紫阳传统市场", description: "位于纛岛汉江公园附近, 紫阳传统市场是一个亲切且充满活力的市场。这里物价低廉且小吃品质极佳, 深受附近居民和汉江游人的喜爱。市场各处配备了智能配送系统和现代化结算手段, 展现了“智能传统市场”的面貌。炸鸡块、麻花、即食刀切面等勾人食欲的美食以低廉的价格销售, 让游客可以毫无负担地享用。这里非常适合在汉江散步后顺道购买零食或买菜, 商贩们的亲切和充满活力的氛围让每一次访问都倍感愉快。", food: "炸鸡块, 麻花, 刀切面", sights: "纛岛汉江公园" }
     }
   },
@@ -541,7 +661,7 @@ const marketsData = [
     translations: {
       ko: { name: "암사종합시장", description: "암사동 선사 유적지 인근에 위치한 생활 밀착형 시장으로, 지역 주민들의 삶과 밀접하게 맞닿아 있는 정겨운 공간입니다. 신선한 채소, 과일, 그리고 직접 만든 정성 가득한 반찬 가게들이 특히 유명하여 주부들의 발길이 끊이지 않는 곳입니다. 시장 골목이 넓고 깨끗하게 관리되어 있어 장보기가 매우 편리하며, 떡갈비나 닭강정 같은 인기 먹거리들도 훌륭한 맛을 자랑합니다. 선사 유적지를 방문한 관광객들에게도 좋은 식사 장소가 되어주며, 강동구 특유의 여유롭고 따뜻한 동네 분위기를 그대로 느낄 수 있는 평화로운 시장입니다. 상인들의 친근한 서비스와 덤을 얹어주는 문화가 여전히 살아있는 곳입니다.", food: "떡갈비, 닭강정, 반찬", sights: "암사동 선사유적지" },
       en: { name: "Amsa General Market", description: "A lifestyle-oriented market located near the Amsa-dong Prehistoric Site, this is a heartwarming space closely intertwined with the lives of local residents. It is especially famous for its fresh vegetables, fruits, and shops selling side dishes made with great care, attracting a constant stream of homemakers. The market alleys are wide and cleanly managed, making grocery shopping very convenient, and popular snacks like Tteok-galbi (grilled short rib patties) and Dakgangjeong boast excellent flavors. It also serves as a good dining spot for tourists visiting the prehistoric site, offering a peaceful market experience where you can feel the unique, relaxed, and warm neighborhood atmosphere of Gangdong-gu. The friendly service of the merchants and the culture of giving extra 'deom' are still very much alive here.", food: "Tteok-galbi, Dakgangjeong, Side Dishes", sights: "Amsa-dong Prehistoric Site" },
-      ja: { name: "岩寺総合市場", description: "岩寺洞（アムサドン）先史遺跡地の近くに位置する生活密着型市場で, 地域住民の生活と密接に結びついた趣のある空間です。新鮮な野菜, 果物, そして直接作った真心のこもったおかず屋が特に有名で, 主婦たちの足が絶えない場所です。市場の路地が広く清潔に管理されているため買い物が非常に便利で, トッカルビ이나 タッカンジョンなどの人気の食べ物も素晴らしい味を誇ります。先史遺跡地を訪れた観光客にとっても良い食事場所となり, 江東구（カンドンク）特有のゆったりとした温かい町の雰囲気をそのまま感じることができる平和な市場です。商人たちの親切なサービスとおまけを付けてくれる文化が今も生きている場所です。", food: "トッカルビ, タッカンジョン, おかず", sights: "岩寺洞先史遺跡地" },
+      ja: { name: "岩寺総合市場", description: "岩寺洞（アム사ドン）先史遺跡地の近くに位置する生活密着型市場で, 地域住民の生活と密接に結びついた趣のある空間です。新鮮な野菜, 果物, そして直接作った真心のこもったおかず屋が特に有名で, 主婦たちの足が絶えない場所です。市場の路地が広く清潔に管理されているため買い物が非常に便利で, トッカルビ이나 タッカンジョンなどの人気の食べ物도 素晴らしい味を誇ります。先史遺跡地を訪れた観光客にとっても良い食事場所となり, 江東구（カンドンク）特有のゆったりとした温かい町の雰囲気をそのまま感じることができる平和な市場です。商人たちの親切なサービスとおまけを付けてくれる文化が今も生きている場所です。", food: "トッカルビ, タッカンジョン, おかず", sights: "岩寺洞先史遺跡地" },
       zh: { name: "岩寺综合市场", description: "位于岩寺洞史前遗址附近, 是一个与当地居民生活紧密相连的生活化市场。这里的新鲜蔬菜、水果以及充满诚意的手工小菜店尤其出名, 家庭主妇络绎不绝。市场胡同宽敞整洁, 买菜非常方便, 烤肉饼、炸鸡块等人气美食味道也十分出色。对于参观史前遗址的游客来说, 这里也是一个极佳的用餐地点。在这里可以感受到江东区特有的悠闲温馨的社区氛围。商贩们亲切的服务和赠送“添头”的文化在这里依然鲜活存在。", food: "烤肉饼, 炸鸡块, 小菜", sights: "岩寺洞史前遗址" }
     }
   }
@@ -846,6 +966,8 @@ function init() {
     localStorage.setItem("lang", lang);
     
     const t = translations[lang];
+    
+    // Header & Meta
     const mainTitle = document.getElementById("main-title");
     if (mainTitle) mainTitle.textContent = t.title;
     
@@ -855,6 +977,7 @@ function init() {
     const footerText = document.getElementById("footer-text");
     if (footerText) footerText.innerHTML = t.footer;
 
+    // Navigation
     const navHome = document.getElementById("nav-home");
     if (navHome) navHome.textContent = t.navHome;
     const navGame = document.getElementById("nav-game");
@@ -868,6 +991,85 @@ function init() {
     const navPrivacy = document.getElementById("nav-privacy");
     if (navPrivacy) navPrivacy.textContent = t.navPrivacy;
 
+    // About Page
+    const aboutHeroTitle = document.getElementById("about-hero-title");
+    if (aboutHeroTitle) aboutHeroTitle.textContent = t.aboutHeroTitle;
+    const aboutHeroDesc = document.getElementById("about-hero-desc");
+    if (aboutHeroDesc) aboutHeroDesc.textContent = t.aboutHeroDesc;
+    const mission1Title = document.getElementById("mission-1-title");
+    if (mission1Title) mission1Title.textContent = t.mission1Title;
+    const mission1Desc = document.getElementById("mission-1-desc");
+    if (mission1Desc) mission1Desc.textContent = t.mission1Desc;
+    const mission2Title = document.getElementById("mission-2-title");
+    if (mission2Title) mission2Title.textContent = t.mission2Title;
+    const mission2Desc = document.getElementById("mission-2-desc");
+    if (mission2Desc) mission2Desc.textContent = t.mission2Desc;
+    const mission3Title = document.getElementById("mission-3-title");
+    if (mission3Title) mission3Title.textContent = t.mission3Title;
+    const mission3Desc = document.getElementById("mission-3-desc");
+    if (mission3Desc) mission3Desc.textContent = t.mission3Desc;
+    const promiseTitle = document.getElementById("promise-title");
+    if (promiseTitle) promiseTitle.textContent = t.promiseTitle;
+    const promiseDesc = document.getElementById("promise-desc");
+    if (promiseDesc) promiseDesc.textContent = t.promiseDesc;
+
+    // Contact Page
+    const contactTitle = document.getElementById("contact-title");
+    if (contactTitle) contactTitle.textContent = t.contactTitle;
+    const contactSubtitle = document.getElementById("contact-subtitle");
+    if (contactSubtitle) contactSubtitle.textContent = t.contactSubtitle;
+    const labelName = document.getElementById("label-name");
+    if (labelName) labelName.textContent = t.labelName;
+    const labelEmail = document.getElementById("label-email");
+    if (labelEmail) labelEmail.textContent = t.labelEmail;
+    const labelMessage = document.getElementById("label-message");
+    if (labelMessage) labelMessage.textContent = t.labelMessage;
+    const btnSubmit = document.getElementById("btn-submit");
+    if (btnSubmit) btnSubmit.textContent = t.btnSubmit;
+
+    // Privacy Page
+    const privacyTitle = document.getElementById("privacy-title");
+    if (privacyTitle) privacyTitle.textContent = t.privacyTitle;
+    const privacyIntro = document.getElementById("privacy-intro");
+    if (privacyIntro) privacyIntro.textContent = t.privacyIntro;
+    const section1Title = document.getElementById("section-1-title");
+    if (section1Title) section1Title.textContent = t.section1Title;
+    const section1Desc = document.getElementById("section-1-desc");
+    if (section1Desc) section1Desc.textContent = t.section1Desc;
+    const item11 = document.getElementById("item-1-1");
+    if (item11) item11.textContent = t.item11;
+    const item12 = document.getElementById("item-1-2");
+    if (item12) item12.textContent = t.item12;
+    const section2Title = document.getElementById("section-2-title");
+    if (section2Title) section2Title.textContent = t.section2Title;
+    const section2Desc = document.getElementById("section-2-desc");
+    if (section2Desc) section2Desc.textContent = t.section2Desc;
+    const item21 = document.getElementById("item-2-1");
+    if (item21) item21.textContent = t.item21;
+    const item22 = document.getElementById("item-2-2");
+    if (item22) item22.textContent = t.item22;
+    const section3Title = document.getElementById("section-3-title");
+    if (section3Title) section3Title.textContent = t.section3Title;
+    const section3Desc = document.getElementById("section-3-desc");
+    if (section3Desc) section3Desc.textContent = t.section3Desc;
+    const item31 = document.getElementById("item-3-1");
+    if (item31) item31.textContent = t.item31;
+    const item32 = document.getElementById("item-3-2");
+    if (item32) item32.textContent = t.item32;
+    const item33 = document.getElementById("item-3-3");
+    if (item33) item33.textContent = t.item33;
+    const section4Title = document.getElementById("section-4-title");
+    if (section4Title) section4Title.textContent = t.section4Title;
+    const section4Desc = document.getElementById("section-4-desc");
+    if (section4Desc) section4Desc.textContent = t.section4Desc;
+    const section5Title = document.getElementById("section-5-title");
+    if (section5Title) section5Title.textContent = t.section5Title;
+    const section5Desc = document.getElementById("section-5-desc");
+    if (section5Desc) section5Desc.textContent = t.section5Desc;
+    const privacyDate = document.getElementById("privacy-date");
+    if (privacyDate) privacyDate.textContent = t.privacyDate;
+
+    // Guide Section (index.html)
     const guideTitle = document.getElementById("guide-title");
     if (guideTitle) guideTitle.textContent = t.guideTitle;
     const tip1Title = document.getElementById("guide-tip1-title");
@@ -883,6 +1085,7 @@ function init() {
     const tip3Desc = document.getElementById("guide-tip3-desc");
     if (tip3Desc) tip3Desc.textContent = t.guideTip3Desc;
 
+    // Footer links
     const footerAbout = document.getElementById("footer-about");
     if (footerAbout) footerAbout.textContent = t.navAbout;
     const footerContact = document.getElementById("footer-contact");
