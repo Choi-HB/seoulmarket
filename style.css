@@ -36,6 +36,12 @@
         padding: 0;
     }
 
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+        position: relative;
+    }
+
     body {
         background-color: var(--bg-color);
         color: var(--text-color);
@@ -154,30 +160,39 @@
         padding: 4px;
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.1);
+        gap: 4px;
     }
 
     .lang-option {
         position: relative;
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 10px;
+        border-radius: 8px;
+        transition: all 0.2s ease;
     }
 
     .lang-option input {
-        position: absolute;
-        opacity: 0;
+        accent-color: var(--accent-color);
+        width: 14px;
+        height: 14px;
         cursor: pointer;
-        height: 0;
-        width: 0;
+        margin: 0;
     }
 
     .lang-option span {
         display: inline-block;
-        padding: 6px 12px;
-        border-radius: 8px;
         font-size: 0.8rem;
-        font-weight: 600;
+        font-weight: 700;
         opacity: 0.6;
         transition: all 0.2s ease;
         color: var(--text-color);
+    }
+
+    .lang-option:hover {
+        background: rgba(255, 255, 255, 0.05);
     }
 
     .lang-option:hover span {
@@ -185,8 +200,7 @@
     }
 
     .lang-option input:checked + span {
-        background: var(--accent-color);
-        color: white;
+        color: var(--accent-color);
         opacity: 1;
     }
 
@@ -546,10 +560,14 @@ footer {
             box-shadow: -15px 0 50px rgba(0,0,0,0.6);
             backdrop-filter: blur(20px);
             z-index: 2500;
+            visibility: hidden;
+            pointer-events: none;
         }
 
         .nav-links.active {
             right: 0;
+            visibility: visible;
+            pointer-events: auto;
         }
 
         .nav-links a {
