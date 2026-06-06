@@ -27,10 +27,16 @@ const translations = {
     navComments: "댓글",
     footer: "&copy; 2026 서울 전통시장 가이드. All rights reserved.",
     navHome: "홈",
+    navStories: "이야기",
     navGame: "놀이",
     navAbout: "소개",
     navContact: "문의",
     navPrivacy: "개인정보처리방침",
+    navTerms: "이용약관",
+    footerAbout: "소개",
+    footerContact: "문의",
+    footerPrivacy: "개인정보처리방침",
+    footerTerms: "이용약관",
     contactTitle: "문의",
     contactSubtitle: "서울 전통시장 가이드에 대해 궁금한 점이나 제안하고 싶은 의견이 있으시면 언제든 편하게 남겨주세요.",
     labelName: "이름 / 업체명",
@@ -142,6 +148,11 @@ const translations = {
     navAbout: "About",
     navContact: "Inquiry",
     navPrivacy: "Privacy Policy",
+    navTerms: "Terms of Use",
+    footerAbout: "About",
+    footerContact: "Inquiry",
+    footerPrivacy: "Privacy Policy",
+    footerTerms: "Terms of Use",
     contactTitle: "Inquiry",
     contactSubtitle: "If you have any questions or suggestions for the Seoul Traditional Market Guide, please feel free to leave them.",
     labelName: "Name / Company",
@@ -253,6 +264,11 @@ const translations = {
     navAbout: "紹介",
     navContact: "お問い合わせ",
     navPrivacy: "個人情報保護方針",
+    navTerms: "利用規約",
+    footerAbout: "紹介",
+    footerContact: "お問い合わせ",
+    footerPrivacy: "個人情報保護方針",
+    footerTerms: "利用規約",
     contactTitle: "お問い合わせ",
     contactSubtitle: "ソウル伝統市場ガイドについてのご質問やご提案がございましたら、お気軽にお問い合わせください。",
     labelName: "お名前 / 会社名",
@@ -362,6 +378,11 @@ const translations = {
     navAbout: "关于我们",
     navContact: "咨询",
     navPrivacy: "隐私政策",
+    navTerms: "服务条款",
+    footerAbout: "关于我们",
+    footerContact: "咨询",
+    footerPrivacy: "隐私政策",
+    footerTerms: "服务条款",
     contactTitle: "咨询",
     contactSubtitle: "如果您对首尔传统市场指南有任何疑问或建议, 请随时留言。",
     labelName: "姓名 / 公司名称",
@@ -930,16 +951,18 @@ function init() {
   let currentDistrictKey = "ALL";
 
   // Theme Toggle
-  themeToggle.addEventListener("click", () => {
-    document.documentElement.classList.toggle("light-mode");
-    const isLight = document.documentElement.classList.contains("light-mode");
-    themeToggle.textContent = isLight ? "🌙" : "🌓";
-    localStorage.setItem("theme", isLight ? "light" : "dark");
-  });
+  if (themeToggle) {
+    themeToggle.addEventListener("click", () => {
+      document.documentElement.classList.toggle("light-mode");
+      const isLight = document.documentElement.classList.contains("light-mode");
+      themeToggle.textContent = isLight ? "🌙" : "🌓";
+      localStorage.setItem("theme", isLight ? "light" : "dark");
+    });
+  }
 
   if (localStorage.getItem("theme") === "light") {
     document.documentElement.classList.add("light-mode");
-    themeToggle.textContent = "🌙";
+    if (themeToggle) themeToggle.textContent = "🌙";
   }
 
   // Mobile Menu Toggle
