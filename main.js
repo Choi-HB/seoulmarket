@@ -114,7 +114,22 @@ const translations = {
     transformHow1: "'사진 업로드' 버튼을 눌러 변환하고 싶은 사진을 선택하세요.",
     transformHow2: "'흑백/컬러 전환' 버튼을 누르면 사진의 색상이 바뀝니다.",
     transformHow3: "'이미지 저장' 버튼을 누르면 현재 보이는 이미지가 파일로 저장됩니다.",
-    transformHow4: "팁: 고화질 사진도 빠르게 변환하여 다운로드할 수 있습니다!"
+    transformHow4: "팁: 고화질 사진도 빠르게 변환하여 다운로드할 수 있습니다!",
+    storiesTitle: "서울 전통시장 이야기",
+    storiesSubtitle: "수천 개의 점포, 수만 명의 사람들. 그들이 만들어내는 진솔한 삶의 기록",
+    storyTag1: "상인 인터뷰",
+    storyTitle1: "\"빈대떡 한 장에 담긴 30년의 세월\"",
+    storyExcerpt1: "광장시장에서 30년째 맷돌을 돌리고 있는 박순자 할머니. 기름 냄새 가득한 그곳에서 할머니가 지켜온 것은 단순한 음식이 아닌 손님들과의 약속이었습니다.",
+    storyLink: "계속 읽어보기 &rarr;",
+    storyTag2: "로컬 리포트",
+    storyTitle2: "아날로그와 힙(Hip)의 만남, 동묘의 오후",
+    storyExcerpt2: "어르신들의 전유물이었던 동묘 벼룩시장이 어떻게 젊은이들의 패션 성지가 되었을까요? 동묘의 좁은 골목에서 발견한 세대 화합의 현장을 기록했습니다.",
+    storyTag3: "문화 체험",
+    storyTitle3: "짤랑이는 엽전 소리에 실려오는 추억",
+    storyExcerpt3: "통인시장의 엽전 도시락은 단순한 마케팅이 아닙니다. 잊혀가던 전통 화폐의 가치를 아이들에게 가르치고, 어른들에게는 향수를 불러일으키는 가교 역할을 하고 있습니다.",
+    storyTag4: "현장 기록",
+    storyTitle4: "가장 먼저 아침을 여는 사람들: 노량진의 새벽",
+    storyExcerpt4: "모두가 잠든 새벽 2시, 노량진 수산시장은 비로소 깨어납니다. 치열한 경매 소리와 함께 서울의 하루를 준비하는 사람들의 뜨거운 열기를 담아왔습니다."
   },
   en: {
     title: "Seoul Traditional Markets Guide",
@@ -144,6 +159,7 @@ const translations = {
     navComments: "Comments",
     footer: "&copy; 2026 Seoul Market Guide. All rights reserved.",
     navHome: "Home",
+    navStories: "Stories",
     navGame: "Play",
     navAbout: "About",
     navContact: "Inquiry",
@@ -230,7 +246,22 @@ const translations = {
     transformHow1: "Click 'Upload Photo' to select the image you want to convert.",
     transformHow2: "Click 'Toggle B&W/Color' to change the color state.",
     transformHow3: "Click 'Save Image' to download the current image.",
-    transformHow4: "Tip: High-resolution photos are converted and saved instantly!"
+    transformHow4: "Tip: High-resolution photos are converted and saved instantly!",
+    storiesTitle: "Seoul Traditional Market Stories",
+    storiesSubtitle: "Thousands of shops, tens of thousands of people. Sincere records of lives they create.",
+    storyTag1: "Merchant Interview",
+    storyTitle1: "\"30 Years of Life in a Single Bindaetteok\"",
+    storyExcerpt1: "Grandmother Park Soon-ja has been turning the millstone for 30 years at Gwangjang Market. In that place filled with the smell of oil, what she protected was not just food, but a promise to her customers.",
+    storyLink: "Read More →",
+    storyTag2: "Local Report",
+    storyTitle2: "Where Analog Meets Hip, an Afternoon in Dongmyo",
+    storyExcerpt2: "How did Dongmyo Flea Market, once the exclusive domain of seniors, become a fashion mecca for the youth? We recorded the scene of generational harmony found in the narrow alleys of Dongmyo.",
+    storyTag3: "Cultural Experience",
+    storyTitle3: "Memories Carried by the Clinking Sound of Brass Coins",
+    storyExcerpt3: "Tongin Market's Yeopjeon Lunchbox is not just marketing. It's teaching children the value of forgotten traditional currency and acting as a bridge that evokes nostalgia for adults.",
+    storyTag4: "Field Report",
+    storyTitle4: "The First to Open the Morning: Dawn in Noryangjin",
+    storyExcerpt4: "At 2 AM when everyone is asleep, Noryangjin Fish Market finally wakes up. We captured the passion of people preparing for Seoul's day with the sound of fierce auctions."
   },
   ja: {
     title: "ソウル伝統市場ガイド",
@@ -260,6 +291,7 @@ const translations = {
     navComments: "コメント",
     footer: "&copy; 2026 ソウル伝統市場ガイド. All rights reserved.",
     navHome: "ホーム",
+    navStories: "ストーリー",
     navGame: "遊び",
     navAbout: "紹介",
     navContact: "お問い合わせ",
@@ -374,6 +406,7 @@ const translations = {
     viewAllList: "查看完整市场列表",
     footer: "&copy; 2026 首尔市场指南. All rights reserved.",
     navHome: "首页",
+    navStories: "故事",
     navGame: "活动",
     navAbout: "关于我们",
     navContact: "咨询",
@@ -1003,6 +1036,8 @@ function init() {
     // Navigation
     const navHome = document.getElementById("nav-home");
     if (navHome) navHome.textContent = t.navHome;
+    const navStories = document.getElementById("nav-stories");
+    if (navStories) navStories.textContent = t.navStories;
     const navGame = document.getElementById("nav-game");
     if (navGame) navGame.textContent = t.navGame;
     const navTransform = document.getElementById("nav-transform");
@@ -1115,6 +1150,23 @@ function init() {
     if (footerContact) footerContact.textContent = t.navContact;
     const footerPrivacy = document.getElementById("footer-privacy");
     if (footerPrivacy) footerPrivacy.textContent = t.navPrivacy;
+
+    // Stories Page
+    const storiesTitle = document.getElementById("stories-title");
+    if (storiesTitle) storiesTitle.textContent = t.storiesTitle;
+    const storiesSubtitle = document.getElementById("stories-subtitle");
+    if (storiesSubtitle) storiesSubtitle.textContent = t.storiesSubtitle;
+    
+    for (let i = 1; i <= 4; i++) {
+      const tag = document.getElementById(`story-tag-${i}`);
+      if (tag) tag.textContent = t[`storyTag${i}`];
+      const title = document.getElementById(`story-title-${i}`);
+      if (title) title.textContent = t[`storyTitle${i}`];
+      const excerpt = document.getElementById(`story-excerpt-${i}`);
+      if (excerpt) excerpt.textContent = t[`storyExcerpt${i}`];
+      const link = document.getElementById(`story-link-${i}`);
+      if (link) link.textContent = t.storyLink;
+    }
 
     // Update Radio Buttons
     langInputs.forEach(input => {

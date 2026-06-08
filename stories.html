@@ -43,52 +43,74 @@
                 </ul>
             </div>
         </nav>
+        <div class="container header-main">
+            <div class="header-controls">
+                <div class="lang-selector">
+                    <label class="lang-option">
+                        <input type="radio" name="language" value="ko" checked>
+                        <span>KO</span>
+                    </label>
+                    <label class="lang-option">
+                        <input type="radio" name="language" value="en">
+                        <span>EN</span>
+                    </label>
+                    <label class="lang-option">
+                        <input type="radio" name="language" value="ja">
+                        <span>JP</span>
+                    </label>
+                    <label class="lang-option">
+                        <input type="radio" name="language" value="zh">
+                        <span>CN</span>
+                    </label>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main class="container">
         <section class="stories-hero">
-            <h1>서울 전통시장 이야기</h1>
-            <p class="subtitle">수천 개의 점포, 수만 명의 사람들. 그들이 만들어내는 진솔한 삶의 기록</p>
+            <h1 id="stories-title">서울 전통시장 이야기</h1>
+            <p class="subtitle" id="stories-subtitle">수천 개의 점포, 수만 명의 사람들. 그들이 만들어내는 진솔한 삶의 기록</p>
         </section>
 
         <section class="stories-grid">
             <article class="story-card">
                 <img src="./광장시장.png" alt="광장시장 상인" class="story-image">
                 <div class="story-content">
-                    <span class="story-tag">상인 인터뷰</span>
-                    <h2 class="story-title">\"빈대떡 한 장에 담긴 30년의 세월\"</h2>
-                    <p class="story-excerpt">광장시장에서 30년째 맷돌을 돌리고 있는 박순자 할머니. 기름 냄새 가득한 그곳에서 할머니가 지켜온 것은 단순한 음식이 아닌 손님들과의 약속이었습니다.</p>
-                    <a href="guides/story-gwangjang.html" class="story-link">계속 읽어보기 &rarr;</a>
+                    <span class="story-tag" id="story-tag-1">상인 인터뷰</span>
+                    <h2 class="story-title" id="story-title-1">\"빈대떡 한 장에 담긴 30년의 세월\"</h2>
+                    <p class="story-excerpt" id="story-excerpt-1">광장시장에서 30년째 맷돌을 돌리고 있는 박순자 할머니. 기름 냄새 가득한 그곳에서 할머니가 지켜온 것은 단순한 음식이 아닌 손님들과의 약속이었습니다.</p>
+                    <a href="guides/story-gwangjang.html" class="story-link" id="story-link-1">계속 읽어보기 &rarr;</a>
                 </div>
             </article>
 
             <article class="story-card">
                 <img src="./동묘벼룩시장.png" alt="동묘 시장 풍경" class="story-image">
                 <div class="story-content">
-                    <span class="story-tag">로컬 리포트</span>
-                    <h2 class="story-title">아날로그와 힙(Hip)의 만남, 동묘의 오후</h2>
-                    <p class="story-excerpt">어르신들의 전유물이었던 동묘 벼룩시장이 어떻게 젊은이들의 패션 성지가 되었을까요? 동묘의 좁은 골목에서 발견한 세대 화합의 현장을 기록했습니다.</p>
-                    <a href="guides/story-dongmyo.html" class="story-link">계속 읽어보기 &rarr;</a>
+                    <span class="story-tag" id="story-tag-2">로컬 리포트</span>
+                    <h2 class="story-title" id="story-title-2">아날로그와 힙(Hip)의 만남, 동묘의 오후</h2>
+                    <p class="story-excerpt" id="story-excerpt-2">어르신들의 전유물이었던 동묘 벼룩시장이 어떻게 젊은이들의 패션 성지가 되었을까요? 동묘의 좁은 골목에서 발견한 세대 화합의 현장을 기록했습니다.</p>
+                    <a href="guides/story-dongmyo.html" class="story-link" id="story-link-2">계속 읽어보기 &rarr;</a>
                 </div>
             </article>
 
             <article class="story-card">
                 <img src="./통인시장.png" alt="통인시장 도시락" class="story-image">
                 <div class="story-content">
-                    <span class="story-tag">문화 체험</span>
-                    <h2 class="story-title">짤랑이는 엽전 소리에 실려오는 추억</h2>
-                    <p class="story-excerpt">통인시장의 엽전 도시락은 단순한 마케팅이 아닙니다. 잊혀가던 전통 화폐의 가치를 아이들에게 가르치고, 어른들에게는 향수를 불러일으키는 가교 역할을 하고 있습니다.</p>
-                    <a href="guides/story-tongin.html" class="story-link">계속 읽어보기 &rarr;</a>
+                    <span class="story-tag" id="story-tag-3">문화 체험</span>
+                    <h2 class="story-title" id="story-title-3">짤랑이는 엽전 소리에 실려오는 추억</h2>
+                    <p class="story-excerpt" id="story-excerpt-3">통인시장의 엽전 도시락은 단순한 마케팅이 아닙니다. 잊혀가던 전통 화폐의 가치를 아이들에게 가르치고, 어른들에게는 향수를 불러일으키는 가교 역할을 하고 있습니다.</p>
+                    <a href="guides/story-tongin.html" class="story-link" id="story-link-3">계속 읽어보기 &rarr;</a>
                 </div>
             </article>
 
             <article class="story-card">
                 <img src="./노량진수산시장.png" alt="노량진 경매" class="story-image">
                 <div class="story-content">
-                    <span class="story-tag">현장 기록</span>
-                    <h2 class="story-title">가장 먼저 아침을 여는 사람들: 노량진의 새벽</h2>
-                    <p class="story-excerpt">모두가 잠든 새벽 2시, 노량진 수산시장은 비로소 깨어납니다. 치열한 경매 소리와 함께 서울의 하루를 준비하는 사람들의 뜨거운 열기를 담아왔습니다.</p>
-                    <a href="guides/story-noryangjin.html" class="story-link">계속 읽어보기 &rarr;</a>
+                    <span class="story-tag" id="story-tag-4">현장 기록</span>
+                    <h2 class="story-title" id="story-title-4">가장 먼저 아침을 여는 사람들: 노량진의 새벽</h2>
+                    <p class="story-excerpt" id="story-excerpt-4">모두가 잠든 새벽 2시, 노량진 수산시장은 비로소 깨어납니다. 치열한 경매 소리와 함께 서울의 하루를 준비하는 사람들의 뜨거운 열기를 담아왔습니다.</p>
+                    <a href="guides/story-noryangjin.html" class="story-link" id="story-link-4">계속 읽어보기 &rarr;</a>
                 </div>
             </article>
         </section>
