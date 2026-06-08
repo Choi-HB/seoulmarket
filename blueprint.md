@@ -44,23 +44,32 @@ The site was improved to address the "Low Value Content" rejection:
 - **Action:** Updated `sitemap.xml` with all new pages and fixed broken links.
 - **Action:** Added robots meta tags and canonical links to new pages.
 
-## Current Update: Multilingual Content IDs & Header Synchronization (In Progress)
-Standardizing all guide and story pages to support full multilingual translation and theme toggling.
+## Current Update: Advanced SEO Strengthening (In Progress)
+Optimizing the site for search engines (Google, Naver) to improve visibility and search rankings.
 
-### 1. Header Synchronization
-- **Action:** Adding `lang-selector` and `theme-toggle` HTML to all pages in `/guides/` for consistency with `index.html`.
-- **Status:** Guide files (7) verified; Story files (4) being updated.
-
-### 2. Multilingual ID Tagging
-- **Action:** Adding unique IDs to content elements in Story files (`article-h1`, `article-p1`, etc.) to enable translation via `main.js`.
+### 1. Global Meta Tag Synchronization
+- **Action:** Adding Open Graph (OG), Twitter Card, and Canonical tags to ALL 18+ HTML files.
+- **Action:** Ensuring `lang="ko"` attribute is present on all pages.
+- **Action:** Adding `<link rel="icon" ...>` for favicons to improve SERP appearance.
 - **Status:** In Progress.
 
-### 3. Navigation Standardization
-- **Action:** Ensuring all `nav-links` have standard IDs (`nav-home`, `nav-stories`, etc.) for consistent UI behavior.
+### 2. Enhanced Structured Data (JSON-LD)
+- **Action:** Implementing `BreadcrumbList` schema on all sub-pages for better search result snippets.
+- **Action:** Refining `WebSite` and `Organization` schema on the home page.
 - **Status:** In Progress.
+
+### 3. Visual SEO Assets
+- **Action:** Creating/Fixing `og-image.jpg` to ensure rich social sharing previews.
+- **Action:** Adding `alt` text to all meaningful images for image search optimization.
+- **Status:** In Progress.
+
+### 4. Search Engine Indexing Tools
+- **Action:** Verifying `sitemap.xml` accuracy for all new paths.
+- **Action:** Ensuring `robots.txt` correctly points to the sitemap.
+- **Status:** Completed.
 
 ## Project Structure
-- `/index.html`: Home page with market filters and tips.
+... (rest of the file)- `/index.html`: Home page with market filters and tips.
 - `/stories.html`: Directory of market stories.
 - `/play.html`: AI Rock-Paper-Scissors game.
 - `/memory.html`: AI image transformation tool.
