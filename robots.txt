@@ -1,4 +1,4 @@
-User-agent: *
+-e User-agent: *
 Allow: /
 
 Sitemap: https://seoulmarket-es1.pages.dev/sitemap.xml
