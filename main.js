@@ -1,5 +1,43 @@
 const translations = {
   ko: {
+    introHeading: "서울 전통시장: 과거와 현재가 공존하는 문화 공간",
+    introP1: "대한민국의 수도 서울은 최첨단 빌딩 숲과 화려한 네온사인이 가득한 현대적인 도시입니다. 하지만 그 화려함 이면에는 수십 년, 길게는 백 년이 넘는 세월 동안 서민들의 삶과 애환을 함께해 온 <strong>전통시장</strong>들이 굳건히 자리 잡고 있습니다. 서울의 전통시장은 단순한 상거래의 장소를 넘어, 한국의 깊은 역사와 따뜻한 '정(情)', 그리고 역동적인 문화를 온몸으로 느낄 수 있는 살아있는 박물관과도 같습니다.",
+    introP2: "각 구마다 특색 있게 자리한 시장들은 저마다의 독특한 매력을 뽐냅니다. 종로구의 <strong>광장시장</strong>은 빈대떡과 마약김밥, 육회 등 한국의 대표적인 길거리 음식을 맛볼 수 있는 미식의 천국이며, 중구의 <strong>남대문시장</strong>은 의류, 그릇, 액세서리 등 없는 것이 없는 국내 최대 규모의 종합 시장입니다. 마포구의 <strong>망원시장</strong>은 젊은 세대(MZ세대)의 발길을 사로잡는 트렌디한 먹거리와 감성적인 분위기로 새롭게 떠오르고 있으며, 동대문구의 <strong>경동시장</strong>은 전국 최대 규모의 한약재와 농수산물이 거래되는 건강의 중심지입니다.",
+    introP3: "'서울 전통시장 가이드'는 이렇게 다채로운 매력을 지닌 서울 곳곳의 전통시장 정보를 한곳에 모아 제공합니다. 현지인들이 사랑하는 숨은 맛집부터 외국인 관광객을 위한 필수 쇼핑 리스트, 그리고 주차장 및 대중교통 이용 팁까지, 전통시장을 200% 즐길 수 있는 유용한 가이드를 확인해 보세요. 우리의 전통시장이 전하는 따뜻한 온기와 활기찬 에너지를 직접 경험해 보시기를 바랍니다.",
+
+    playSeoH2: "전통시장과 어우러지는 골목 놀이 문화",
+    playSeoP1: "가위바위보는 시대를 막론하고 전 세계인이 즐기는 가장 직관적이고 공평한 놀이입니다. 한국의 전통시장 골목 어귀에서도 아이들의 가위바위보 소리는 끊이지 않았습니다. 시장 상인들도 가끔은 흥정을 하다가 웃으며 가위바위보로 덤을 결정하기도 했던, 한국인 특유의 '정'과 해학이 담긴 소통 방식이기도 합니다.",
+    playSeoP2: "과거에는 구슬치기, 딱지치기, 고무줄놀이 등 다양한 골목 놀이들이 시장의 활기찬 분위기와 어우러져 하나의 문화를 형성했습니다. 비록 현대에 들어서며 아이들이 뛰어노는 골목길의 풍경은 많이 사라졌지만, 그 시절의 따뜻한 기억은 여전히 시장 사람들의 마음속에 남아있습니다.",
+    playSeoP3: "이 AI 가위바위보 게임은 최신 인공지능 기술(Teachable Machine)을 활용하여 과거 우리가 골목길에서 친구들과 나누던 단순하고 즐거운 놀이를 디지털 공간에 재현한 것입니다. 복잡한 일상을 잠시 내려놓고, 시장 골목에서 뛰어놀던 어린 시절의 동심으로 돌아가 AI와의 가벼운 승부를 즐겨보세요!",
+    memSeoH2: "흑백 사진으로 만나는 옛 시장의 향수",
+    memSeoP1: "사진은 시간을 멈추고 기억을 보존하는 가장 강력한 도구입니다. 특히 흑백 사진은 화려한 색상에 가려질 수 있는 사람들의 표정, 질감, 그리고 그 시대의 분위기를 더욱 깊이 있게 전달하는 매력을 지니고 있습니다. 과거 필름 카메라 시절, 서울의 전통시장을 담은 흑백 사진 속에는 상인들의 주름진 미소와 손님들과의 활기찬 흥정, 그리고 갓 쪄낸 만두에서 피어오르는 김까지 생생하게 기록되어 있습니다.",
+    memSeoP2: "시장은 단순히 물건을 사고파는 상업적 공간을 넘어, 서민들의 땀방울과 애환이 녹아있는 삶의 터전입니다. 오래된 시장 골목을 거닐다 보면 마치 수십 년 전 과거로 시간 여행을 떠난 듯한 기분을 느끼게 됩니다. 낡은 간판과 투박하지만 정겨운 풍경들은 화려한 현대 도시에서는 느낄 수 없는 깊은 안정감과 향수를 선사합니다.",
+    memSeoP3: "이 'AI 이미지 추억' 변환 도구는 여러분이 전통시장을 방문하며 찍은 현대의 컬러 사진을, 클릭 한 번으로 클래식한 흑백 사진으로 변환해 줍니다. 첨단 웹 기술을 활용한 이 도구를 통해 스마트폰으로 찍은 사진에 아날로그 감성을 더해보세요. 잊혀져 가는 옛 시장의 정취를 여러분만의 고유한 사진 작품으로 간직하고, 그 소중한 추억을 주변 사람들과 나누어 보시길 바랍니다.",
+
+    gameTitle: "AI 가위바위보 놀이",
+    gameUserLabel: "나",
+    gameAiLabel: "AI",
+    gameAiChoice: "AI의 선택",
+    gameReady: "준비되셨나요?",
+    gameStart: "놀이 시작!",
+    gameHowTitle: "놀이 방법:",
+    gameHow1: "'놀이 시작!' 버튼을 누르면 3초 카운트다운이 시작됩니다.",
+    gameHow2: "카운트다운이 끝나기 전, 카메라를 향해 <strong>가위, 바위, 보</strong> 중 하나를 내주세요.",
+    gameHow3: "AI가 당신의 손 모양을 인식하여 승패를 결정합니다.",
+    gameHow4: "팁: 밝은 곳에서 손이 잘 보이게 해주세요!",
+    memTitle: "AI 이미지 추억",
+    memLabelUpload: "사진을 업로드하려면 클릭하세요",
+    memBtnUpload: "사진 업로드",
+    memBtnToggle: "흑백/컬러 전환",
+    memBtnDownload: "이미지 저장",
+    memHowTitle: "사용 방법:",
+    memHow1: "'사진 업로드' 버튼을 눌러 간직하고 싶은 사진을 선택하세요.",
+    memHow2: "'흑백/컬러 전환' 버튼을 누르면 사진의 색상이 바뀝니다.",
+    memHow3: "'이미지 저장' 버튼을 누르면 현재 보이는 이미지가 파일로 저장됩니다.",
+    memHow4: "팁: 고화질 사진도 빠르게 간직하여 다운로드할 수 있습니다!",
+    btnDirections: "길찾기",
+    btnInfo: "정보보기",
+    btnDetailedGuide: "상세 가이드",
     title: "서울 맛거리 & 볼거리 전통시장",
     subtitle: "서울의 정과 맛이 살아있는 구별 대표 전통시장 가이드",
     all: "전체",
@@ -175,6 +213,44 @@ const translations = {
     storyExcerpt4: "모두가 잠든 새벽 2시, 노량진 수산시장은 비로소 깨어납니다. 치열한 경매 소리와 함께 서울의 하루를 준비하는 사람들의 뜨거운 열기를 담아왔습니다."
   },
   en: {
+
+    introHeading: "Seoul Traditional Markets: Where Past and Present Coexist",
+    introP1: "Seoul, the capital of South Korea, is a modern city filled with skyscrapers and bright neon signs. However, behind its glamour, <strong>traditional markets</strong> have stood firmly for decades, even over a century, sharing the joys and sorrows of the common people. Seoul's traditional markets are more than just places of commerce; they are living museums where you can fully experience Korea's deep history, warm 'Jeong' (affection), and dynamic culture.",
+    introP2: "The markets, each uniquely situated in different districts, boast their own distinct charms. <strong>Gwangjang Market</strong> in Jongno-gu is a gastronomic paradise where you can taste Korea's representative street foods like bindaetteok (mung bean pancakes), mayak gimbap, and yukhoe (beef tartare). <strong>Namdaemun Market</strong> in Jung-gu is the largest comprehensive market in Korea with everything from clothing and tableware to accessories. <strong>Mangwon Market</strong> in Mapo-gu is emerging as a trendy spot capturing the hearts of the younger generation (Gen Z) with hip foods and an emotional atmosphere, while <strong>Gyeongdong Market</strong> in Dongdaemun-gu is a center for health where the largest volume of medicinal herbs and agricultural products are traded.",
+    introP3: "'Seoul Traditional Market Guide' gathers and provides information on these diverse and charming traditional markets across Seoul. From hidden foodie gems loved by locals to essential shopping lists for foreign tourists, as well as parking and public transportation tips, check out our useful guide to enjoy traditional markets 200%. We hope you will personally experience the warm glow and vibrant energy that our traditional markets convey.",
+    playSeoH2: "Alley Play Culture Blending with Traditional Markets",
+    playSeoP1: "Rock-paper-scissors is the most intuitive and fair game enjoyed by people worldwide regardless of the era. The sound of children playing rock-paper-scissors was endless in the alleys of Korea's traditional markets. It was also a unique communication method containing Korean 'Jeong' (affection) and humor, as market merchants sometimes decided on extras (deom) through a laughing rock-paper-scissors match while haggling.",
+    playSeoP2: "In the past, various alley games such as marbles, ttakji (paper tiles), and rubber band jumping blended with the vibrant atmosphere of the market to form a culture. Although the scenery of alleys where children run and play has largely disappeared in modern times, the warm memories of those days still remain in the hearts of market people.",
+    playSeoP3: "This AI rock-paper-scissors game utilizes the latest artificial intelligence technology (Teachable Machine) to recreate the simple and joyful games we used to share with friends in the alleys in a digital space. Put down your complex daily life for a moment, return to the childlike innocence of running around in the market alleys, and enjoy a light match with the AI!",
+    memSeoH2: "Nostalgia of Old Markets Met Through Black and White Photos",
+    memSeoP1: "Photography is the most powerful tool to stop time and preserve memories. In particular, black and white photography has the charm of conveying people's expressions, textures, and the atmosphere of the era more deeply, which might be overshadowed by brilliant colors. In the past film camera era, black and white photos of Seoul's traditional markets vividly recorded merchants' wrinkled smiles, energetic haggling with customers, and even the steam rising from freshly steamed dumplings.",
+    memSeoP2: "The market is more than a commercial space for buying and selling goods; it is a foundation of life where the sweat and joys and sorrows of common people are melted. Walking through old market alleys makes you feel as if you've traveled back in time to decades ago. Old signboards and rugged but affectionate sceneries offer a deep sense of stability and nostalgia that cannot be felt in modern, flashy cities.",
+    memSeoP3: "This 'AI Image Memory' conversion tool turns your modern color photos taken while visiting a traditional market into classic black and white photos with a single click. Add an analog sensibility to photos taken with your smartphone through this tool utilizing advanced web technology. We hope you will keep the fading mood of old markets as your own unique photographic artwork and share those precious memories with people around you.",
+
+    gameTitle: "AI Rock-Paper-Scissors",
+    gameUserLabel: "Me",
+    gameAiLabel: "AI",
+    gameAiChoice: "AI's Choice",
+    gameReady: "Are you ready?",
+    gameStart: "Start Game!",
+    gameHowTitle: "How to Play:",
+    gameHow1: "Press the 'Start Game!' button to begin the 3-second countdown.",
+    gameHow2: "Before the countdown ends, show <strong>Rock, Paper, or Scissors</strong> to the camera.",
+    gameHow3: "The AI will recognize your hand shape to determine the winner.",
+    gameHow4: "Tip: Make sure your hand is clearly visible in a well-lit area!",
+    memTitle: "AI Image Memory",
+    memLabelUpload: "Click to upload a photo",
+    memBtnUpload: "Upload Photo",
+    memBtnToggle: "B&W/Color Toggle",
+    memBtnDownload: "Save Image",
+    memHowTitle: "How to Use:",
+    memHow1: "Click 'Upload Photo' to select a picture you want to keep.",
+    memHow2: "Click 'B&W/Color Toggle' to change the image color.",
+    memHow3: "Click 'Save Image' to save the current displayed image as a file.",
+    memHow4: "Tip: High-quality photos can also be quickly converted and downloaded!",
+    btnDirections: "Directions",
+    btnInfo: "More Info",
+    btnDetailedGuide: "Detailed Guide",
     title: "Seoul Traditional Markets Guide",
     subtitle: "Premium digital guide to the unique traditional markets in each district of Seoul",
     all: "All",
@@ -350,8 +426,46 @@ const translations = {
     storyExcerpt4: "At 2 AM when everyone is asleep, Noryangjin Fish Market finally wakes up. We captured the passion of people preparing for Seoul's day with the sound of fierce auctions."
   },
   ja: {
+
+    introHeading: "ソウルの伝統市場：過去と現在が共存する文化空間",
+    introP1: "大韓民国の首都ソウルは、最先端のビル群と華やかなネオンサインにあふれる現代的な都市です。しかし、その華やかさの裏には、数十年、長くは百年以上の歳月の間、庶民の生活と哀歓を共にしてきた<strong>伝統市場</strong>がしっかりと根付いています。ソウルの伝統市場は、単なる商取引の場所を超えて、韓国の深い歴史と温かい「情」、そして躍動的な文化を体全体で感じることができる生きた博物館のようなものです。",
+    introP2: "各区ごとに特色を持って位置する市場は、それぞれ独自の魅力を誇っています。鍾路区の<strong>広蔵市場</strong>は、ピンデトッや麻薬キンパ、ユッケなど、韓国を代表する屋台料理を味わえる美食の天国であり、中区の<strong>南大門市場</strong>は、衣類、食器、アクセサリーなどないものがない国内最大規模の総合市場です。麻浦区の<strong>望遠市場</strong>は、若い世代（MZ世代）の足を引きつけるトレンディな食べ物と感性的な雰囲気で新たに浮上しており、東大門区の<strong>京東市場</strong>は、全国最大規模の漢方薬材と農水産物が取引される健康の中心地です。",
+    introP3: "「ソウル伝統市場ガイド」は、このように多彩な魅力を持つソウル各地の伝統市場情報を一堂に集めて提供しています。地元の人々に愛される隠れた名店から、外国人観光客のための必須ショッピングリスト、そして駐車場や公共交通機関の利用のコツまで、伝統市場を200%楽しむための便利なガイドをご確認ください。私たちの伝統市場が伝える温かいぬくもりと活気あるエネルギーをぜひ直接体験してみてください。",
+    playSeoH2: "伝統市場と調和する路地遊びの文化",
+    playSeoP1: "じゃんけんは時代を問わず、世界中の人々が楽しむ最も直感的で公平な遊びです。韓国の伝統市場の路地裏でも、子供たちのじゃんけんの声は絶えませんでした。市場の商人たちも、時には値引き交渉をしながら笑ってじゃんけんでおまけ（オマケ）を決めることもあった、韓国特有の「情」とユーモアが込められたコミュニケーション手段でもあります。",
+    playSeoP2: "過去には、ビー玉遊び、メンコ遊び、ゴム飛びなど、様々な路地遊びが市場の活気ある雰囲気と調和し、一つの文化を形成していました。現代になって子供たちが駆け回る路地裏の風景は多く消え去りましたが、その時代の温かい記憶は今でも市場の人々の心の中に残っています。",
+    playSeoP3: "このAIじゃんけんゲームは、最新の人工知能技術（Teachable Machine）を活用して、過去私たちが路地裏で友達と分かち合ったシンプルで楽しい遊びをデジタル空間に再現したものです。複雑な日常を少し置いておき、市場の路地裏で遊び回った子供の頃の童心に帰って、AIとの軽い勝負を楽しんでみてください！",
+    memSeoH2: "白黒写真で出会う昔の市場の郷愁",
+    memSeoP1: "写真は時間を止め、記憶を保存する最も強力な道具です。特に白黒写真は、華やかな色に隠れがちな人々の表情、質感、そしてその時代の雰囲気をより深く伝える魅力を持っています。過去のフィルムカメラ時代、ソウルの伝統市場を収めた白黒写真の中には、商人たちのしわくちゃな笑顔や客との活気ある値引き交渉、そして蒸したての餃子から立ち上る湯気まで生々しく記録されています。",
+    memSeoP2: "市場は単に物を売り買いする商業空間を超えて、庶民の汗と哀歓が溶け込んだ生活の場です。古い市場の路地裏を歩いていると、まるで数十年前にタイムスリップしたかのような気分になります。古い看板や無骨だけど温かい風景は、華やかな現代都市では感じられない深い安定感と郷愁をもたらしてくれます。",
+    memSeoP3: "この「AI画像思い出」変換ツールは、皆さんが伝統市場を訪問して撮った現代のカラー写真を、クリック一つでクラシックな白黒写真に変換してくれます。先端のウェブ技術を活用したこのツールを通じて、スマートフォンで撮った写真にアナログの感性を加えてみてください。忘れ去られていく昔の市場の風情を皆さん独自の写真作品として大事にし、その大切な思い出を周りの人々と分かち合ってみてはいかがでしょうか。",
+
+    gameTitle: "AI じゃんけん遊び",
+    gameUserLabel: "私",
+    gameAiLabel: "AI",
+    gameAiChoice: "AIの選択",
+    gameReady: "準備はいいですか？",
+    gameStart: "ゲーム開始！",
+    gameHowTitle: "遊び方：",
+    gameHow1: "「ゲーム開始！」ボタンを押すと、3秒のカウントダウンが始まります。",
+    gameHow2: "カウントダウンが終わる前に、カメラに向かって<strong>グー、チョキ、パー</strong>のいずれかを出してください。",
+    gameHow3: "AIがあなたの手の形を認識して勝敗を決定します。",
+    gameHow4: "ヒント：明るい場所で手がよく見えるようにしてください！",
+    memTitle: "AI 画像の思い出",
+    memLabelUpload: "クリックして写真をアップロード",
+    memBtnUpload: "写真アップロード",
+    memBtnToggle: "白黒/カラー切替",
+    memBtnDownload: "画像保存",
+    memHowTitle: "使い方：",
+    memHow1: "「写真アップロード」ボタンを押して、保存したい写真を選択します。",
+    memHow2: "「白黒/カラー切替」ボタンを押すと、写真の色が変わります。",
+    memHow3: "「画像保存」ボタンを押すと、現在表示されている画像がファイルとして保存されます。",
+    memHow4: "ヒント：高画質の写真も素早く変換してダウンロードできます！",
+    btnDirections: "ルート検索",
+    btnInfo: "詳細情報",
+    btnDetailedGuide: "詳細ガイド",
     title: "ソウル伝統市場ガイド",
-    subtitle: "ソウルの各区별에 있는 特色豊かな伝統市場を紹介하는 プレミアムガイド",
+    subtitle: "ソウルの各区にある特色豊かな伝統市場を紹介するプレミアムガイド",
     all: "すべて",
     other: "その他",
     fullList: "ソウル市場リスト",
@@ -525,6 +639,44 @@ const translations = {
     storyExcerpt4: "誰もが眠る午前2時、鷺梁津水産市場はようやく目を覚まします。熾烈な競りの声とともにソウルの1日を準備する人々の熱い熱気を盛り込みました。"
   },
   zh: {
+
+    introHeading: "首尔传统市场：过去与现在共存的文化空间",
+    introP1: "大韩民国的首都首尔，是一座充满尖端建筑群和华丽霓虹灯的现代都市。然而，在这份华丽的背后，数十乃至上百年来，与平民百姓的生活和悲欢离合紧密相连的<strong>传统市场</strong>依然稳稳地屹立着。首尔的传统市场不仅仅是商业交易的场所，更像是活着的博物馆，在这里你可以全身心地感受到韩国深厚的历史、温暖的“情”以及充满活力的文化。",
+    introP2: "各区特色鲜明的市场都展现着自己独特的魅力。钟路区的<strong>广藏市场</strong>是美食的天堂，可以品尝到绿豆煎饼、麻药紫菜包饭、生拌牛肉等韩国代表性的街头小吃；中区的<strong>南大门市场</strong>则是韩国规模最大的综合市场，服装、餐具、饰品等应有尽有。麻浦区的<strong>望远市场</strong>以其吸引年轻一代（MZ世代）的时尚美食和感性氛围而正在崛起，而东大门区的<strong>京东市场</strong>则是全国最大规模的中药材和农水产品交易的健康中心。",
+    introP3: "“首尔传统市场指南”将这些充满多样魅力的首尔各地的传统市场信息汇集在一起提供给您。从当地人喜爱的隐藏美食店到外国游客必备的购物清单，再到停车场和公共交通使用提示，查看我们实用的指南，让您200%地享受传统市场。希望您能亲自体验我们的传统市场所传递的温暖和充满活力的能量。",
+    playSeoH2: "与传统市场融为一体的胡同游戏文化",
+    playSeoP1: "剪刀石头布是无论时代如何，全世界人民都喜欢的最直观、最公平的游戏。在韩国传统市场的胡同口，孩子们的剪刀石头布声也是连绵不绝。市场商人们有时也会在讨价还价时笑着通过剪刀石头布来决定赠品（添头），这也是一种包含韩国特有“情”和幽默的沟通方式。",
+    playSeoP2: "过去，弹珠游戏、打画片、跳皮筋等各种胡同游戏与市场充满活力的氛围融为一体，形成了一种文化。虽然到了现代，孩子们奔跑玩耍的胡同风景已经消失了很多，但那个时代的温暖记忆依然留在市场人们的心中。",
+    playSeoP3: "这款AI剪刀石头布游戏利用最新的以人工智能技术（Teachable Machine），将过去我们在胡同里与朋友分享的简单快乐的游戏在数字空间中重现。暂时放下复杂的日常生活，回到在市场胡同里奔跑玩耍的童心，享受与AI的轻松对决吧！",
+    memSeoH2: "在黑白照片中邂逅昔日市场的乡愁",
+    memSeoP1: "照片是停止时间、保存记忆的最强大的工具。特别是黑白照片，它具有更深刻地传达人们的表情、质感以及那个时代氛围的魅力，而这些在华丽的色彩中可能会被掩盖。在过去的胶片相机时代，记录首尔传统市场的黑白照片中，生动地记录了商人们布满皱纹的微笑、与顾客充满活力的讨价还价，甚至刚蒸好的饺子上升腾的热气。",
+    memSeoP2: "市场不仅仅是买卖物品的商业空间，更是融化了平民百姓汗水和悲欢离合的生活家园。漫步在古老的市场胡同里，会让人感觉仿佛时光倒流到了几十年前。破旧的招牌和粗犷却充满人情味的风景，带来了在华丽的现代都市中无法感受到的深深的安定感和乡愁。",
+    memSeoP3: "这款“AI图片记忆”转换工具可以将您在参观传统市场时拍摄的现代彩色照片，只需点击一下即可转换为经典的黑白照片。通过这款利用先进网络技术的工具，为智能手机拍摄的照片增添一丝复古的情怀。希望您能将逐渐被遗忘的昔日市场风情作为您自己独特的摄影作品珍藏，并与周围的人分享这份珍贵的回忆。",
+
+    gameTitle: "AI 剪刀石头布",
+    gameUserLabel: "我",
+    gameAiLabel: "AI",
+    gameAiChoice: "AI的选择",
+    gameReady: "准备好了吗？",
+    gameStart: "开始游戏！",
+    gameHowTitle: "游戏方法：",
+    gameHow1: "点击'开始游戏！'按钮即可开始3秒倒计时。",
+    gameHow2: "在倒计时结束前，对着摄像头出<strong>剪刀、石头或布</strong>。",
+    gameHow3: "AI将识别您的手势以决定胜负。",
+    gameHow4: "提示：请在明亮的地方确保手部清晰可见！",
+    memTitle: "AI 图片回忆",
+    memLabelUpload: "点击上传照片",
+    memBtnUpload: "上传照片",
+    memBtnToggle: "黑白/彩色切换",
+    memBtnDownload: "保存图片",
+    memHowTitle: "使用方法：",
+    memHow1: "点击“上传照片”按钮选择想要保存的照片。",
+    memHow2: "点击“黑白/彩色切换”按钮，照片的颜色将会改变。",
+    memHow3: "点击“保存图片”按钮，当前显示的图片将保存为文件。",
+    memHow4: "提示：高画质照片也能快速转换并下载！",
+    btnDirections: "路线查询",
+    btnInfo: "更多信息",
+    btnDetailedGuide: "详细指南",
     title: "首尔传统市场指南",
     subtitle: "为您介绍首尔各区特色传统市场的精品数字指南",
     all: "全部",
@@ -1360,6 +1512,94 @@ function init() {
     if (footerContact) footerContact.textContent = t.navContact;
     const footerPrivacy = document.getElementById("footer-privacy");
     if (footerPrivacy) footerPrivacy.textContent = t.navPrivacy;
+
+
+    const introHeading = document.getElementById("intro-heading");
+    if (introHeading) introHeading.textContent = t.introHeading;
+    const introP1 = document.getElementById("intro-p1");
+    if (introP1) introP1.innerHTML = t.introP1;
+    const introP2 = document.getElementById("intro-p2");
+    if (introP2) introP2.innerHTML = t.introP2;
+    const introP3 = document.getElementById("intro-p3");
+    if (introP3) introP3.innerHTML = t.introP3;
+
+
+    const playSeoH2 = document.getElementById("play-seo-h2");
+    if (playSeoH2) playSeoH2.textContent = t.playSeoH2;
+    const playSeoP1 = document.getElementById("play-seo-p1");
+    if (playSeoP1) playSeoP1.textContent = t.playSeoP1;
+    const playSeoP2 = document.getElementById("play-seo-p2");
+    if (playSeoP2) playSeoP2.textContent = t.playSeoP2;
+    const playSeoP3 = document.getElementById("play-seo-p3");
+    if (playSeoP3) playSeoP3.textContent = t.playSeoP3;
+    
+    const memSeoH2 = document.getElementById("mem-seo-h2");
+    if (memSeoH2) memSeoH2.textContent = t.memSeoH2;
+    const memSeoP1 = document.getElementById("mem-seo-p1");
+    if (memSeoP1) memSeoP1.textContent = t.memSeoP1;
+    const memSeoP2 = document.getElementById("mem-seo-p2");
+    if (memSeoP2) memSeoP2.textContent = t.memSeoP2;
+    const memSeoP3 = document.getElementById("mem-seo-p3");
+    if (memSeoP3) memSeoP3.textContent = t.memSeoP3;
+
+
+    const gameTitle = document.getElementById("game-title");
+    if (gameTitle) gameTitle.textContent = t.gameTitle;
+    const userLabelText = document.getElementById("user-label-text");
+    if (userLabelText) userLabelText.textContent = t.gameUserLabel;
+    const aiLabelText = document.getElementById("ai-label-text");
+    if (aiLabelText) aiLabelText.textContent = t.gameAiLabel;
+    const aiChoiceLabel = document.getElementById("ai-choice-label");
+    if (aiChoiceLabel) aiChoiceLabel.textContent = t.gameAiChoice;
+    const resultText = document.getElementById("result-text");
+    if (resultText && (resultText.textContent === "준비되셨나요?" || resultText.textContent === "Are you ready?" || resultText.textContent === "準備はいいですか？" || resultText.textContent === "准备好了吗？")) {
+        resultText.textContent = t.gameReady;
+    }
+    const startBtn = document.getElementById("start-btn");
+    if (startBtn && !startBtn.disabled) startBtn.textContent = t.gameStart;
+    const gameHowTitle = document.getElementById("game-how-title");
+    if (gameHowTitle) gameHowTitle.textContent = t.gameHowTitle;
+    const gameHow1 = document.getElementById("game-how-1");
+    if (gameHow1) gameHow1.textContent = t.gameHow1;
+    const gameHow2 = document.getElementById("game-how-2");
+    if (gameHow2) gameHow2.innerHTML = t.gameHow2;
+    const gameHow3 = document.getElementById("game-how-3");
+    if (gameHow3) gameHow3.textContent = t.gameHow3;
+    const gameHow4 = document.getElementById("game-how-4");
+    if (gameHow4) gameHow4.textContent = t.gameHow4;
+
+    const transformTitle = document.getElementById("transform-title");
+    if (transformTitle) transformTitle.textContent = t.memTitle;
+    const labelUpload = document.getElementById("label-upload");
+    if (labelUpload) labelUpload.textContent = t.memLabelUpload;
+    const btnUploadText = document.getElementById("btn-upload-text");
+    if (btnUploadText) btnUploadText.textContent = t.memBtnUpload;
+    const btnToggleText = document.getElementById("btn-toggle-text");
+    if (btnToggleText) btnToggleText.textContent = t.memBtnToggle;
+    const btnDownloadText = document.getElementById("btn-download-text");
+    if (btnDownloadText) btnDownloadText.textContent = t.memBtnDownload;
+    
+    const guideHowTitle = document.getElementById("guide-how-title");
+    if (guideHowTitle) guideHowTitle.textContent = t.memHowTitle;
+    const guideHow1 = document.getElementById("guide-how-1");
+    if (guideHow1) guideHow1.textContent = t.memHow1;
+    const guideHow2 = document.getElementById("guide-how-2");
+    if (guideHow2) guideHow2.textContent = t.memHow2;
+    const guideHow3 = document.getElementById("guide-how-3");
+    if (guideHow3) guideHow3.textContent = t.memHow3;
+    const guideHow4 = document.getElementById("guide-how-4");
+    if (guideHow4) guideHow4.textContent = t.memHow4;
+    
+    // Also re-render the markets if we're on the main page
+    if (document.getElementById("filter-container")) {
+        // Trigger a re-render by finding the active filter and clicking it
+        // Or directly calling renderMarkets()
+        if (typeof renderMarkets === 'function') {
+           const activeBtn = document.querySelector('.filter-btn.active');
+           const filterVal = activeBtn ? activeBtn.dataset.filter : 'all';
+           renderMarkets(filterVal);
+        }
+    }
 
     const footerTerms = document.getElementById("footer-terms");
     if (footerTerms) footerTerms.textContent = t.footerTerms;
