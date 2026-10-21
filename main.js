@@ -1319,7 +1319,7 @@ class MarketCard extends HTMLElement {
         }
       </style>
       <div class="img-container">
-        ${image ? `<img src="${image}" alt="${name}" loading="lazy">` : ""}
+        ${image ? `<img src="${image}" alt="${name}" loading="lazy" onerror="this.onerror=null;this.src='./전통시장목록.png';">` : `<img src="./전통시장목록.png" alt="${name}" loading="lazy">`}
       </div>
       <div class="content">
         <div class="header">
