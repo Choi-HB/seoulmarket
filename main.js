@@ -72,7 +72,7 @@ const translations = {
     footer: "&copy; 2026 서울 전통시장 가이드. All rights reserved.",
     navHome: "홈",
     navStories: "이야기",
-    navGame: "놀이",
+    navGame: "코스·퀴즈",
     navAbout: "소개",
     navContact: "문의",
     navPrivacy: "개인정보처리방침",
@@ -131,15 +131,15 @@ const translations = {
     labelMessage: "문의 내용",
     btnSubmit: "문의하기",
     aboutHeroTitle: "전통의 가치를 잇다",
-    aboutHeroDesc: "'서울 전통시장 가이드'는 현대화된 도시 속에서 여전히 따뜻한 정과 삶의 에너지를 간직하고 있는 서울의 전통시장을 기록하고 소개합니다. 우리는 지역 경제의 뿌리인 시장의 매력을 발굴하여 더 많은 사람들이 시장의 맛과 멋을 경험할 수 있도록 돕는 디지털 가이드입니다.",
-    mission1Title: "정보의 가치",
-    mission1Desc: "파편화된 시장 정보를 구별로 체계적으로 정리하여 누구나 쉽게 찾아갈 수 있는 정확한 정보를 제공합니다.",
-    mission2Title: "로컬 콘텐츠",
-    mission2Desc: "단순한 상점 목록을 넘어, 각 시장만이 가진 고유한 스토리와 대표 먹거리를 깊이 있게 조명합니다.",
-    mission3Title: "글로벌 확산",
-    mission3Desc: "4개 국어 지원을 통해 서울을 방문하는 외국인 관광객들에게도 한국 전통시장의 매력을 널리 알립니다.",
-    promiseTitle: "우리의 약속",
-    promiseDesc: "우리는 어떠한 상업적 대가 없이 순수하게 전통시장의 활성화를 위해 정보를 공유합니다. 잘못된 정보가 있거나 제안하고 싶은 시장이 있다면 언제든 하단의 문의 폼을 통해 연락해 주세요.",
+    aboutHeroDesc: "서울 곳곳 17대 전통시장의 정겨운 먹거리와 골목 풍경, 지하철 이용 팁을 차곡차곡 기록해 두는 작은 여행 블로그입니다.",
+    mission1Title: "편한 길 안내",
+    mission1Desc: "지하철역 출구 번호, 영업시간과 정기 휴무일, 아케이드 유무처럼 가기 전에 꼭 확인하게 되는 정보들을 구별로 보기 쉽게 정리했습니다.",
+    mission2Title: "골목의 맛과 이야기",
+    mission2Desc: "단순한 위치 안내에 그치지 않고 시장마다 오래 사랑받는 먹거리와 주변에서 함께 걷기 좋은 산책 코스를 차분히 소개합니다.",
+    mission3Title: "4개 국어 보기",
+    mission3Desc: "한국어와 함께 영어·일본어·중국어를 지원해 서울을 찾은 외국인 친구나 여행자에게도 페이지를 그대로 건네주기 편합니다.",
+    promiseTitle: "",
+    promiseDesc: "",
     privacyTitle: "개인정보처리방침",
     privacyIntro: "본 개인정보처리방침은 '서울 전통시장 가이드'(이하 '본 사이트')의 서비스 이용과 관련하여 이용자의 개인정보를 어떻게 수집, 이용, 보호하는지에 대해 설명합니다.",
     section1Title: "1. 수집하는 개인정보 항목",
@@ -190,7 +190,7 @@ const translations = {
     gameHow2: "카운트다운이 끝나기 전, 카메라를 향해 가위, 바위, 보 중 하나를 내주세요.",
     gameHow3: "AI가 당신의 손 모양을 인식하여 승패를 결정합니다.",
     gameHow4: "팁: 밝은 곳에서 손이 잘 보이게 해주세요!",
-    navTransform: "추억",
+    navTransform: "사진관",
     transformTitle: "AI 이미지 추억",
     transformSubtitle: "업로드한 사진을 흑백 또는 컬러로 간직하고 다운로드하세요.",
     btnUpload: "사진 업로드",
@@ -291,7 +291,7 @@ const translations = {
     footer: "&copy; 2026 Seoul Market Guide. All rights reserved.",
     navHome: "Home",
     navStories: "Stories",
-    navGame: "Play",
+    navGame: "Course & Quiz",
     navAbout: "About",
     navContact: "Inquiry",
     navPrivacy: "Privacy Policy",
@@ -349,16 +349,16 @@ const translations = {
     labelEmail: "Email Address",
     labelMessage: "Message",
     btnSubmit: "Submit",
-    aboutHeroTitle: "Connecting Traditional Values",
-    aboutHeroDesc: "'Seoul Traditional Market Guide' records and introduces Seoul's traditional markets that still maintain warm hospitality and life energy in a modernized city. We are a digital guide that helps more people experience the taste and beauty of markets by discovering their charm, which is the root of the local economy.",
-    mission1Title: "Value of Information",
-    mission1Desc: "We provide accurate information that anyone can easily find by systematically organizing fragmented market information by district.",
-    mission2Title: "Local Content",
-    mission2Desc: "Beyond a simple list of shops, we shed light on the unique stories and representative foods of each market in depth.",
-    mission3Title: "Global Expansion",
-    mission3Desc: "We spread the charm of Korean traditional markets to foreign tourists visiting Seoul through support for 4 languages.",
-    promiseTitle: "Our Promise",
-    promiseDesc: "We share information purely for the activation of traditional markets without any commercial compensation. If there is incorrect information or a market you want to suggest, please contact us anytime through the inquiry form below.",
+    aboutHeroTitle: "Everyday Heritage of Seoul Markets",
+    aboutHeroDesc: "A casual local travel blog collecting food spots, subway exits, opening hours, and neighborhood stories from 17 traditional markets across Seoul.",
+    mission1Title: "Clear Directions",
+    mission1Desc: "Organized by district with subway exits, opening hours, regular closing days, and covered arcade details so planning a visit stays easy.",
+    mission2Title: "Alley Flavors & Walks",
+    mission2Desc: "Beyond addresses, each guide shares local signature snacks and nearby walking routes worth pairing with your market visit.",
+    mission3Title: "Four-Language Viewing",
+    mission3Desc: "Available in Korean, English, Japanese, and Chinese so travelers visiting Seoul can read and share guides effortlessly.",
+    promiseTitle: "",
+    promiseDesc: "",
     privacyTitle: "Privacy Policy",
     privacyIntro: "This Privacy Policy explains how 'Seoul Traditional Market Guide' (hereinafter 'this site') collects, uses, and protects users' personal information in connection with the use of the service.",
     section1Title: "1. Items of Personal Information to be Collected",
@@ -510,7 +510,7 @@ const translations = {
     footer: "&copy; 2026 ソウル伝統市場ガイド. All rights reserved.",
     navHome: "ホーム",
     navStories: "ストーリー",
-    navGame: "遊び",
+    navGame: "コース・クイズ",
     navAbout: "紹介",
     navContact: "お問い合わせ",
     navPrivacy: "個人情報保護方針",
@@ -569,15 +569,15 @@ const translations = {
     labelMessage: "お問い合わせ内容",
     btnSubmit: "送信する",
     aboutHeroTitle: "伝統の価値をつなぐ",
-    aboutHeroDesc: "「ソウル伝統市場ガイド」は、近代化された都市の中で今もなお温かい人情と生活のエネルギーを保ち続けているソウルの伝統市場を記録し、紹介しています。私たちは地域経済の根幹である市場の魅력을発掘し、より多くの人々が市場の味と粋を体験できるよう支援するデジタルガイドです。",
-    mission1Title: "情報の価値",
-    mission1Desc: "断片化された市場情報を区別に体系的に整理し、誰でも簡単にアクセスできる正確な情報を提供します。",
-    mission2Title: "ローカルコンテンツ",
-    mission2Desc: "単なる商店リストを超え、各市場だけが持つ独自のストーリーと代表的な食べ物を深く掘り下げます。",
-    mission3Title: "グローバルな普及",
-    mission3Desc: "4カ国語対応を通じて、ソウルを訪れる外国人観光客にも韓国伝統市場の魅力を広く伝えます。",
-    promiseTitle: "私たちの約束",
-    promiseDesc: "私たちは商業的な見返りなしに、純粋に伝統市場の活性化のために情報を共有しています。誤った情報がある場合や、提案したい市場がある場合は、下のお問い合わせフォームからいつでもご連絡ください。",
+    aboutHeroDesc: "ソウル各地にある17の伝統市場のグルメや路地の風景、地下鉄のアクセスなどを気ままにまとめたローカル旅行ブログです。",
+    mission1Title: "わかりやすいアクセス案内",
+    mission1Desc: "地下鉄の出口番号や営業時間、定休日など、出かける前に確認したい基本情報を区ごとに見やすく整理しています。",
+    mission2Title: "路地の味と散歩コース",
+    mission2Desc: "場所だけでなく、それぞれの市場で親しまれている定番グルメや周辺のおすすめ散歩ルートもあわせて紹介しています。",
+    mission3Title: "4カ国語表示に対応",
+    mission3Desc: "韓国語のほか英語・日本語・中国語に対応しており、ソウルを訪れる旅行者の方にもそのまま案内しやすいページです。",
+    promiseTitle: "",
+    promiseDesc: "",
     privacyTitle: "個人情報保護方針",
     privacyIntro: "本個人情報保護方針は、「ソウル伝統市場ガイド」（以下「当サイト」）のサービス利用に関連して、利用者の個人情報をどのように収集、利用、保護するかについて説明します。",
     section1Title: "1. 収集する個人情報の項目",
@@ -628,7 +628,7 @@ const translations = {
     gameHow2: "カウントダウンが終わる前に、カメラに向かって「ぐー・ちょき・ぱー」のいずれかを出してください。",
     gameHow3: "AIがあなたの手の形を認識して勝敗を決定します。",
     gameHow4: "ヒント：明るい場所で手が見えやすいようにしてください！",
-    navTransform: "思い出",
+    navTransform: "写真館",
     transformTitle: "AI画像思い出",
     transformSubtitle: "アップロードした写真を白黒やカラーで保存しましょう。",
     btnUpload: "写真アップロード",
@@ -788,15 +788,15 @@ const translations = {
     labelMessage: "咨询内容",
     btnSubmit: "提交",
     aboutHeroTitle: "传承传统价值",
-    aboutHeroDesc: "“首尔传统市场指南”旨在记录并介绍在现代化都市中依然保有温暖情谊与生活活力的首尔传统市场。我们是一个数字指南, 致力于挖掘作为地方经济根基的市场魅力, 帮助更多人体验市场的美味与风情。",
-    mission1Title: "信息的价值",
-    mission1Desc: "我们将零散的市场信息按行政区进行系统整理, 提供任何人都能轻松查询的准确信息。",
-    mission2Title: "本土内容",
-    mission2Desc: "超越单纯的商店列表, 深入探寻每个市场独有的故事和代表性美食。",
-    mission3Title: "全球传播",
-    mission3Desc: "通过支持4种语言, 向访问首尔的外国游客广泛宣传韩国传统市场的魅力。",
-    promiseTitle: "我们的承诺",
-    promiseDesc: "我们纯粹是为了传统市场的活化而分享信息, 不收取任何商业报酬。如果有错误信息或您想推荐的市场, 请随时通过下方的咨询表联系我们。",
+    aboutHeroDesc: "这是一个轻松记录首尔各地17处传统市场的小吃美食、巷弄风情以及地铁出行贴士的本地旅行博客。",
+    mission1Title: "实用的出行指南",
+    mission1Desc: "按行政区整理了地铁出口、营业时间与休息日等出门前最常确认的实用信息，查阅起来轻松明了。",
+    mission2Title: "巷弄美味与散步路线",
+    mission2Desc: "不仅列出地址，还一并介绍各市场受欢迎的地道小吃和适合顺道逛逛的周边散步路线。",
+    mission3Title: "支持四种语言浏览",
+    mission3Desc: "提供韩语、英语、日语和中文界面，来首尔旅游的朋友也能直接查看与分享。",
+    promiseTitle: "",
+    promiseDesc: "",
     privacyTitle: "隐私政策",
     privacyIntro: "本隐私政策说明了“首尔传统市场指南”（以下简称“本站”）在提供服务过程中如何收集、使用和保护用户的个人信息。",
     section1Title: "1. 收集的个人信息项",
@@ -847,7 +847,7 @@ const translations = {
     gameHow2: "倒计时结束前，请对着摄像头做出“石头、剪刀、布”中的任意一个动作。",
     gameHow3: "AI 将识别你的手势并决定胜负。",
     gameHow4: "提示：请在明亮的地方让手部清晰可见！",
-    navTransform: "回忆",
+    navTransform: "照相馆",
     transformTitle: "AI 图像回忆",
     transformSubtitle: "将上传的照片保存为黑白或彩色并下载。",
     btnUpload: "上传照片",
@@ -880,6 +880,8 @@ const translations = {
 const marketsData = [
   {
     id: "gwangjang",
+    guideUrl: "guides/gwangjang.html",
+    subway: "종로5가역 7·8번 출구",
     district: "종로구",
     image: "./광장시장.png",
     mapUrl: "https://www.google.com/maps?q=광장시장&output=embed",
@@ -893,6 +895,8 @@ const marketsData = [
   },
   {
     id: "namdaemun",
+    guideUrl: "guides/namdaemun.html",
+    subway: "회현역 5번 출구",
     district: "중구",
     image: "./남대문시장.png",
     mapUrl: "https://www.google.com/maps?q=남대문시장&output=embed",
@@ -906,6 +910,8 @@ const marketsData = [
   },
   {
     id: "mangwon",
+    guideUrl: "guides/mangwon.html",
+    subway: "망원역 2번 출구",
     district: "마포구",
     image: "./망원시장.png",
     mapUrl: "https://www.google.com/maps?q=mangwonmarket&output=embed",
@@ -919,6 +925,8 @@ const marketsData = [
   },
   {
     id: "tongin",
+    guideUrl: "guides/tongin.html",
+    subway: "경복궁역 2번 출구",
     district: "종로구",
     image: "./통인시장.png",
     mapUrl: "https://www.google.com/maps?q=tonginmarket&output=embed",
@@ -932,6 +940,8 @@ const marketsData = [
   },
   {
     id: "gyeongdong",
+    guideUrl: "guides/gyeongdong.html",
+    subway: "제기동역 2번 출구",
     district: "동대문구",
     image: "./경동시장.png",
     mapUrl: "https://www.google.com/maps?q=gyeongdongmarket&output=embed",
@@ -945,6 +955,8 @@ const marketsData = [
   },
   {
     id: "garak",
+    guideUrl: "guides/garak.html",
+    subway: "가락시장역 2·2-1번 출구",
     district: "송파구",
     image: "./가락시장.png",
     mapUrl: "https://www.google.com/maps?q=garakmarket&output=embed",
@@ -958,6 +970,8 @@ const marketsData = [
   },
   {
     id: "pungmul",
+    guideUrl: "guides/pungmul.html",
+    subway: "신설동역 9번 출구",
     district: "동대문구",
     image: "./서울풍물시장.png",
     mapUrl: "https://www.google.com/maps?q=seoulfolkfleamarket&output=embed",
@@ -971,6 +985,8 @@ const marketsData = [
   },
   {
     id: "yeongdong",
+    guideUrl: "guides/yeongdong.html",
+    subway: "신논현역 3번 / 논현역 2번 출구",
     district: "강남구",
     image: "./영동전통시장.png",
     mapUrl: "https://www.google.com/maps?q=yeongdongtraditionalmarket&output=embed",
@@ -984,6 +1000,8 @@ const marketsData = [
   },
   {
     id: "ddm_mall",
+    guideUrl: "guides/dongdaemun.html",
+    subway: "동대문역 8·9번 출구",
     district: "종로구",
     image: "./동대문종합시장.png",
     mapUrl: "https://www.google.com/maps?q=dongdaemunmarket&output=embed",
@@ -997,6 +1015,8 @@ const marketsData = [
   },
   {
     id: "jungang",
+    guideUrl: "guides/jungang.html",
+    subway: "신당역 1·2번 출구",
     district: "중구",
     image: "./서울중앙시장.png",
     mapUrl: "https://www.google.com/maps?q=seoulcentralmarket&output=embed",
@@ -1010,6 +1030,8 @@ const marketsData = [
   },
   {
     id: "dongmyo",
+    guideUrl: "guides/dongmyo.html",
+    subway: "동묘앞역 3번 출구",
     district: "종로구",
     image: "./동묘벼룩시장.png",
     mapUrl: "https://www.google.com/maps?q=dongmyofleamarket&output=embed",
@@ -1023,6 +1045,8 @@ const marketsData = [
   },
   {
     id: "majang",
+    guideUrl: "guides/majang.html",
+    subway: "마장역 2번 출구",
     district: "성동구",
     image: "./마장축산물시장.png",
     mapUrl: "https://www.google.com/maps?q=majangmeatmarket&output=embed",
@@ -1036,6 +1060,8 @@ const marketsData = [
   },
   {
     id: "noryangjin",
+    guideUrl: "guides/noryangjin.html",
+    subway: "노량진역 7·9번 출구",
     district: "동작구",
     image: "./노량진수산시장.png",
     mapUrl: "https://www.google.com/maps?q=noryangjinfishmarket&output=embed",
@@ -1049,6 +1075,8 @@ const marketsData = [
   },
   {
     id: "suyu",
+    guideUrl: "guides/suyu.html",
+    subway: "수유역 1·2번 / 미아역 8번 출구",
     district: "강북구",
     image: "./수유시장.png",
     mapUrl: "https://www.google.com/maps?q=suyumarket&output=embed",
@@ -1062,6 +1090,8 @@ const marketsData = [
   },
   {
     id: "yeongdeungpo",
+    guideUrl: "guides/yeongdeungpo.html",
+    subway: "영등포시장역 3·4번 출구",
     district: "영등포구",
     image: "./영등포전통시장.png",
     mapUrl: "https://www.google.com/maps?q=yeongdeungpomarket&output=embed",
@@ -1075,6 +1105,8 @@ const marketsData = [
   },
   {
     id: "jayang",
+    guideUrl: "guides/jayang.html",
+    subway: "구의역 4번 / 뚝섬유원지역",
     district: "광진구",
     image: "./자양전통시장.png",
     mapUrl: "https://www.google.com/maps?q=jayangmarket&output=embed",
@@ -1088,6 +1120,8 @@ const marketsData = [
   },
   {
     id: "amsa",
+    guideUrl: "guides/amsa.html",
+    subway: "암사역 1·4번 출구",
     district: "강동구",
     image: "./암사종합시장.png",
     mapUrl: "https://www.google.com/maps?q=amsamarket&output=embed",
@@ -1101,301 +1135,149 @@ const marketsData = [
   }
 ];
 
-class MarketCard extends HTMLElement {
-  constructor() {
-    super();
-    this.attachShadow({ mode: "open" });
-  }
+// Light DOM Market Card Helper (SEO & Crawler Friendly)
+function buildMarketCardElement(marketData, lang, t) {
+  const article = document.createElement("article");
+  article.className = "market-card";
+  const m = marketData.translations ? marketData.translations[lang] : marketData;
+  const districtLabel = (t.districts && t.districts[marketData.district]) || marketData.district || "";
+  const guideLabel = lang === "ko" ? "상세 탐방 가이드" : lang === "en" ? "Read Full Guide" : lang === "ja" ? "詳細ガイドを見る" : "查看详细攻略";
+  const mapBtnLabel = lang === "ko" ? "지도 보기" : lang === "en" ? "Show Map" : lang === "ja" ? "地図を見る" : "查看地图";
+  const hideMapLabel = lang === "ko" ? "지도 닫기" : lang === "en" ? "Hide Map" : lang === "ja" ? "地図を閉じる" : "收起地图";
+  const isExternalMap = marketData.mapUrl && !marketData.mapUrl.includes("google.com/maps");
 
-  static get observedAttributes() {
-    return ["name", "image", "district", "description", "food", "sights", "map-url", "official-url", "lang-food", "lang-sights", "lang-visit", "lang-viewlist"];
-  }
+  const imgSrc = marketData.image || "./전통시장목록.png";
+  const officialBtn = marketData.officialUrl
+    ? `<a href="${marketData.officialUrl}" target="_blank" rel="noopener noreferrer" class="btn-secondary-outline">${t.visitOfficial || "Visit Official"}</a>`
+    : `<span></span>`;
 
-  attributeChangedCallback() {
-    this.render();
-  }
+  const guideBtn = marketData.guideUrl
+    ? `<a href="${marketData.guideUrl}" class="btn-guide-primary">${guideLabel} &rarr;</a>`
+    : "";
 
-  connectedCallback() {
-    this.render();
-  }
+  const mapAction = isExternalMap
+    ? `<a href="${marketData.mapUrl}" target="_blank" rel="noopener noreferrer" class="btn-secondary-outline">${t.viewAllList || "View List"}</a>`
+    : `<button type="button" class="btn-secondary-outline toggle-map-btn" data-map-url="${marketData.mapUrl}">${mapBtnLabel}</button>`;
 
-  render() {
-    const name = this.getAttribute("name") || "";
-    const image = this.getAttribute("image") || "";
-    const district = this.getAttribute("district") || "";
-    const description = this.getAttribute("description") || "";
-    const food = this.getAttribute("food") || "";
-    const sights = this.getAttribute("sights") || "";
-    const mapUrl = this.getAttribute("map-url") || "";
-    const officialUrl = this.getAttribute("official-url") || "";
-    
-    // Labels
-    const labelFood = this.getAttribute("lang-food") || "Signature Food";
-    const labelSights = this.getAttribute("lang-sights") || "Top Sights";
-    const labelVisit = this.getAttribute("lang-visit") || "Visit Official";
-    const labelViewList = this.getAttribute("lang-viewlist") || "View List";
-
-    if (!name) return;
-
-    const isExternalMap = mapUrl.includes("wikipedia.org") || mapUrl.includes("google.com/maps") === false;
-
-    this.shadowRoot.innerHTML = `
-      <style>
-        :host {
-          display: flex;
-          flex-direction: column;
-          background: var(--card-bg, rgba(255, 255, 255, 0.05));
-          backdrop-filter: blur(10px);
-          -webkit-backdrop-filter: blur(10px);
-          border: 1px solid rgba(255, 255, 255, 0.1);
-          border-radius: 20px;
-          overflow: hidden;
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-          color: inherit;
-          container-type: inline-size;
-          height: 100%;
-        }
-
-        :host(:hover) {
-          transform: translateY(-10px);
-          box-shadow: var(--shadow, 0 20px 40px rgba(0, 0, 0, 0.4));
-          border-color: rgba(255, 255, 255, 0.2);
-        }
-
-        .img-container {
-          width: 100%;
-          height: 200px;
-          overflow: hidden;
-          position: relative;
-        }
-
-        .img-container img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          transition: transform 0.5s ease;
-        }
-
-        :host(:hover) .img-container img {
-          transform: scale(1.1);
-        }
-
-        .content {
-          padding: 24px;
-          display: flex;
-          flex-direction: column;
-          flex-grow: 1;
-        }
-
-        .header {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          margin-bottom: 16px;
-        }
-
-        .name {
-          font-size: 1.5rem;
-          font-weight: 700;
-          margin: 0;
-          background: linear-gradient(45deg, var(--accent-color, #fff), #888);
-          -webkit-background-clip: text;
-          background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-
-        .district {
-          font-size: 0.8rem;
-          background: rgba(255, 255, 255, 0.1);
-          padding: 4px 10px;
-          border-radius: 20px;
-          opacity: 0.8;
-          white-space: nowrap;
-        }
-
-        .description {
-          font-size: 0.95rem;
-          line-height: 1.6;
-          opacity: 0.8;
-          margin-bottom: 24px;
-          text-align: justify;
-          word-break: keep-all;
-          flex-grow: 1;
-        }
-
-        .info-grid {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: 12px;
-          margin-bottom: 24px;
-          background: rgba(255, 255, 255, 0.03);
-          padding: 12px;
-          border-radius: 12px;
-        }
-
-        .info-item h4 {
-          font-size: 0.75rem;
-          opacity: 0.6;
-          text-transform: uppercase;
-          margin: 0 0 4px 0;
-          letter-spacing: 1px;
-        }
-
-        .info-item p {
-          font-size: 0.9rem;
-          margin: 0;
-          font-weight: 500;
-        }
-
-        .btn-group {
-          display: flex;
-          flex-direction: column;
-          gap: 12px;
-          margin-top: auto;
-        }
-
-        .official-btn {
-          display: block;
-          width: 100%;
-          padding: 12px;
-          background: var(--btn-grad, linear-gradient(45deg, #444, #222));
-          border: 1px solid rgba(255, 255, 255, 0.2);
-          border-radius: 12px;
-          color: inherit !important;
-          text-align: center;
-          text-decoration: none;
-          font-weight: 600;
-          font-size: 0.9rem;
-          transition: all 0.3s ease;
-        }
-
-        .official-btn:hover {
-          filter: brightness(1.2);
-          transform: translateY(-2px);
-          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-        }
-
-        .map-container {
-          width: 100%;
-          height: 150px;
-          border-radius: 12px;
-          overflow: hidden;
-          background: #111;
-          position: relative;
-        }
-
-        iframe {
-          width: 100%;
-          height: 100%;
-          border: 0;
-        }
-
-        .external-btn {
-          position: absolute;
-          inset: 0;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background: rgba(0, 0, 0, 0.4);
-          color: #fff;
-          text-decoration: none;
-          font-weight: 600;
-          backdrop-filter: blur(2px);
-          transition: all 0.3s ease;
-          font-size: 0.9rem;
-        }
-
-        .external-btn:hover {
-          background: rgba(0, 0, 0, 0.6);
-        }
-
-        @container (max-width: 350px) {
-          .info-grid {
-            grid-template-columns: 1fr;
-          }
-          .name {
-            font-size: 1.3rem;
-          }
-        }
-      </style>
-      <div class="img-container">
-        ${image ? `<img src="${image}" alt="${name}" loading="lazy" onerror="this.onerror=null;this.src='./전통시장목록.png';">` : `<img src="./전통시장목록.png" alt="${name}" loading="lazy">`}
+  article.innerHTML = `
+    <div class="market-card-img-wrap">
+      <img src="${imgSrc}" alt="${m.name}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='./전통시장목록.png';">
+    </div>
+    <div class="market-card-body">
+      <div class="market-card-meta">
+        <span>${districtLabel}</span>
+        ${marketData.subway ? `<span aria-hidden="true">·</span><span>${marketData.subway}</span>` : ""}
       </div>
-      <div class="content">
-        <div class="header">
-          <h2 class="name">${name}</h2>
-          <span class="district">${district}</span>
+      <h2 class="market-card-title">${m.name}</h2>
+      <p class="market-card-desc">${m.description}</p>
+      <div class="market-card-info">
+        <div>
+          <h4>${t.food || "Signature Food"}</h4>
+          <p>${m.food}</p>
         </div>
-        <p class="description">${description}</p>
-        <div class="info-grid">
-          <div class="info-item">
-            <h4>${labelFood}</h4>
-            <p>${food}</p>
-          </div>
-          <div class="info-item">
-            <h4>${labelSights}</h4>
-            <p>${sights}</p>
-          </div>
-        </div>
-        <div class="btn-group">
-          ${officialUrl ? `<a href="${officialUrl}" target="_blank" class="official-btn">${labelVisit}</a>` : ""}
-          <div class="map-container">
-            ${isExternalMap 
-              ? `<a href="${mapUrl}" target="_blank" class="external-btn">${labelViewList}</a>` 
-              : `<iframe src="${mapUrl}" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`}
-          </div>
+        <div>
+          <h4>${t.sights || "Top Sights"}</h4>
+          <p>${m.sights}</p>
         </div>
       </div>
-    `;
+      <div class="market-card-actions">
+        ${guideBtn}
+        <div class="market-card-subactions">
+          ${officialBtn}
+          ${mapAction}
+        </div>
+        <div class="market-map-slot" hidden></div>
+      </div>
+    </div>
+  `;
+
+  const mapBtn = article.querySelector(".toggle-map-btn");
+  if (mapBtn) {
+    mapBtn.addEventListener("click", () => {
+      const slot = article.querySelector(".market-map-slot");
+      if (!slot) return;
+      if (slot.hasAttribute("hidden")) {
+        slot.removeAttribute("hidden");
+        if (!slot.querySelector("iframe")) {
+          const iframe = document.createElement("iframe");
+          iframe.src = mapBtn.getAttribute("data-map-url");
+          iframe.loading = "lazy";
+          iframe.referrerPolicy = "no-referrer-when-downgrade";
+          iframe.title = m.name + " Map";
+          slot.appendChild(iframe);
+        }
+        mapBtn.textContent = hideMapLabel;
+      } else {
+        slot.setAttribute("hidden", "");
+        mapBtn.textContent = mapBtnLabel;
+      }
+    });
   }
+
+  return article;
 }
-
-customElements.define("market-card", MarketCard);
 
 function init() {
   const container = document.getElementById("markets-container");
   const filterContainer = document.getElementById("filter-container");
+  const searchInput = document.getElementById("market-search");
   const themeToggle = document.getElementById("theme-toggle");
   const mobileMenuToggle = document.querySelector(".mobile-menu-toggle");
   const navLinks = document.querySelector(".nav-links");
   const langInputs = document.querySelectorAll('input[name="language"]');
-  
+
   let currentLang = localStorage.getItem("lang") || "ko";
   let currentDistrictKey = "ALL";
+  let currentSearchQuery = "";
 
-  // Theme Toggle
+  // Theme Toggle (Light Editorial Default, optional Dark Mode)
+  const applyTheme = (mode) => {
+    const isDark = mode === "dark";
+    document.documentElement.classList.toggle("dark-mode", isDark);
+    if (themeToggle) themeToggle.textContent = isDark ? "☀️" : "🌙";
+  };
+
+  applyTheme(localStorage.getItem("theme") || "light");
+
   if (themeToggle) {
     themeToggle.addEventListener("click", () => {
-      document.documentElement.classList.toggle("light-mode");
-      const isLight = document.documentElement.classList.contains("light-mode");
-      themeToggle.textContent = isLight ? "🌙" : "🌓";
-      localStorage.setItem("theme", isLight ? "light" : "dark");
+      const nextDark = !document.documentElement.classList.contains("dark-mode");
+      const mode = nextDark ? "dark" : "light";
+      localStorage.setItem("theme", mode);
+      applyTheme(mode);
     });
   }
 
-  if (localStorage.getItem("theme") === "light") {
-    document.documentElement.classList.add("light-mode");
-    if (themeToggle) themeToggle.textContent = "🌙";
-  }
-
   // Mobile Menu Toggle
-  if (mobileMenuToggle) {
+  if (mobileMenuToggle && navLinks) {
     mobileMenuToggle.addEventListener("click", () => {
       mobileMenuToggle.classList.toggle("active");
       navLinks.classList.toggle("active");
     });
   }
 
-  // Close menu when link is clicked
   const navItems = document.querySelectorAll(".nav-links a");
   navItems.forEach(item => {
     item.addEventListener("click", () => {
-      if (mobileMenuToggle) {
+      if (mobileMenuToggle && navLinks) {
         mobileMenuToggle.classList.remove("active");
         navLinks.classList.remove("active");
       }
     });
   });
+
+  if (searchInput) {
+    const urlParams = new URLSearchParams(window.location.search);
+    const qParam = urlParams.get("q") || urlParams.get("s") || "";
+    if (qParam) {
+      currentSearchQuery = qParam.trim().toLowerCase();
+      searchInput.value = qParam;
+    }
+    searchInput.addEventListener("input", (e) => {
+      currentSearchQuery = e.target.value.trim().toLowerCase();
+      if (container) renderMarkets();
+    });
+  }
 
   function setLanguage(lang) {
     currentLang = lang;
@@ -1782,10 +1664,12 @@ function init() {
     });
   });
 
+
   function renderFilters() {
+    if (!filterContainer) return;
     filterContainer.innerHTML = "";
     const t = translations[currentLang];
-    
+
     const currentDistrictList = [
       { key: "ALL", label: t.all },
       { key: "종로구", label: t.districts["종로구"] || "종로구" },
@@ -1802,9 +1686,10 @@ function init() {
       { key: "강동구", label: t.districts["강동구"] || "강동구" },
       { key: "FULL_LIST", label: t.fullList }
     ];
-    
+
     currentDistrictList.forEach(d => {
       const btn = document.createElement("button");
+      btn.type = "button";
       btn.className = `filter-btn ${currentDistrictKey === d.key ? "active" : ""}`;
       btn.textContent = d.label;
       btn.addEventListener("click", () => {
@@ -1817,73 +1702,73 @@ function init() {
   }
 
   function renderMarkets() {
+    if (!container) return;
     container.innerHTML = "";
     const t = translations[currentLang];
-    
+
     if (currentDistrictKey === "FULL_LIST") {
-      const card = document.createElement("market-card");
-      card.setAttribute("name", t.miscMarketName);
-      card.setAttribute("image", "./전통시장목록.png");
-      card.setAttribute("district", t.other);
-      card.setAttribute("description", t.miscMarketDesc);
-      card.setAttribute("food", t.miscMarketFood);
-      card.setAttribute("sights", t.miscMarketSights);
-      card.setAttribute("map-url", "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%9D%98_%EC%8B%9C%EC%9E%A5_%EB%AA%A9%EB%A1%9D");
-      
-      card.setAttribute("lang-food", t.food);
-      card.setAttribute("lang-sights", t.sights);
-      card.setAttribute("lang-visit", t.visitOfficial);
-      card.setAttribute("lang-viewlist", t.viewAllList);
-      
-      container.appendChild(card);
+      container.appendChild(buildMarketCardElement({
+        district: t.other,
+        image: "./전통시장목록.png",
+        mapUrl: "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%9D%98_%EC%8B%9C%EC%9E%A5_%EB%AA%A9%EB%A1%9D",
+        name: t.miscMarketName,
+        description: t.miscMarketDesc,
+        food: t.miscMarketFood,
+        sights: t.miscMarketSights
+      }, currentLang, t));
       return;
     }
 
     let filtered = marketsData;
     if (currentDistrictKey !== "ALL") {
-      filtered = marketsData.filter(m => m.district === currentDistrictKey);
+      filtered = filtered.filter(m => m.district === currentDistrictKey);
+    }
+    if (currentSearchQuery) {
+      filtered = filtered.filter(m => {
+        const localized = m.translations[currentLang] || m.translations.ko;
+        const haystack = [
+          localized.name,
+          localized.description,
+          localized.food,
+          localized.sights,
+          m.district,
+          m.subway || ""
+        ].join(" ").toLowerCase();
+        return haystack.includes(currentSearchQuery);
+      });
+    }
+
+    if (filtered.length === 0) {
+      const empty = document.createElement("p");
+      empty.style.gridColumn = "1 / -1";
+      empty.style.textAlign = "center";
+      empty.style.padding = "48px 20px";
+      empty.style.color = "var(--text-muted)";
+      empty.textContent = currentLang === "ko"
+        ? "검색 조건에 맞는 전통시장이 없습니다. 다른 검색어나 지역을 선택해 보세요."
+        : "No matching markets found. Try a different keyword or district.";
+      container.appendChild(empty);
+      return;
     }
 
     filtered.forEach(market => {
-      const card = document.createElement("market-card");
-      const m = market.translations[currentLang];
-      const translatedDistrict = t.districts[market.district] || market.district;
-
-      card.setAttribute("name", m.name);
-      card.setAttribute("image", market.image);
-      card.setAttribute("district", translatedDistrict);
-      card.setAttribute("description", m.description);
-      card.setAttribute("food", m.food);
-      card.setAttribute("sights", m.sights);
-      card.setAttribute("map-url", market.mapUrl);
-      card.setAttribute("official-url", market.officialUrl || "");
-      card.setAttribute("lang-food", t.food);
-      card.setAttribute("lang-sights", t.sights);
-      card.setAttribute("lang-visit", t.visitOfficial);
-      card.setAttribute("lang-viewlist", t.viewAllList);
-      
-      container.appendChild(card);
+      container.appendChild(buildMarketCardElement(market, currentLang, t));
     });
 
-    if (currentDistrictKey === "ALL" || currentDistrictKey === "OTHER") {
-      const card = document.createElement("market-card");
-      card.setAttribute("name", t.miscMarketName);
-      card.setAttribute("image", "./전통시장목록.png");
-      card.setAttribute("district", t.other);
-      card.setAttribute("description", t.miscMarketDesc);
-      card.setAttribute("food", t.miscMarketFood);
-      card.setAttribute("sights", t.miscMarketSights);
-      card.setAttribute("map-url", "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%9D%98_%EC%8B%9C%EC%9E%A5_%EB%AA%A9%EB%A1%9D");
-      
-      card.setAttribute("lang-food", t.food);
-      card.setAttribute("lang-sights", t.sights);
-      card.setAttribute("lang-visit", t.visitOfficial);
-      card.setAttribute("lang-viewlist", t.viewAllList);
-      
-      container.appendChild(card);
+    if ((currentDistrictKey === "ALL" || currentDistrictKey === "OTHER") && !currentSearchQuery) {
+      container.appendChild(buildMarketCardElement({
+        district: t.other,
+        image: "./전통시장목록.png",
+        mapUrl: "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%EC%9D%98_%EC%8B%9C%EC%9E%A5_%EB%AA%A9%EB%A1%9D",
+        name: t.miscMarketName,
+        description: t.miscMarketDesc,
+        food: t.miscMarketFood,
+        sights: t.miscMarketSights
+      }, currentLang, t));
     }
   }
 
+  // Attach map toggle listeners on any pre-rendered SSR market cards before JS re-render
   setLanguage(currentLang);
 }
 

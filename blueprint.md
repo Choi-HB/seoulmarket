@@ -1,23 +1,25 @@
 # Project Blueprint: Seoul Traditional Market Guide (Blog & Magazine Edition)
 
 ## Purpose & Capabilities
-A warm, engaging, and friendly local travel blog & digital magazine dedicated to Seoul's traditional markets. The site is designed to feel like a cozy, accessible travelogue where visitors can browse stories, discover authentic food spots, and find practical market tips, while fully adhering to Google AdSense program policies (Privacy Policy maintained as unobtrusive footer link).
+A warm, editorial local travel blog & cultural archive dedicated to Seoul's 17 major traditional markets. Designed for genuine reader utility—providing subway exits, signature food price ranges, visiting hours, regular holidays, interactive course planning, a market trivia quiz, and a retro film photo lab—while fully adhering to Google AdSense program & spam policies.
 
-## Current Plan & AdSense Compliance Strategy
+## Implemented Improvements & AdSense Compliance Audit
 
-### 1. Removing Heavy Legal Menus from Header Navigation
-- **Issue:** Having "개인정보처리방침" (Privacy Policy) in the main top navbar made the site feel like a stiff corporate portal rather than a friendly, inviting travel blog.
-- **Solution:** 
-  - Remove "개인정보처리방침" and "이용약관" from the top navigation bar (`nav-links`) across all 19 HTML pages.
-  - Keep the top menu friendly and blog-like: `홈` (Home) | `시장 이야기` (Stories) | `가이드` (Guides) | `놀이터` (Play) | `소개` (About) | `문의` (Contact).
-  - Place "개인정보처리방침" in an unobtrusive, subtle grey text link in the sub-footer beside the copyright notice, ensuring Google AdSense bot requirements are strictly met without cluttering user experience.
+### 1. Crawlability & Technical Health Fixes
+- **`robots.txt`**: Fixed corrupted `-e User-agent: *` header to clean UTF-8 `User-agent: * / Allow: / / Sitemap: https://seoulmarket-es1.pages.dev/sitemap.xml`.
+- **`sitemap.xml`**: Expanded to index all 29 complete pages (home, stories, course/quiz, photo lab, about, contact, privacy, terms, 17 market guides, and 4 local merchant stories).
+- **Schema & Meta Cleanup**: Removed dead social URLs (`facebook.com/seoulmarket`, `instagram.com/seoulmarket`), aligned `SearchAction` (`?q={search_term_string}`), added `ItemList` / `Article` / `FAQPage` / `BreadcrumbList` structured data, and set `og:image` to real market photography (`광장시장.png` and each market's `.png`).
 
-### 2. Fixing "Low Value Content" (가치가 별로 없는 콘텐츠) Root Causes
-- **Issue 1: Broken 404 Images & Missing Visuals**
-  - References to `./광장시장.png`, `./남대문시장.png`, `./동묘벼룩시장.png` were broken 404s, displaying ugly missing-image placeholders to Google auditors.
-  - **Fix:** Implemented an elegant, resilient visual card design with vibrant traditional gradients, themed badges/emojis, and CSS illustrated banners so that no broken images ever appear. Fixed broken images in `stories.html` and guide pages.
-- **Issue 2: JavaScript-Only Market Rendering (Thin Content on initial bot crawl)**
-  - `index.html` relied solely on client-side JS rendering for market cards.
-  - **Fix:** Provided rich, crawlable pre-rendered static cards and articles in `index.html` so crawlers immediately see thousands of words of high-quality, unique guide text and local food tips.
-- **Issue 3: Blog Tone & Practical Local Depth (E-E-A-T)**
-  - Enhanced all guide and story pages with authentic, real-world traveler tips: cash vs card/ZeroPay tips, Onnuri gift certificate 10% discount methods, public restrooms, best visiting hours, and subway exit recommendations.
+### 2. Original Market Photos Restored & Structural Layout Fix
+- Preserved every original `.png` market photo (`./광장시장.png`, `./남대문시장.png`, `./망원시장.png`, `./가락시장.png`, etc., plus `./전통시장목록.png` fallback).
+- Moved hero `<figure class="article-figure">` images cleanly inside `<main><article>` across all 21 guide/story pages with captions and accessible alt text.
+- Replaced Shadow DOM `<market-card>` placeholders on `index.html` with all 17 pre-rendered semantic Light DOM `<article class="market-card">` entries, keyword search, district filtering, and a full 17-market comparison table.
+
+### 3. Replaced Unrelated Demo Pages with Authentic Seoul Market Utilities
+- **`play.html` / `play.js`**: Replaced the unrelated Teachable Machine webcam game and `alert()` fallback with an interactive **Seoul Market Half-Day Course Recommender** and **10-Question Seoul Market Culture & Food Quiz**.
+- **`memory.html` / `memory.js`**: Transformed into the **Seoul Market Retro Film Photo Lab & Historical Archive** featuring 4 film presets, sample market images, 5 curated Seoul market photo spots, and a 120-year market timeline (1905–present).
+
+### 4. Navigation & Trust (E-E-A-T)
+- Kept top header navigation friendly and blog-focused (`홈 | 이야기 | 코스·퀴즈 | 사진관 | 소개 | 문의`) with `개인정보처리방침` placed discreetly in the bottom footer.
+- Strengthened `about.html` and `contact.html` with transparent editing principles, update schedules, data references, and correction request FAQs.
+- Unified warm archival editorial light theme (`#FAF8F5`) with optional dark mode (`:root.dark-mode`) in `style.css` across all 29 pages.
